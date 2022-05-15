@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\bin\Debug\Delegates.Reports.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\bin\Debug\Delegates.Reports.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\bin\Debug\Delegates.Reports.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\obj\Debug\Delegates.Reports.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\obj\Debug\Delegates.Reports.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\obj\Debug\Delegates.Reports.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\obj\Debug\Delegates.Reports.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\12 Практика «Генератор отчетов»\Delegates.Reports.csproj\obj\Debug\Delegates.Reports.pdb

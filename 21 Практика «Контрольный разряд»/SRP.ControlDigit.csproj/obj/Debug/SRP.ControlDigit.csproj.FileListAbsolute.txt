@@ -1,0 +1,17 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\bin\Debug\SRP.ControlDigit.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\bin\Debug\SRP.ControlDigit.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\bin\Debug\SRP.ControlDigit.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд»\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\bin\Debug\SRP.ControlDigit.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\bin\Debug\SRP.ControlDigit.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\21 Практика «Контрольный разряд» 1\SRP.ControlDigit.csproj\obj\Debug\SRP.ControlDigit.pdb

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp8b66879c1973430799b45da7d6382c0d">
+  <meta>
+    <name>13 Практика «Наблюдатель»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="port" type="Port" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface" type="Provided Interface End" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>173</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="port" type="Port" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface" type="Provided Interface End" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-provided-interface-connector" type="Provided Interface Connector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.RuleField</type>
+        <value>2</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-cb0129fad4894520b048c5d50f0a2993" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-0127df2013db44398a57ecd9c559ffb9" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Observer" tid="" name="Observer" description="" />
+      <type id="ObservableStack&lt;T&gt;" tid="" name="ObservableStack&lt;T&gt;" description="" />
+      <type id="void" tid="" name="void" description="" />
+      <type id="StringBuilder" tid="" name="StringBuilder" description="" />
+      <type id="EventHandler&lt;object&gt;" tid="" name="EventHandler&lt;object&gt;" description="" />
+      <type id="Class:f676ae6ff04e41ba832324240951ea3e" tid="" name="IObserver" description="" class-ref="f676ae6ff04e41ba832324240951ea3e" />
+      <type id="List&lt;T&gt;" tid="" name="List&lt;T&gt;" description="" />
+      <type id="T" tid="" name="T" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p84f51f87e04c4048958d064623bf51eb_260683824" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/09/2021 17:41:16</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p2f31c55ff559416cbac03751624c6472_724669786" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-347,-203">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/09/2021 17:41:16</creation-date>
+          <change-date>11/09/2021 17:58:59</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="86359ab15f2e40249ce25fd9f019d7a6" cid="C001" type="class" name="StackOperationsLogger" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:42:06">
+            <owned-items>
+              <owned-item ref="8748cf35a2c84013a01a6b4899fe83f1" />
+              <owned-item ref="11ba37a00ec04b83b1798c1acf4ffcff" />
+            </owned-items>
+            <attributes>
+              <attribute id="ac14c77c52f19476196f4c173f2af7b6b54" cid="PROP001" name="observers" creation-date="11/09/2021 17:42:59" property-ref="8748cf35a2c84013a01a6b4899fe83f1" />
+              <attribute id="aa25dfa78dfa946acabe1128a44fd5bf9166" cid="PROP002" name="Observers" creation-date="11/09/2021 17:43:49" property-ref="11ba37a00ec04b83b1798c1acf4ffcff" />
+            </attributes>
+            <operations>
+              <operation id="oca9d58a9e8a645a09fedd28713e4d5d9746" cid="OP001" name="SubscribeOn&lt;T&gt;" creation-date="11/09/2021 17:44:35" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pc8f470fd9a7a4dfcbcbf75c492d43f62" name="stack" type="ObservableStack&lt;T&gt;" type-id="ObservableStack&lt;T&gt;" />
+                </parameters>
+              </operation>
+              <operation id="o92b36c5d57324bfaa8bc48d55a5a1bfa559" cid="OP004" name="GetLog" creation-date="11/09/2021 17:45:50" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="8748cf35a2c84013a01a6b4899fe83f1" cid="PROP001" type="property" name="observers" style-class="" owner="86359ab15f2e40249ce25fd9f019d7a6" creator="" creation-date="11/09/2021 17:42:59" visibility="private">
+            <stereotypes>
+              <stereotype name="readonly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="8748cf35a2c84013a01a6b4899fe83f1_readonly_c" type="readonly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Observer" type-id="Observer" />
+            <property />
+          </item>
+          <item id="11ba37a00ec04b83b1798c1acf4ffcff" cid="PROP002" type="property" name="Observers" style-class="" owner="86359ab15f2e40249ce25fd9f019d7a6" creator="" creation-date="11/09/2021 17:43:49" visibility="private">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="11ba37a00ec04b83b1798c1acf4ffcff_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Observer" type-id="Observer" />
+            <property />
+          </item>
+          <item id="f676ae6ff04e41ba832324240951ea3e" cid="I001" type="uml-interface-classifier" name="IObserver" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:46:25">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="f676ae6ff04e41ba832324240951ea3e_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="o762c2755c7ff4062bfebf3c028627c33991" cid="OP005" name="EventHandle" creation-date="11/09/2021 17:46:37" type="void" type-id="void" visibility="undefined">
+                <parameters>
+                  <parameter id="p6b0704def06a4dd287ddb08d770e2693" name="sender" type="Object" type-id="Uml.Object" />
+                  <parameter id="pbf90f3e91dd14f8f9cf9e8f1ac3c7aee" name="eventData" type="Object" type-id="Uml.Object" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="cee996434d00477e82dd1f84a877a5ea" cid="C002" type="class" name="Observer" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:48:16">
+            <owned-items>
+              <owned-item ref="e7f8a42c9a2746eab06ebc9decd8460e" />
+            </owned-items>
+            <attributes>
+              <attribute id="a69ce795c06ff411e99221ebe0fbad1fe519" cid="PROP003" name="Log" creation-date="11/09/2021 17:48:28" property-ref="e7f8a42c9a2746eab06ebc9decd8460e" />
+            </attributes>
+            <operations>
+              <operation id="o65d943066e00471d95cd0c7108c7a7dc927" cid="OP006" name="EventHandle" creation-date="11/09/2021 17:48:49" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p2d5e606e29c34e43a95306340a7a31a5" name="sender" type="Object" type-id="Uml.Object" />
+                  <parameter id="p2bd1c5ecd3904a8a841086d212d9b456" name="eventData" type="Object" type-id="Uml.Object" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="e7f8a42c9a2746eab06ebc9decd8460e" cid="PROP003" type="property" name="Log" style-class="" owner="cee996434d00477e82dd1f84a877a5ea" creator="" creation-date="11/09/2021 17:48:28" visibility="public">
+            <feature />
+            <structural-feature type="StringBuilder" type-id="StringBuilder" />
+            <property />
+          </item>
+          <item id="39711343c2e64c8ea21d1f19404fd02a" cid="REA002" type="realization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:50:00" from="cee996434d00477e82dd1f84a877a5ea" to="f676ae6ff04e41ba832324240951ea3e" visibility="package" />
+          <item id="98633523381944c0b7587e8cc30d5f7c" cid="C003" type="class" name="ObservableStack&lt;T&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:50:40">
+            <owned-items>
+              <owned-item ref="a3798c4c63f24150a93b0fe5fedc9db7" />
+              <owned-item ref="6090c0b53f034000800b0256937c247e" />
+            </owned-items>
+            <attributes>
+              <attribute id="a5b02d97fdd7c4422920a64b740c98ab971" cid="PROP004" name="Observers" creation-date="11/09/2021 17:53:04" property-ref="a3798c4c63f24150a93b0fe5fedc9db7" />
+              <attribute id="ae9eaa489eaf2442eb702a3a914205bfa599" cid="PROP005" name="dataList" creation-date="11/09/2021 17:54:44" property-ref="6090c0b53f034000800b0256937c247e" />
+            </attributes>
+            <operations>
+              <operation id="oaa93f72cdb744ce39f6fd8dd876ce2ab503" cid="OP009" name="Add" creation-date="11/09/2021 17:53:15" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pa5a318592e964f1d822613a42dbf1cf4" name="observer" type="IObserver" type-id="Class:f676ae6ff04e41ba832324240951ea3e" />
+                </parameters>
+              </operation>
+              <operation id="o5fa28ecea12e47b18a57c6d4092f239c711" cid="OP010" name="Notify" creation-date="11/09/2021 17:53:45" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p1928756b01ec4b72b8a2c4f90bc27713" name="eventData" type="Object" type-id="Uml.Object" />
+                </parameters>
+              </operation>
+              <operation id="odddb86b7275e4c30af7638a8948198ee407" cid="OP011" name="Remove" creation-date="11/09/2021 17:54:08" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pf5b55e8c1ef144bbac17f4f38756596c" name="observer" type="IObserver" type-id="Class:f676ae6ff04e41ba832324240951ea3e" />
+                </parameters>
+              </operation>
+              <operation id="o31280098bb474d359aa0e3daceb1f063679" cid="OP012" name="Push" creation-date="11/09/2021 17:55:47" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p46c4b518089842c4b49dff5ffdd7c377" name="obj" type="T" type-id="T" />
+                </parameters>
+              </operation>
+              <operation id="o4559ca7379ea4ee8a604bc684fb5ff467" cid="OP013" name="Pop" creation-date="11/09/2021 17:56:13" type="T" type-id="T" visibility="public" />
+            </operations>
+          </item>
+          <item id="a3798c4c63f24150a93b0fe5fedc9db7" cid="PROP004" type="property" name="Observers" style-class="" owner="98633523381944c0b7587e8cc30d5f7c" creator="" creation-date="11/09/2021 17:53:04" visibility="public">
+            <stereotypes>
+              <stereotype name="event" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="a3798c4c63f24150a93b0fe5fedc9db7_event_c" type="event" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="EventHandler&lt;object&gt;" type-id="EventHandler&lt;object&gt;" />
+            <property />
+          </item>
+          <item id="6090c0b53f034000800b0256937c247e" cid="PROP005" type="property" name="dataList" style-class="" owner="98633523381944c0b7587e8cc30d5f7c" creator="" creation-date="11/09/2021 17:54:44" visibility="public">
+            <stereotypes>
+              <stereotype name="readonly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="6090c0b53f034000800b0256937c247e_readonly_c" type="readonly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="List&lt;T&gt;" type-id="List&lt;T&gt;" />
+            <property />
+          </item>
+          <item id="00d112b640e0471ab4200e67b6a5f3d9" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:57:13" from="98633523381944c0b7587e8cc30d5f7c" to="f676ae6ff04e41ba832324240951ea3e" visibility="package">
+            <relation from="98633523381944c0b7587e8cc30d5f7c" to="f676ae6ff04e41ba832324240951ea3e" derived="false">
+              <start-role id="umlar-f0094c3b-f047-4ddf-8403-fbe474730490" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-54d872e2-70d3-4325-bb81-c9f5b1e50f6c" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="42817d5b20f84603bb84ce6675f6b534" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:57:56" from="86359ab15f2e40249ce25fd9f019d7a6" to="cee996434d00477e82dd1f84a877a5ea" visibility="package">
+            <relation from="86359ab15f2e40249ce25fd9f019d7a6" to="cee996434d00477e82dd1f84a877a5ea" derived="false">
+              <start-role id="umlar-3fd3d2b9-a8a2-4565-8942-73bd547666d0" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-84112491-c846-466b-b19b-63aca6b11799" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="2ef9ffbef7234ce1a0a4ff3d1381a640" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 17:58:54" from="98633523381944c0b7587e8cc30d5f7c" to="86359ab15f2e40249ce25fd9f019d7a6" visibility="package">
+            <relation from="98633523381944c0b7587e8cc30d5f7c" to="86359ab15f2e40249ce25fd9f019d7a6" derived="false">
+              <start-role id="umlar-4c5bc7ec-f882-4091-b728-22d777f09285" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-782f77c9-0929-4f59-95c6-7b2e42277bb2" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="038683635656430cb3a5a1164ff62ef2" name="Default" visible="true" enabled="true" locked="false">
+          <item id="86359ab15f2e40249ce25fd9f019d7a6" iid="5fac68f615a1417b8d67d4d4e05b12e2" creation-date="11/09/2021 17:42:06" order-index="0" type="entity">
+            <layout ax="371" ay="110" awidth="331" aheight="118" x="371" y="110" width="331" height="118" rotation-center="-95.5,21" />
+            <class />
+          </item>
+          <item id="f676ae6ff04e41ba832324240951ea3e" iid="76813d2695224e59bef3f3f0f4eafed1" creation-date="11/09/2021 17:46:25" order-index="1" type="entity">
+            <layout ax="-71" ay="-49" awidth="349" aheight="87" x="-71" y="-49" width="349" height="87" rotation-center="-104.5,36.5" />
+            <class />
+          </item>
+          <item id="cee996434d00477e82dd1f84a877a5ea" iid="5cbbb5d0cc8d4f938efd1c9e29a77f5b" creation-date="11/09/2021 17:48:16" order-index="2" type="entity">
+            <layout ax="-71" ay="79" awidth="349" aheight="87" x="-71" y="79" width="349" height="87" rotation-center="-104.5,36.5" />
+            <class />
+          </item>
+          <item id="39711343c2e64c8ea21d1f19404fd02a" iid="e79334a69eea42f5a3d8914044b686f4" creation-date="11/09/2021 17:50:00" order-index="3" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="104" y1="79" x2="104" y2="38" start-border-pos="0.125358166189112" end-border-pos="0.624641833810888" name-position="0,20">
+              <points>
+                <point x="104" y="79" />
+                <point x="104" y="38" />
+              </points>
+            </layout>
+            <relation from="cee996434d00477e82dd1f84a877a5ea" from-iid="5cbbb5d0cc8d4f938efd1c9e29a77f5b" to="f676ae6ff04e41ba832324240951ea3e" to-iid="76813d2695224e59bef3f3f0f4eafed1" />
+          </item>
+          <item id="98633523381944c0b7587e8cc30d5f7c" iid="6e27f5f9ce9f40f687016774fee1d482" creation-date="11/09/2021 17:50:40" order-index="4" type="entity">
+            <layout ax="371" ay="-95" awidth="283" aheight="174" x="371" y="-95" width="283" height="174" rotation-center="-71.5,-7" />
+            <class />
+          </item>
+          <item id="00d112b640e0471ab4200e67b6a5f3d9" iid="92857048dae64480b91ee4102cb318d7" creation-date="11/09/2021 17:57:13" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="371" y1="-7" x2="278" y2="-7" start-border-pos="0.874006930438952" end-border-pos="0.371112238401654" name-position="0,20">
+              <points>
+                <point x="371" y="-7" />
+                <point x="278" y="-7" />
+              </points>
+            </layout>
+            <relation from="98633523381944c0b7587e8cc30d5f7c" from-iid="6e27f5f9ce9f40f687016774fee1d482" to="f676ae6ff04e41ba832324240951ea3e" to-iid="76813d2695224e59bef3f3f0f4eafed1" />
+          </item>
+          <item id="42817d5b20f84603bb84ce6675f6b534" iid="41d9d102d2eb4e41958dca93ed09e150" creation-date="11/09/2021 17:57:56" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="371" y1="151" x2="278" y2="141" start-border-pos="0.913032596394167" end-border-pos="0.427961371410852" name-position="0,20">
+              <points>
+                <point x="371" y="151" />
+                <point x="278" y="141" />
+              </points>
+            </layout>
+            <relation from="86359ab15f2e40249ce25fd9f019d7a6" from-iid="5fac68f615a1417b8d67d4d4e05b12e2" to="cee996434d00477e82dd1f84a877a5ea" to-iid="5cbbb5d0cc8d4f938efd1c9e29a77f5b" />
+          </item>
+          <item id="2ef9ffbef7234ce1a0a4ff3d1381a640" iid="bd144f0092d148f486f788e073da8f51" creation-date="11/09/2021 17:58:54" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="524" y1="79" x2="528" y2="110" start-border-pos="0.61502064411716" end-border-pos="0.118580060422961" name-position="0,20">
+              <points>
+                <point x="524" y="79" />
+                <point x="528" y="110" />
+              </points>
+            </layout>
+            <relation from="98633523381944c0b7587e8cc30d5f7c" from-iid="6e27f5f9ce9f40f687016774fee1d482" to="86359ab15f2e40249ce25fd9f019d7a6" to-iid="5fac68f615a1417b8d67d4d4e05b12e2" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

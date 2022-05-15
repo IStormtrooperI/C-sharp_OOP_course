@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\obj\Debug\Reflection.Randomness.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\obj\Debug\Reflection.Randomness.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\Reflection.Randomness.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\Reflection.Randomness.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\Reflection.Randomness.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\obj\Debug\Reflection.Randomness.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\obj\Debug\Reflection.Randomness.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\obj\Debug\Reflection.Randomness.pdb

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp94f14ff0399044929b4e04ddccf99499">
+  <meta>
+    <name>14 Практика «Обходы деревьев»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>51</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>5</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d8a255a5874e4a74bd56981c87b6cae3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-f88c046f529645bda215b45b4afa2605" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="TType" tid="" name="TType" description="" />
+      <type id="Func&lt;TType" tid="" name="Func&lt;TType" description="" />
+      <type id="IEnumerable&lt;T&gt;" tid="" name="IEnumerable&lt;T&gt;" description="" />
+      <type id="ProductCategory" tid="" name="ProductCategory" description="" />
+      <type id="IEnumerable&lt;Product&gt;" tid="" name="IEnumerable&lt;Product&gt;" description="" />
+      <type id="Job" tid="" name="Job" description="" />
+      <type id="IEnumerable&lt;Job&gt;" tid="" name="IEnumerable&lt;Job&gt;" description="" />
+      <type id="BinaryTree&lt;T&gt;" tid="" name="BinaryTree&lt;T&gt;" description="" />
+      <type id="IEnumerable&lt;&lt;T&gt;" tid="" name="IEnumerable&lt;&lt;T&gt;" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p4ccb4a2e6b6e47519ef7da787708ce6f_351357369" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/09/2021 19:53:56</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pae4e6d475a344bfe97b9f2b1656d16c9_652583592" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-65,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/09/2021 19:53:56</creation-date>
+          <change-date>11/09/2021 19:54:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="e297cfe9799943ae950a8b02c35c9fbe" cid="C001" type="class" name="Traversal&lt;static&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 19:54:16">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+              <border color="#FF555555" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FF203D85,#FF203D85" />
+                  <border color="#FF203D85" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <operations>
+              <operation id="o0784ecacc7bf4e949a3b8eac4d5a41e8394" cid="OP001" name="TreeTraversal&lt;TType, T&gt;" creation-date="11/09/2021 19:55:00" type="IEnumerable&lt;T&gt;" type-id="IEnumerable&lt;T&gt;" visibility="private" static="true">
+                <parameters>
+                  <parameter id="pe149a71f034e464991b7bfe7ab6ec1b8" name="tree" type="TType" type-id="TType" />
+                  <parameter id="p6e23e69218834148b8e54d3256293cbf" name="isNotNull" type="Func&lt;TType" type-id="Func&lt;TType" />
+                  <parameter id="pcacf585697124cdcb4fb301965e9826f" name="bool&gt;" type="" type-id="" />
+                  <parameter id="p2fc27c3b59794ff98f26654ed87e6127" name="treeTraversal" type="Func&lt;TType" type-id="Func&lt;TType" />
+                  <parameter id="pd41c12be0d624a43803a31315c7ae0f7" name="IEnumerable&lt;TType&gt;&gt;" type="" type-id="" />
+                  <parameter id="p9b7c2d71ddf944468f8958096b3ac0f3" name="currentValue" type="Func&lt;TType" type-id="Func&lt;TType" />
+                  <parameter id="p4992e1f833024b2e9fece68bff9f829f" name="IEnumerable&lt;T&gt;&gt;" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="oaf887ac013714a91abba21a246346140940" cid="OP002" name="GetProducts" creation-date="11/09/2021 19:57:26" type="IEnumerable&lt;Product&gt;" type-id="IEnumerable&lt;Product&gt;" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p0c173443263d472a83fa2a9cf90105fa" name="root" type="ProductCategory" type-id="ProductCategory" />
+                </parameters>
+              </operation>
+              <operation id="oe1630aaf1fd74353a53f5edea2f65286789" cid="OP003" name="GetEndJobs" creation-date="11/09/2021 19:58:07" type="IEnumerable&lt;Job&gt;" type-id="IEnumerable&lt;Job&gt;" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pae877f51cec24fa49c7053a1eecfcb5f" name="root" type="Job" type-id="Job" />
+                </parameters>
+              </operation>
+              <operation id="o11558094502149e3b2722d3fdc44d79e444" cid="OP004" name="GetBinaryTreeValues&lt;T&gt;" creation-date="11/09/2021 19:58:30" type="IEnumerable&lt;&lt;T&gt;" type-id="IEnumerable&lt;&lt;T&gt;" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pa2ec5588deed4e60ae1f1a52ddcc2ad1" name="root" type="BinaryTree&lt;T&gt;" type-id="BinaryTree&lt;T&gt;" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="214cb7d2e89f4375958eacab96d85dc4" name="Default" visible="true" enabled="true" locked="false">
+          <item id="e297cfe9799943ae950a8b02c35c9fbe" iid="a8e5a344d1354c47afb5f79ca19547d5" creation-date="11/09/2021 19:54:16" order-index="0" type="entity">
+            <layout ax="118" ay="52" awidth="428" aheight="150" x="118" y="52" width="428" height="150" rotation-center="-144,5" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\bin\Debug\Delegates.TreeTraversal.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\bin\Debug\Delegates.TreeTraversal.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\bin\Debug\Delegates.TreeTraversal.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\obj\Debug\Delegates.TreeTraversal.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\obj\Debug\Delegates.TreeTraversal.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\obj\Debug\Delegates.TreeTraversal.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\obj\Debug\Delegates.TreeTraversal.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\14 Практика «Обходы деревьев»\Delegates.TreeTraversal.csproj\obj\Debug\Delegates.TreeTraversal.pdb

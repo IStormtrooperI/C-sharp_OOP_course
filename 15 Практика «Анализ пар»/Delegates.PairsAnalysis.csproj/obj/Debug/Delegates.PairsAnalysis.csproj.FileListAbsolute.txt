@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\bin\Debug\Delegates.PairsAnalysis.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\bin\Debug\Delegates.PairsAnalysis.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\bin\Debug\Delegates.PairsAnalysis.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\obj\Debug\Delegates.PairsAnalysis.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\obj\Debug\Delegates.PairsAnalysis.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\obj\Debug\Delegates.PairsAnalysis.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\obj\Debug\Delegates.PairsAnalysis.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\15 Практика «Анализ пар»\Delegates.PairsAnalysis.csproj\obj\Debug\Delegates.PairsAnalysis.pdb

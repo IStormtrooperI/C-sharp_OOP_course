@@ -1,0 +1,11 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\ReportMaker.cs
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\Incapsulation.Failures.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\Incapsulation.Failures.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\Incapsulation.Failures.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\obj\Debug\Incapsulation.Failures.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\obj\Debug\Incapsulation.Failures.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\obj\Debug\Incapsulation.Failures.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\obj\Debug\Incapsulation.Failures.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\1 Сбои\Incapsulation.Failures.csproj\obj\Debug\Incapsulation.Failures.pdb

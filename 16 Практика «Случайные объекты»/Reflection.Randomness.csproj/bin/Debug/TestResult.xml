@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="Reflection.Randomness.exe" fullname="D:/1Рабочий стол/что-то/документы/Институт/3курс/РТиППО/практики/16 Практика «Случайные объекты»/Reflection.Randomness.csproj/bin/Debug/Reflection.Randomness.exe" testcasecount="6" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.356924" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="13" random-seed="429927383">
+  <command-line><![CDATA["D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug\Reflection.Randomness.exe"   ]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1007" name="Reflection.Randomness.exe" fullname="D:/1Рабочий стол/что-то/документы/Институт/3курс/РТиППО/практики/16 Практика «Случайные объекты»/Reflection.Randomness.csproj/bin/Debug/Reflection.Randomness.exe" runstate="Runnable" testcasecount="6" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.356924" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug" machine-name="DESKTOP-9ANHSO3" user="89123" user-domain="DESKTOP-9ANHSO3" culture="ru-RU" uiculture="ru-RU" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\16 Практика «Случайные объекты»\Reflection.Randomness.csproj\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="2204" />
+      <property name="_APPDOMAIN" value="Reflection.Randomness.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1008" name="Reflection" fullname="Reflection" runstate="Runnable" testcasecount="6" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.326043" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+      <test-suite type="TestSuite" id="1009" name="Randomness" fullname="Reflection.Randomness" runstate="Runnable" testcasecount="6" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.293546" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+        <test-suite type="TestFixture" id="1000" name="Generator_should" fullname="Reflection.Randomness.Generator_should" classname="Reflection.Randomness.Generator_should" runstate="Runnable" testcasecount="6" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.265627" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+          <test-case id="1006" name="FailWithInformativeMessage_WhenAttributeUsedWithWrongDistributionType" fullname="Reflection.Randomness.Generator_should.FailWithInformativeMessage_WhenAttributeUsedWithWrongDistributionType" methodname="FailWithInformativeMessage_WhenAttributeUsedWithWrongDistributionType" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="179613801" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.038217" asserts="2" />
+          <test-case id="1005" name="FailWithInformativeMessage_WhenAttributeUsedWithWrongNumberOfArguments" fullname="Reflection.Randomness.Generator_should.FailWithInformativeMessage_WhenAttributeUsedWithWrongNumberOfArguments" methodname="FailWithInformativeMessage_WhenAttributeUsedWithWrongNumberOfArguments" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="1943460990" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.000710" asserts="2" />
+          <test-case id="1001" name="GenerateT1" fullname="Reflection.Randomness.Generator_should.GenerateT1" methodname="GenerateT1" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="1869871757" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.012908" asserts="1" />
+          <test-case id="1003" name="GenerateT2" fullname="Reflection.Randomness.Generator_should.GenerateT2" methodname="GenerateT2" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="1100003562" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.006736" asserts="5" />
+          <test-case id="1002" name="GiveUniqueResults_OnEveryGenerateRun" fullname="Reflection.Randomness.Generator_should.GiveUniqueResults_OnEveryGenerateRun" methodname="GiveUniqueResults_OnEveryGenerateRun" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="1192615165" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.004553" asserts="2" />
+          <test-case id="1004" name="PerformanceTest" fullname="Reflection.Randomness.Generator_should.PerformanceTest" methodname="PerformanceTest" classname="Reflection.Randomness.Generator_should" runstate="Runnable" seed="1352882436" result="Passed" start-time="2021-11-15 14:21:46Z" end-time="2021-11-15 14:21:46Z" duration="0.057882" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

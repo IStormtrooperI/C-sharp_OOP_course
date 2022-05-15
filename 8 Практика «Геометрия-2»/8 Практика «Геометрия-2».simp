@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp42114d17678340ebb4b1922b69418074">
+  <meta>
+    <name>8 Практика «Геометрия-2»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="4">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>257</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>29</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-5c4e73178bd049aaa555c11e70d5dbd6" name="" task-id-sequence="0">
+    <working-schedule uid="ws-73c03ba8811440bca0efe2bc8f3ca260" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-9b82b2e618e74d22972dffc46f1f76e3" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-afccf5981c914d45b34d1eff5a201d2c" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-a71fd196308d45f4912c120ab00e8491" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Body" tid="" name="Body" description="" />
+      <type id="Ball" tid="" name="Ball" description="" />
+      <type id="RectangularCuboid" tid="" name="RectangularCuboid" description="" />
+      <type id="Cylinder" tid="" name="Cylinder" description="" />
+      <type id="CompoundBody" tid="" name="CompoundBody" description="" />
+      <type id="Vector3" tid="" name="Vector3" description="" />
+      <type id="IVisitor" tid="" name="IVisitor" description="" />
+      <type id="double" tid="" name="double" description="" />
+      <type id="IReadOnlyList&lt;Body&gt;" tid="" name="IReadOnlyList&lt;Body&gt;" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p5bf9b87e16a943f8958de23a3740f613_972885364" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/08/2021 20:30:47</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="7aa31ec7aa1f4ed1ab70c8fbe0a0402c" cid="PKG001" type="package" name="Inheritance" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="undefined" />
+        <item id="9fa9a7d02fb7481ea7c1354e5c302f1f" cid="PKG002" type="package" name="Geometry" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="undefined" />
+        <item id="415e7a9054ef44d29d12d67d79caa19e" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="9fa9a7d02fb7481ea7c1354e5c302f1f" to="7aa31ec7aa1f4ed1ab70c8fbe0a0402c" />
+        <item id="15b050f78ce140189062bc4df9c537a8" cid="PKG003" type="package" name="Visitor" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="undefined" />
+        <item id="5e86e88e3ab147a4bf3ee36966a41255" cid="CNT002" type="containment" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="15b050f78ce140189062bc4df9c537a8" to="9fa9a7d02fb7481ea7c1354e5c302f1f" />
+      </abstract-items>
+      <sub-models>
+        <model id="p65cc0722e32b43e6beb8f8ed788fad92_346563613" name="Inheritance" namespace="Inheritance" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/08/2021 20:30:55</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p592a015644d04c8bb0c05fd60cff5e05_443372172" name="Geometry" namespace="Inheritance.Geometry" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/08/2021 20:30:55</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items />
+              <sub-models>
+                <model id="p2d6ede5d990e45718b41d5ceeab36a67_351394691" name="Visitor" namespace="Inheritance.Geometry.Visitor" order-index="1">
+                  <meta>
+                    <authors>
+                      <author> </author>
+                    </authors>
+                    <description />
+                    <creation-date>10/08/2021 20:30:55</creation-date>
+                    <change-date>01/01/0001 00:00:00</change-date>
+                    <revision-count>0</revision-count>
+                    <version />
+                  </meta>
+                  <abstract-items>
+                    <item id="6d7137a2fa844d1db61eac89a47286ca" cid="C001" type="class" name="IVisitor" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <stereotypes>
+                        <stereotype name="interface" />
+                      </stereotypes>
+                      <tagged-values>
+                        <tagged-value id="tve2cbe9a3457f4cbfbe7c946ba79280ab" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <stereotype-instances>
+                        <stereotype id="6d7137a2fa844d1db61eac89a47286ca_interface_c" type="interface" ref="" />
+                      </stereotype-instances>
+                      <operations>
+                        <operation id="oed4a351151f84ab69fa0379c88407a56731" cid="OP001" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="undefined">
+                          <parameters>
+                            <parameter id="p23df15dcb4d3441ab24391c0f2b0eb93" name="ball" type="Ball" type-id="Ball" />
+                          </parameters>
+                        </operation>
+                        <operation id="o1bee6512ac1d402ab9de34988e5418cc741" cid="OP002" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="undefined">
+                          <parameters>
+                            <parameter id="p3d36e0eb10394585822eac2af0d04bc6" name="cuboid" type="RectangularCuboid" type-id="RectangularCuboid" />
+                          </parameters>
+                        </operation>
+                        <operation id="o43d787152996400a8d17beb5fba369d6744" cid="OP003" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="undefined">
+                          <parameters>
+                            <parameter id="p4efb2dc3242f4a3597e7e4991007427c" name="cylinder" type="Cylinder" type-id="Cylinder" />
+                          </parameters>
+                        </operation>
+                        <operation id="o153bad4f306f4693bcd921de17ce9991744" cid="OP004" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="undefined">
+                          <parameters>
+                            <parameter id="p5254f1c6d72f48e4ae1307dc82ddc06a" name="compoundBody" type="CompoundBody" type-id="CompoundBody" />
+                          </parameters>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="4c38cde309ec49a2ba9e12b5b70151ea" cid="C002" type="class" name="Body" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public" is-abstract="true">
+                      <tagged-values>
+                        <tagged-value id="tvb633bdec41e0456a9be34eceec8b8579" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="395b1efde94f478f939e5eabb6d6d3ee" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="ad76f08a1f37a40c2ada7a43349f79e0a746" cid="PROP001" name="Position" creation-date="10/08/2021 20:30:55" property-ref="395b1efde94f478f939e5eabb6d6d3ee" />
+                      </attributes>
+                      <operations>
+                        <operation id="o94eb2fc87d2c48f88566081651231f09746" cid="OP005" name="Body" creation-date="10/08/2021 20:30:55" type="" type-id="" visibility="protected">
+                          <parameters>
+                            <parameter id="p83ed292e862f41d48b3d9828f8666446" name="position" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="obc45c07007db4c0d87ecafaaf34af2d3747" cid="OP006" name="Accept" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public" abstract="true">
+                          <parameters>
+                            <parameter id="pde42f07fc34c45e29f2e8c6b5b541ee9" name="visitor" type="IVisitor" type-id="IVisitor" />
+                          </parameters>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="395b1efde94f478f939e5eabb6d6d3ee" cid="PROP001" type="property" name="Position" style-class="" owner="4c38cde309ec49a2ba9e12b5b70151ea" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="395b1efde94f478f939e5eabb6d6d3ee_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="Vector3" type-id="Vector3" />
+                      <property />
+                    </item>
+                    <item id="facba13357e74345baf7a7a085308342" cid="C003" type="class" name="Ball" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tvcbd86e434441402cac05f86250e72f1b" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="fa791ef69a284cd48f7a31c24fd475b4" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a7c58732d1fd74993ac4e880b9f17f286747" cid="PROP002" name="Radius" creation-date="10/08/2021 20:30:55" property-ref="fa791ef69a284cd48f7a31c24fd475b4" />
+                      </attributes>
+                      <operations>
+                        <operation id="o98ecd68aeab8492d8cf3ebc577d8736f747" cid="OP007" name="Ball" creation-date="10/08/2021 20:30:55" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p38aabe8469f842a683f6b1c870cfe1a4" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p24e13e734b974d669c50325c025bc110" name="radius" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="of00f83fbad4144e69647fd4b6dde6806747" cid="OP008" name="Accept" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="pee793b29de5247e38dac462d74f76cbf" name="visitor" type="IVisitor" type-id="IVisitor" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return visitor.Visit(this);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="fa791ef69a284cd48f7a31c24fd475b4" cid="PROP002" type="property" name="Radius" style-class="" owner="facba13357e74345baf7a7a085308342" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="fa791ef69a284cd48f7a31c24fd475b4_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="9c584cafd1db4c98b22c08df68ab61c3" cid="C004" type="class" name="RectangularCuboid" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tv438563c23f7247e3b9404521956f3676" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="7fe881c8dce44bd79f6b6a631319bf8a" />
+                        <owned-item ref="4e5171266431495da3686d40158432d8" />
+                        <owned-item ref="4a79074655dc4a1eac6d895b9e3b52de" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a1b8465cac2cb41cb988d6d168d983962747" cid="PROP003" name="SizeX" creation-date="10/08/2021 20:30:55" property-ref="7fe881c8dce44bd79f6b6a631319bf8a" />
+                        <attribute id="aaa8b4fac939843f1b5969377b712cfde747" cid="PROP004" name="SizeY" creation-date="10/08/2021 20:30:55" property-ref="4e5171266431495da3686d40158432d8" />
+                        <attribute id="a1da1f527066f419ea860dc3f64e6d5c4748" cid="PROP005" name="SizeZ" creation-date="10/08/2021 20:30:55" property-ref="4a79074655dc4a1eac6d895b9e3b52de" />
+                      </attributes>
+                      <operations>
+                        <operation id="obaa3498881dc475aa9b57626f1f8ae7f748" cid="OP009" name="RectangularCuboid" creation-date="10/08/2021 20:30:55" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="pd79567e10e114552956556767faf940d" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p1a8c44b876664dd58874355824108b07" name="sizeX" type="double" type-id="double" />
+                            <parameter id="p4ebc6f189c13472eae84de6ac26214ff" name="sizeY" type="double" type-id="double" />
+                            <parameter id="p681b00d1fa844dc5b4d394167afc811a" name="sizeZ" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="ob1c67eb0e01542a0b8a7ee5601e8806e748" cid="OP010" name="Accept" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="pf6c799bff0f24198be22fdecb1c85e57" name="visitor" type="IVisitor" type-id="IVisitor" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return visitor.Visit(this);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="7fe881c8dce44bd79f6b6a631319bf8a" cid="PROP003" type="property" name="SizeX" style-class="" owner="9c584cafd1db4c98b22c08df68ab61c3" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="7fe881c8dce44bd79f6b6a631319bf8a_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="4e5171266431495da3686d40158432d8" cid="PROP004" type="property" name="SizeY" style-class="" owner="9c584cafd1db4c98b22c08df68ab61c3" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="4e5171266431495da3686d40158432d8_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="4a79074655dc4a1eac6d895b9e3b52de" cid="PROP005" type="property" name="SizeZ" style-class="" owner="9c584cafd1db4c98b22c08df68ab61c3" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="4a79074655dc4a1eac6d895b9e3b52de_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="481b68728fa64e71af385807d3aaa117" cid="C005" type="class" name="Cylinder" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tvdef9dd60a8ed4aaea8af2841fa61b378" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="f91879ce80a54b65b1130aa62dda8dd6" />
+                        <owned-item ref="90a13444ae4c473b9071ee0a207abba9" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="ac26bbc7beea34e4a9dc94d936085386f748" cid="PROP006" name="Radius" creation-date="10/08/2021 20:30:55" property-ref="f91879ce80a54b65b1130aa62dda8dd6" />
+                        <attribute id="afebade69b6aa462ebb4298df2bc8f24a748" cid="PROP007" name="SizeZ" creation-date="10/08/2021 20:30:55" property-ref="90a13444ae4c473b9071ee0a207abba9" />
+                      </attributes>
+                      <operations>
+                        <operation id="o3d2108baf292492c89837f76e9b6b70c748" cid="OP011" name="Cylinder" creation-date="10/08/2021 20:30:55" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p32238254265142a494bb70c4e803848a" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p075402a1b41a4086a47c7e81fd0637de" name="sizeZ" type="double" type-id="double" />
+                            <parameter id="p790771403bea43a28ab7d11b12a2462f" name="radius" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="oe5e3eeaccbf143758a1d90a0606f49bf748" cid="OP012" name="Accept" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p380ae95e7f0b4f2082ac07660f5cf5df" name="visitor" type="IVisitor" type-id="IVisitor" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return visitor.Visit(this);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="f91879ce80a54b65b1130aa62dda8dd6" cid="PROP006" type="property" name="Radius" style-class="" owner="481b68728fa64e71af385807d3aaa117" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="f91879ce80a54b65b1130aa62dda8dd6_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="90a13444ae4c473b9071ee0a207abba9" cid="PROP007" type="property" name="SizeZ" style-class="" owner="481b68728fa64e71af385807d3aaa117" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="90a13444ae4c473b9071ee0a207abba9_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="a4ef7e143a7f449d96f326efaef36212" cid="C006" type="class" name="CompoundBody" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tv1c9d1189523b4e00b43071fa67b61ad6" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="565d25302f0b4ed78bf1da1250112caa" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="aba298e1a8a2e4916b7081bce58ada102748" cid="PROP008" name="Parts" creation-date="10/08/2021 20:30:55" property-ref="565d25302f0b4ed78bf1da1250112caa" />
+                      </attributes>
+                      <operations>
+                        <operation id="of4271605a03f4de49e19152955660fa8748" cid="OP013" name="CompoundBody" creation-date="10/08/2021 20:30:55" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="pbce186e136874769a73f60b8e47b2d31" name="parts" type="IReadOnlyList&lt;Body&gt;" type-id="IReadOnlyList&lt;Body&gt;" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="o3cede21bd13646f3ab137f593e816296748" cid="OP014" name="Accept" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p5140e13b92d04b9e86489ff6fcb59005" name="visitor" type="IVisitor" type-id="IVisitor" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return visitor.Visit(this);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="565d25302f0b4ed78bf1da1250112caa" cid="PROP008" type="property" name="Parts" style-class="" owner="a4ef7e143a7f449d96f326efaef36212" creator="" creation-date="10/08/2021 20:30:55" visibility="package">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="565d25302f0b4ed78bf1da1250112caa_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="IReadOnlyList&lt;Body&gt;" type-id="IReadOnlyList&lt;Body&gt;" />
+                      <property />
+                    </item>
+                    <item id="ee1826d9fafd4b34ace614227cbe63f7" cid="C007" type="class" name="BoundingBoxVisitor" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tvce4034d4274743ba9edec24a883b4ebb" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <operations>
+                        <operation id="o0c759cc79a86406491c9a550803a005f748" cid="OP015" name="GetBoundingSize" creation-date="10/08/2021 20:30:55" type="double" type-id="double" visibility="private">
+                          <parameters>
+                            <parameter id="p6d69fabf922d4e0b851549810379f411" name="boundingMinPoint" type="double" type-id="double" />
+                            <parameter id="p5e64cb58563c43e48d5f934d38a3fa8a" name="boundingMaxPoint" type="double" type-id="double" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            if (boundingMinPoint &lt; 0 &amp;&amp; boundingMaxPoint &gt;= 0)
+            {
+                return Math.Abs(boundingMinPoint) + boundingMaxPoint;
+            }
+            else if (boundingMinPoint &lt; 0 &amp;&amp; boundingMaxPoint &lt; 0)
+            {
+                return Math.Abs(boundingMaxPoint - boundingMinPoint);
+            }
+            else if (boundingMinPoint &gt;= 0 &amp;&amp; boundingMaxPoint &gt;= 0)
+            {
+                return boundingMaxPoint - boundingMinPoint;
+            }
+            return 1;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oecf42f4903cb4c0cb41aa03041e29621748" cid="OP016" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="pdcc9f142b7ad457ba5e20228e56d44ca" name="ball" type="Ball" type-id="Ball" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(ball.Position, ball.Radius * 2, ball.Radius * 2, ball.Radius * 2);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o2602dea1717e490dbbd5f67a1a0547f5748" cid="OP017" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p13172cc5613148ad8c43f761ee59641f" name="cylinder" type="Cylinder" type-id="Cylinder" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(cylinder.Position, cylinder.Radius * 2, cylinder.Radius * 2, cylinder.SizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oca3158e51b2d43a9b8002ebc29a7fd40748" cid="OP018" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="pebe341ec15cc4aec92d20923d9066402" name="rectangularCuboid" type="RectangularCuboid" type-id="RectangularCuboid" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return rectangularCuboid;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oa9acf14d842b4caea3132eaabe3d7fe6748" cid="OP019" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p6b2c65fe9ad348df9117c6c6e876b345" name="compoundBody" type="CompoundBody" type-id="CompoundBody" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            var boundingMinPoint = new Vector3(1000, 1000, 1000);
+            var boundingMaxPoint = new Vector3(-1000, -1000, -1000);
+            double boundingSizeX;
+            double boundingSizeY;
+            double boundingSizeZ;
+            var parts = compoundBody.Parts;
+            for (int i = 0; i &lt; parts.Count; i++)
+            {
+                RectangularCuboid currentRectangularCuboid = parts[i].TryAcceptVisitor&lt;RectangularCuboid&gt;(new BoundingBoxVisitor());
+
+                var minPoint = new Vector3(
+                    currentRectangularCuboid.Position.X - currentRectangularCuboid.SizeX / 2,
+                    currentRectangularCuboid.Position.Y - currentRectangularCuboid.SizeY / 2,
+                    currentRectangularCuboid.Position.Z - currentRectangularCuboid.SizeZ / 2);
+                var maxPoint = new Vector3(
+                    currentRectangularCuboid.Position.X + currentRectangularCuboid.SizeX / 2,
+                    currentRectangularCuboid.Position.Y + currentRectangularCuboid.SizeY / 2,
+                    currentRectangularCuboid.Position.Z + currentRectangularCuboid.SizeZ / 2);
+                if (boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Y &gt;= minPoint.Y &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = minPoint;
+                }
+                else if (boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Y &gt;= minPoint.Y)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, minPoint.Y, boundingMinPoint.Z);
+                }
+                else if (boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, boundingMinPoint.Y, minPoint.Z);
+                }
+                else if (boundingMinPoint.Y &gt;= minPoint.Y &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, minPoint.Y, minPoint.Z);
+                }
+                else if (boundingMinPoint.X &gt;= minPoint.X)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, boundingMinPoint.Y, boundingMinPoint.Z);
+                }
+                else if (boundingMinPoint.Y &gt;= minPoint.Y)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, minPoint.Y, boundingMinPoint.Z);
+                }
+                else if (boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, boundingMinPoint.Y, minPoint.Z);
+                }
+
+                if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Y &lt;= maxPoint.Y &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = maxPoint;
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Y &lt;= maxPoint.Y)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, maxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, boundingMaxPoint.Y, maxPoint.Z);
+                }
+                else if (boundingMaxPoint.Y &lt;= maxPoint.Y &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, maxPoint.Y, maxPoint.Z);
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, boundingMaxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.Y &lt;= maxPoint.Y)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, maxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, boundingMaxPoint.Y, maxPoint.Z);
+                }
+            }
+            boundingSizeX = GetBoundingSize(boundingMinPoint.X, boundingMaxPoint.X);
+            boundingSizeY = GetBoundingSize(boundingMinPoint.Y, boundingMaxPoint.Y);
+            boundingSizeZ = GetBoundingSize(boundingMinPoint.Z, boundingMaxPoint.Z);
+
+            var boundingPoint =
+                new Vector3(
+                (boundingMaxPoint.X + boundingMinPoint.X) / 2,
+                (boundingMaxPoint.Y + boundingMinPoint.Y) / 2,
+                (boundingMaxPoint.Z + boundingMinPoint.Z) / 2
+                );
+
+            return new RectangularCuboid(boundingPoint, boundingSizeX, boundingSizeY, boundingSizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o57b165a2d4b84962b753ef2579979c46272" cid="OP024" name="GetBoundingMinPoint" creation-date="10/13/2021 17:44:04" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p4043094d1e634395ae045f57e965fca1" name="boundingMinPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="pf8e7b5177ffd4359bb2ed7b668a2ff4b" name="minPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                        <operation id="oed8f483aa36d4b76992b9f5ee0432ab6147" cid="OP025" name="GetBoundingMaxPoint" creation-date="10/13/2021 17:45:11" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="pfd68861f315a42269f3166394c7fe88e" name="boundingMaxPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="pfc94aa0877c74d61b35bb1d33c7cf17d" name="maxPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                        <operation id="o7d487ee27cc94b8cba06cc4a42bd3848671" cid="OP026" name="GetMinPoint" creation-date="10/23/2021 10:14:54" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p47dd63a15b3f4d5293f93f942e0d8187" name="currentRectangularCuboid" type="RectangularCuboid" type-id="RectangularCuboid" />
+                          </parameters>
+                        </operation>
+                        <operation id="o3de2d45645dd43729417c9e0d0e201bc705" cid="OP027" name="GetMaxPoint" creation-date="10/23/2021 10:15:25" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p5c329a9559dc413f966d859760ed4c90" name="currentRectangularCuboid" type="RectangularCuboid" type-id="RectangularCuboid" />
+                          </parameters>
+                        </operation>
+                        <operation id="o978ae8adefa349dfbae9b9798b5ddf53352" cid="OP028" name="GetBoundingPoint" creation-date="10/23/2021 10:15:48" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="pb8669010d495485ba74aeabd74275715" name="boundingMinPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="pfcec9e93ff5046449c9144cc8a8acc59" name="boundingMaxPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="66d4c783163440a08bdf552a43f90ff4" cid="C008" type="class" name="BoxifyVisitor" style-class="" creator="" creation-date="10/08/2021 20:30:55" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tv94eb4dbdd5df4c0e93957461f7ea0ad9" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Visitor" />
+                      </tagged-values>
+                      <operations>
+                        <operation id="o7123946cbd1849aea4e838ee79e4c2a9748" cid="OP020" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="pfa912f574233443c94ed517700511266" name="ball" type="Ball" type-id="Ball" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(ball.Position, ball.Radius * 2, ball.Radius * 2, ball.Radius * 2);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="od8a66dc59cfd47aca8e8d85020eb9d0b748" cid="OP021" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p32164cb852d04434bce056751f0bd426" name="cylinder" type="Cylinder" type-id="Cylinder" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(cylinder.Position, cylinder.Radius * 2, cylinder.Radius * 2, cylinder.SizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o4eda0bc5d87c49caa238c75c170f9415748" cid="OP022" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p7d833fe86fea4798847afbd7e081a7c4" name="rectangularCuboid" type="RectangularCuboid" type-id="RectangularCuboid" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return rectangularCuboid;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="occ8c51df9cb6408385f062e76d4549ab748" cid="OP023" name="Visit" creation-date="10/08/2021 20:30:55" type="Body" type-id="Body" visibility="public">
+                          <parameters>
+                            <parameter id="p6f09e2178fdc458bacf8134323db8c46" name="compoundBody" type="CompoundBody" type-id="CompoundBody" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            var parts = compoundBody.Parts;
+            List&lt;Body&gt; newCompoundBody = new List&lt;Body&gt; { };
+            for (int i = 0; i &lt; parts.Count; i++)
+            {
+                var currentRectangularCuboid = parts[i].TryAcceptVisitor&lt;Body&gt;(new BoxifyVisitor());
+                newCompoundBody.Add(currentRectangularCuboid);
+            }
+
+            return new CompoundBody(newCompoundBody);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="8c5c8f4857b34fb391527da703f4ae72" cid="GNR001" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="facba13357e74345baf7a7a085308342" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="undefined" />
+                    <item id="99a6280cdc5c4fb78edcbe37289174f1" cid="GNR002" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="9c584cafd1db4c98b22c08df68ab61c3" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="undefined" />
+                    <item id="434964fdc18746e8a338408ef295abe8" cid="GNR003" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="481b68728fa64e71af385807d3aaa117" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="undefined" />
+                    <item id="fb5507fe4ade49b3bb2f550eadb91942" cid="GNR004" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="a4ef7e143a7f449d96f326efaef36212" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="undefined" />
+                    <item id="4ce6e6c5d3144319bca618fc5960c293" cid="REA001" type="realization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="ee1826d9fafd4b34ace614227cbe63f7" to="6d7137a2fa844d1db61eac89a47286ca" visibility="undefined" />
+                    <item id="b9e0de1472de41628ab360e2f8abf5b6" cid="REA002" type="realization" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="66d4c783163440a08bdf552a43f90ff4" to="6d7137a2fa844d1db61eac89a47286ca" visibility="undefined" />
+                    <item id="240c740a9c2b4d9c8deb388e7238dac4" cid="REL002" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="facba13357e74345baf7a7a085308342" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="facba13357e74345baf7a7a085308342" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-3cf33310-4409-4dda-a7fa-57d48a252bed" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-9176a49f-c078-4eee-8db2-c00adc507291" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="45f8d4c7911448578d75fb72f206644e" cid="REL003" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="9c584cafd1db4c98b22c08df68ab61c3" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="9c584cafd1db4c98b22c08df68ab61c3" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-ca083046-2676-43a8-a4d4-9538796c1aaa" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-45545e4d-9ade-4188-8472-dc87ff1926eb" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="2a42b8db957a422da25cd60ac7993f13" cid="REL004" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="481b68728fa64e71af385807d3aaa117" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="481b68728fa64e71af385807d3aaa117" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-e2616e3b-b147-4def-a271-bbf30e0f1643" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-1802bf8d-244d-44cd-a117-04e53f454902" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="43c6efaf53f94790a0789304ec57d8b9" cid="REL005" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="a4ef7e143a7f449d96f326efaef36212" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="a4ef7e143a7f449d96f326efaef36212" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-4ee6bf5a-2c60-4384-b077-1da1acd47cb5" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-41d40138-2777-40b9-8705-5b3847a6e4eb" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="dad53e180df64ff5b9e929cac306e528" cid="REL006" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="ee1826d9fafd4b34ace614227cbe63f7" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="ee1826d9fafd4b34ace614227cbe63f7" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-65f2ec32-925e-4255-a5a8-fb9930f1fbde" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-7febd22f-9691-48ee-9ba7-6c7a25ee74d6" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="deb07323ce3b43a58dcd8c270753ee55" cid="REL007" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="66d4c783163440a08bdf552a43f90ff4" to="4c38cde309ec49a2ba9e12b5b70151ea" visibility="package">
+                      <relation from="66d4c783163440a08bdf552a43f90ff4" to="4c38cde309ec49a2ba9e12b5b70151ea" derived="false">
+                        <start-role id="umlar-d6ef4229-7eec-4d4b-badd-9e98927fad65" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-a8ccb8a6-769f-4522-8a57-2cbdd4fbc545" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="bf73dc1bb9d64c6daa821d51b1ff37be" cid="REL008" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:30:55" from="4c38cde309ec49a2ba9e12b5b70151ea" to="6d7137a2fa844d1db61eac89a47286ca" visibility="package">
+                      <relation from="4c38cde309ec49a2ba9e12b5b70151ea" to="6d7137a2fa844d1db61eac89a47286ca" derived="false">
+                        <start-role id="umlar-02b62481-ac1c-4d8a-827d-54ea32d09726" name="" navigability="" association-type="composition" visibility="private" />
+                        <end-role id="umlar-eac9bef7-610d-476f-b019-70e15a9d7f53" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                  </abstract-items>
+                  <sub-models />
+                  <diagram type="uml-class" id="pa731e69861234132bdd24d28a78176a3_584160118" name="Visitor" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Inheritance.Geometry.Visitor" view-location="-45,-157">
+                    <style>
+                      <background-color index="1" color="#FFFFFFFF" />
+                      <background-color index="2" color="#FFFFFFFF" />
+                      <background-type type="vertical-linear" />
+                    </style>
+                    <meta>
+                      <authors>
+                        <author> </author>
+                      </authors>
+                      <description />
+                      <creation-date>10/08/2021 20:30:55</creation-date>
+                      <change-date>10/08/2021 20:32:47</change-date>
+                      <revision-count>0</revision-count>
+                      <version />
+                    </meta>
+                    <abstract-items />
+                    <layer id="7dd8edf0c395428896e3bd8a2ed731d1" name="Default" visible="true" enabled="true" locked="false">
+                      <item id="6d7137a2fa844d1db61eac89a47286ca" iid="6df1d5fa3dbe4e719a4b66c25101cfb7" creation-date="10/08/2021 20:30:55" order-index="0" type="entity">
+                        <layout ax="154.5" ay="-8.5" awidth="283" aheight="130" x="154.5" y="-8.5" width="283" height="130" />
+                        <class />
+                      </item>
+                      <item id="4c38cde309ec49a2ba9e12b5b70151ea" iid="943b623133ba4e72b7f7a9cc0b9d4e41" creation-date="10/08/2021 20:30:55" order-index="1" type="entity">
+                        <layout ax="263.5" ay="217" awidth="218" aheight="103" x="263.5" y="217" width="218" height="103" />
+                        <class />
+                      </item>
+                      <item id="facba13357e74345baf7a7a085308342" iid="3285b03a02ea4728af42913618fcbaf3" creation-date="10/08/2021 20:30:55" order-index="2" type="entity">
+                        <layout ax="0" ay="416" awidth="305" aheight="103" x="0" y="416" width="305" height="103" />
+                        <class />
+                      </item>
+                      <item id="9c584cafd1db4c98b22c08df68ab61c3" iid="93bc9db7a09947fe82779125432e56c0" creation-date="10/08/2021 20:30:55" order-index="3" type="entity">
+                        <layout ax="325" ay="416" awidth="345" aheight="159" x="325" y="416" width="345" height="159" />
+                        <class />
+                      </item>
+                      <item id="481b68728fa64e71af385807d3aaa117" iid="1f3bf07946ad4657b53d9a2ed9125023" creation-date="10/08/2021 20:30:55" order-index="4" type="entity">
+                        <layout ax="690" ay="416" awidth="329" aheight="140" x="690" y="416" width="329" height="140" />
+                        <class />
+                      </item>
+                      <item id="a4ef7e143a7f449d96f326efaef36212" iid="b550e1934df54da09ceb265f53db2a73" creation-date="10/08/2021 20:30:55" order-index="5" type="entity">
+                        <layout ax="1039" ay="416" awidth="352" aheight="103" x="1039" y="416" width="352" height="103" />
+                        <class />
+                      </item>
+                      <item id="ee1826d9fafd4b34ace614227cbe63f7" iid="10fc3511c7d5455f920fde3d8ba0303e" creation-date="10/08/2021 20:30:55" order-index="6" type="entity">
+                        <layout ax="885" ay="88" awidth="506" aheight="258" x="885" y="88" width="506" height="258" rotation-center="76.5,51" />
+                        <class />
+                      </item>
+                      <item id="66d4c783163440a08bdf552a43f90ff4" iid="b4b27d58af4f4ef6bf8ad9314e6730e1" creation-date="10/08/2021 20:30:55" order-index="7" type="entity">
+                        <layout ax="532" ay="0" awidth="327" aheight="113" x="532" y="0" width="327" height="113" />
+                        <class />
+                      </item>
+                      <item id="8c5c8f4857b34fb391527da703f4ae72" iid="5e663aa3baac4006aa382db76f14f5de" creation-date="10/08/2021 20:30:55" order-index="8" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="102" y1="416" x2="347" y2="320" start-border-pos="0.08360655605793" end-border-pos="0.654243126511574" start-local-pos="102" end-local-pos="54.5" name-position="0,20">
+                          <points>
+                            <point x="102" y="416" />
+                            <point x="102" y="366" />
+                            <point x="347" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="facba13357e74345baf7a7a085308342" from-iid="3285b03a02ea4728af42913618fcbaf3" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="99a6280cdc5c4fb78edcbe37289174f1" iid="8bddde73d9cf48a7bf056cac57884159" creation-date="10/08/2021 20:30:55" order-index="9" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="440" y1="416" x2="347" y2="320" start-border-pos="0.0833333358168602" end-border-pos="0.654243126511574" start-local-pos="115" end-local-pos="54.5" name-position="0,20">
+                          <points>
+                            <point x="440" y="416" />
+                            <point x="440" y="366" />
+                            <point x="347" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="9c584cafd1db4c98b22c08df68ab61c3" from-iid="93bc9db7a09947fe82779125432e56c0" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="434964fdc18746e8a338408ef295abe8" iid="4e27b08ee17047d7ba1e742d1071ccf9" creation-date="10/08/2021 20:30:55" order-index="10" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="800" y1="416" x2="347" y2="320" start-border-pos="0.0835866257548332" end-border-pos="0.654243126511574" start-local-pos="110" end-local-pos="54.5" name-position="0,20">
+                          <points>
+                            <point x="800" y="416" />
+                            <point x="800" y="366" />
+                            <point x="347" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="481b68728fa64e71af385807d3aaa117" from-iid="1f3bf07946ad4657b53d9a2ed9125023" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="fb5507fe4ade49b3bb2f550eadb91942" iid="2968f6c5d71c4c95b8423092a1827b9f" creation-date="10/08/2021 20:30:55" order-index="11" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1156" y1="416" x2="347" y2="320" start-border-pos="0.0830965936183929" end-border-pos="0.654243126511574" start-local-pos="117" end-local-pos="109.5" name-position="0,20">
+                          <points>
+                            <point x="1156" y="416" />
+                            <point x="1156" y="366" />
+                            <point x="347" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="a4ef7e143a7f449d96f326efaef36212" from-iid="b550e1934df54da09ceb265f53db2a73" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="4ce6e6c5d3144319bca618fc5960c293" iid="2b249bac944d4f34b8b8f012581eadbc" creation-date="10/08/2021 20:30:55" order-index="12" type="relation">
+                        <layout line-style="perpendicular" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1219" y1="88" x2="376" y2="-8" start-border-pos="0.165019765496254" end-border-pos="0.195671379566193" start-local-pos="334.5" end-local-pos="221.5" name-position="50,88" name-width="62">
+                          <points>
+                            <point x="1219" y="88" />
+                            <point x="376" y="-8" />
+                          </points>
+                        </layout>
+                        <relation from="ee1826d9fafd4b34ace614227cbe63f7" from-iid="10fc3511c7d5455f920fde3d8ba0303e" to="6d7137a2fa844d1db61eac89a47286ca" to-iid="6df1d5fa3dbe4e719a4b66c25101cfb7" />
+                      </item>
+                      <item id="b9e0de1472de41628ab360e2f8abf5b6" iid="58cdfb8aee3a475bb0b743906860f450" creation-date="10/08/2021 20:30:55" order-index="13" type="relation">
+                        <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="532" y1="27" x2="438" y2="27" start-border-pos="0.940265491604805" end-border-pos="0.318269230425358" start-local-pos="27" name-position="0,20">
+                          <points>
+                            <point x="532" y="27" />
+                            <point x="438" y="27" />
+                          </points>
+                        </layout>
+                        <relation from="66d4c783163440a08bdf552a43f90ff4" from-iid="b4b27d58af4f4ef6bf8ad9314e6730e1" to="6d7137a2fa844d1db61eac89a47286ca" to-iid="6df1d5fa3dbe4e719a4b66c25101cfb7" />
+                      </item>
+                      <item id="240c740a9c2b4d9c8deb388e7238dac4" iid="ec180f54de6f4333a430ad21dcbde5eb" creation-date="10/08/2021 20:30:55" order-index="15" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="203" y1="416" x2="408" y2="320" start-border-pos="0.16639344394207" end-border-pos="0.584288991987705" start-local-pos="203" end-local-pos="72.5" name-position="0,20">
+                          <points>
+                            <point x="203" y="416" />
+                            <point x="203" y="366" />
+                            <point x="408" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="facba13357e74345baf7a7a085308342" from-iid="3285b03a02ea4728af42913618fcbaf3" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="45f8d4c7911448578d75fb72f206644e" iid="9b8348c430c94307b86d1b7fb3bfd92b" creation-date="10/08/2021 20:30:55" order-index="16" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="555" y1="416" x2="409" y2="320" start-border-pos="0.16666667163372" end-border-pos="0.583142198622227" start-local-pos="230" end-local-pos="130.5" name-position="0,20">
+                          <points>
+                            <point x="555" y="416" />
+                            <point x="555" y="366" />
+                            <point x="409" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="9c584cafd1db4c98b22c08df68ab61c3" from-iid="93bc9db7a09947fe82779125432e56c0" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="2a42b8db957a422da25cd60ac7993f13" iid="77d70d9ddff14052b01011b3c00bc272" creation-date="10/08/2021 20:30:55" order-index="17" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="909" y1="416" x2="408" y2="320" start-border-pos="0.166413366794586" end-border-pos="0.584288991987705" start-local-pos="219" end-local-pos="174.5" name-position="0,20">
+                          <points>
+                            <point x="909" y="416" />
+                            <point x="909" y="366" />
+                            <point x="408" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="481b68728fa64e71af385807d3aaa117" from-iid="1f3bf07946ad4657b53d9a2ed9125023" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="43c6efaf53f94790a0789304ec57d8b9" iid="20bd37db2d5c4b0c9a7b4221e0277184" creation-date="10/08/2021 20:30:55" order-index="18" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1274" y1="416" x2="409" y2="320" start-border-pos="0.166903406381607" end-border-pos="0.583142198622227" start-local-pos="235" end-local-pos="145.5" name-position="0,20">
+                          <points>
+                            <point x="1274" y="416" />
+                            <point x="1274" y="366" />
+                            <point x="409" y="320" />
+                          </points>
+                        </layout>
+                        <relation from="a4ef7e143a7f449d96f326efaef36212" from-iid="b550e1934df54da09ceb265f53db2a73" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="dad53e180df64ff5b9e929cac306e528" iid="76ff96ea9ac2419bbf216c26ae023e44" creation-date="10/08/2021 20:30:55" order-index="19" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-to-fields="false" auto-path="" x1="885" y1="268" x2="482" y2="268" start-border-pos="0.825096899224806" end-border-pos="0.375" start-local-pos="100.5" name-position="8,-12">
+                          <points>
+                            <point x="885" y="268" />
+                            <point x="482" y="268" />
+                          </points>
+                        </layout>
+                        <relation from="ee1826d9fafd4b34ace614227cbe63f7" from-iid="10fc3511c7d5455f920fde3d8ba0303e" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="deb07323ce3b43a58dcd8c270753ee55" iid="280efb9fa8a4485298811c568f423cf8" creation-date="10/08/2021 20:30:55" order-index="20" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="548" y1="113" x2="409" y2="217" start-border-pos="0.737767577171326" end-border-pos="0.166857793927193" start-local-pos="109" end-local-pos="145.5" name-position="0,20">
+                          <points>
+                            <point x="548" y="113" />
+                            <point x="409" y="217" />
+                          </points>
+                        </layout>
+                        <relation from="66d4c783163440a08bdf552a43f90ff4" from-iid="b4b27d58af4f4ef6bf8ad9314e6730e1" to="4c38cde309ec49a2ba9e12b5b70151ea" to-iid="943b623133ba4e72b7f7a9cc0b9d4e41" />
+                      </item>
+                      <item id="bf73dc1bb9d64c6daa821d51b1ff37be" iid="e11b1af2302e44b2be25d31e6d2702b8" creation-date="10/08/2021 20:30:55" order-index="21" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="308" y1="217" x2="308" y2="122" start-border-pos="0.0510321110486984" end-border-pos="0.614399291574955" start-local-pos="44.5" end-local-pos="260.5" name-position="0,20">
+                          <points>
+                            <point x="308" y="217" />
+                            <point x="308" y="122" />
+                          </points>
+                        </layout>
+                        <relation from="4c38cde309ec49a2ba9e12b5b70151ea" from-iid="943b623133ba4e72b7f7a9cc0b9d4e41" to="6d7137a2fa844d1db61eac89a47286ca" to-iid="6df1d5fa3dbe4e719a4b66c25101cfb7" />
+                      </item>
+                    </layer>
+                  </diagram>
+                </model>
+              </sub-models>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p11beeb3ea3a0465da4ac8008ab0dfaf8_793634934" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/08/2021 20:30:55</creation-date>
+          <change-date>10/08/2021 20:30:55</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="ca3a1b2d003349fe92ee56dd64c5d126" name="Default" visible="true" enabled="true" locked="false">
+          <item id="7aa31ec7aa1f4ed1ab70c8fbe0a0402c" iid="ad9b7db819a241e78e099cf07d70c243" creation-date="10/08/2021 20:30:55" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="116" aheight="56" x="0" y="0" width="116" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="9fa9a7d02fb7481ea7c1354e5c302f1f" iid="e263595d11c0464d8d1beb54d76175d9" creation-date="10/08/2021 20:30:55" order-index="1" type="entity">
+            <layout ax="5" ay="156" awidth="106" aheight="56" x="5" y="156" width="106" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="15b050f78ce140189062bc4df9c537a8" iid="3c5e25fc4d3245c481b4876089563b01" creation-date="10/08/2021 20:30:55" order-index="2" type="entity">
+            <layout ax="16" ay="312" awidth="84" aheight="56" x="16" y="312" width="84" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="415e7a9054ef44d29d12d67d79caa19e" iid="e6b798639b4244888eda265f795ca7a0" creation-date="10/08/2021 20:30:55" order-index="3" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="58" y1="156" x2="58" y2="56" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="58" y="156" />
+                <point x="58" y="106" />
+                <point x="58" y="106" />
+                <point x="58" y="56" />
+              </points>
+            </layout>
+            <relation from="9fa9a7d02fb7481ea7c1354e5c302f1f" from-iid="e263595d11c0464d8d1beb54d76175d9" to="7aa31ec7aa1f4ed1ab70c8fbe0a0402c" to-iid="ad9b7db819a241e78e099cf07d70c243" />
+          </item>
+          <item id="5e86e88e3ab147a4bf3ee36966a41255" iid="b6ebf95c2bf14d078e1491a9f2de260b" creation-date="10/08/2021 20:30:55" order-index="4" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="58" y1="312" x2="58" y2="212" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="58" y="312" />
+                <point x="58" y="262" />
+                <point x="58" y="262" />
+                <point x="58" y="212" />
+              </points>
+            </layout>
+            <relation from="15b050f78ce140189062bc4df9c537a8" from-iid="3c5e25fc4d3245c481b4876089563b01" to="9fa9a7d02fb7481ea7c1354e5c302f1f" to-iid="e263595d11c0464d8d1beb54d76175d9" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

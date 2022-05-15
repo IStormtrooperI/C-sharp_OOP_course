@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpd5f75e7018e242e6be37672843e68287">
+  <meta>
+    <name>7 Практика «Геометрия-1»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="4">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>280</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>22</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-588f7b521dc94bc88709ab731d368f6d" name="" task-id-sequence="0">
+    <working-schedule uid="ws-163f66f7bfc24083b04a9fd81f56a929" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-1e4e23787b8140d5bebed7c5a9b7a382" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-7ce9d640aaf249e2bd047564cf7b5c72" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-5da319210e5e4f86a4399d46bc39526b" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Vector3" tid="" name="Vector3" description="" />
+      <type id="bool" tid="" name="bool" description="" />
+      <type id="RectangularCuboid" tid="" name="RectangularCuboid" description="" />
+      <type id="double" tid="" name="double" description="" />
+      <type id="IReadOnlyList&lt;Body&gt;" tid="" name="IReadOnlyList&lt;Body&gt;" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p3ac67efa546d401ab14edf3fcb8cf7b3_678619093" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/08/2021 20:24:41</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="56900356d93a4868946622a602a70682" cid="PKG001" type="package" name="Inheritance" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="undefined" />
+        <item id="d9f6cf0140a345bb94dbe4cd5d5ed742" cid="PKG002" type="package" name="Geometry" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="undefined" />
+        <item id="322246934f0c422a8939e30c204de9eb" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="d9f6cf0140a345bb94dbe4cd5d5ed742" to="56900356d93a4868946622a602a70682" />
+        <item id="0dabff4df55e4800a349f12f4bc51974" cid="PKG003" type="package" name="Virtual" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="undefined" />
+        <item id="59eb51a4c3984afba9af47d44d3f6107" cid="CNT002" type="containment" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="0dabff4df55e4800a349f12f4bc51974" to="d9f6cf0140a345bb94dbe4cd5d5ed742" />
+      </abstract-items>
+      <sub-models>
+        <model id="pc149f90446e041779776f8569dd50975_200924306" name="Inheritance" namespace="Inheritance" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/08/2021 20:24:57</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p9eb1286ed9fe4ef3bd70cee180f71cf6_256129435" name="Geometry" namespace="Inheritance.Geometry" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/08/2021 20:24:57</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items />
+              <sub-models>
+                <model id="p6ec70e1d0ac744dd999d1d17f1230deb_855175575" name="Virtual" namespace="Inheritance.Geometry.Virtual" order-index="1">
+                  <meta>
+                    <authors>
+                      <author> </author>
+                    </authors>
+                    <description />
+                    <creation-date>10/08/2021 20:24:57</creation-date>
+                    <change-date>01/01/0001 00:00:00</change-date>
+                    <revision-count>0</revision-count>
+                    <version />
+                  </meta>
+                  <abstract-items>
+                    <item id="83374ca6a2c941a1b80817db409f76e6" cid="C001" type="class" name="Body" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="public" is-abstract="true">
+                      <tagged-values>
+                        <tagged-value id="tve821b099cf5a4b5f9c0c97e040d9eb83" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Virtual" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="2d45e22bd39d471fa7615e95b7db1ec1" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a778c486448fa4951abcb0b7f7d0f4b56802" cid="PROP001" name="Position" creation-date="10/08/2021 20:24:57" property-ref="2d45e22bd39d471fa7615e95b7db1ec1" />
+                      </attributes>
+                      <operations>
+                        <operation id="o83f12230be2743dabed54e9c6fa45308811" cid="OP001" name="Body" creation-date="10/08/2021 20:24:57" type="" type-id="" visibility="protected">
+                          <parameters>
+                            <parameter id="p5b3722ea3f504a7aae094a2becf956d5" name="position" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="o7297a8a3d7c8452d9567cc8fc91964ac818" cid="OP002" name="ContainsPoint" creation-date="10/08/2021 20:24:57" type="bool" type-id="bool" visibility="public" abstract="true">
+                          <parameters>
+                            <parameter id="p7ee0dcb81c4d4e8dad01846d17276642" name="point" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                        <operation id="o4995e8c4f1924c79b0ca85f040dbe87f819" cid="OP003" name="GetBoundingBox" creation-date="10/08/2021 20:24:57" type="RectangularCuboid" type-id="RectangularCuboid" visibility="public" abstract="true" />
+                      </operations>
+                    </item>
+                    <item id="2d45e22bd39d471fa7615e95b7db1ec1" cid="PROP001" type="property" name="Position" style-class="" owner="83374ca6a2c941a1b80817db409f76e6" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="2d45e22bd39d471fa7615e95b7db1ec1_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="Vector3" type-id="Vector3" />
+                      <property />
+                    </item>
+                    <item id="40ad671a1d3149c1aa715f246b06bf3f" cid="C002" type="class" name="Ball" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tv2832c5e1a4394f3c8d3633ecdf281754" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Virtual" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="e15061ce0e57463cbb0abd42d173c54e" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a950730d617154526b47f0e3fdfb0b8f9819" cid="PROP002" name="Radius" creation-date="10/08/2021 20:24:57" property-ref="e15061ce0e57463cbb0abd42d173c54e" />
+                      </attributes>
+                      <operations>
+                        <operation id="oe60ff4fcc7164753baaed062c2a6d63d819" cid="OP004" name="GetBoundingBox" creation-date="10/08/2021 20:24:57" type="RectangularCuboid" type-id="RectangularCuboid" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(Position, Radius * 2, Radius * 2, Radius * 2);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o27eafb042d2d471cbdd95fe7394b994f819" cid="OP005" name="ContainsPoint" creation-date="10/08/2021 20:24:57" type="bool" type-id="bool" visibility="public">
+                          <parameters>
+                            <parameter id="pb6ae0aeb143d4d52a9474a0d52464b8d" name="point" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            var vector = point - Position;
+            var length2 = vector.GetLength2();
+            return length2 &lt;= this.Radius * this.Radius;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o288602c11c2d4da18eff8131254dcffe819" cid="OP006" name="Ball" creation-date="10/08/2021 20:24:57" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p46b14e9cb5d74b438449c8c84999aac5" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p3433f182603e437a8e383bfc9454be69" name="radius" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="e15061ce0e57463cbb0abd42d173c54e" cid="PROP002" type="property" name="Radius" style-class="" owner="40ad671a1d3149c1aa715f246b06bf3f" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="e15061ce0e57463cbb0abd42d173c54e_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="cea87d2d896b42d1b6879af4531dab6e" cid="C003" type="class" name="RectangularCuboid" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tva414adad03434be0ae9e6fc44a25eff0" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Virtual" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="1922f70dd6cc453b8f72ac745c2e4eb0" />
+                        <owned-item ref="3d9276cb8b0645f29af9b3f05abf5863" />
+                        <owned-item ref="a8a61d778e3f4b69a748cfa2ef06ef78" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="a035b1d2235c847ddb76916fd87cfc26c819" cid="PROP003" name="SizeX" creation-date="10/08/2021 20:24:57" property-ref="1922f70dd6cc453b8f72ac745c2e4eb0" />
+                        <attribute id="a7e6409e467f34cb0ac1c2ba8b3bb0fa4819" cid="PROP004" name="SizeY" creation-date="10/08/2021 20:24:57" property-ref="3d9276cb8b0645f29af9b3f05abf5863" />
+                        <attribute id="abcb956351685422aa0734b31ca8fdd92820" cid="PROP005" name="SizeZ" creation-date="10/08/2021 20:24:57" property-ref="a8a61d778e3f4b69a748cfa2ef06ef78" />
+                      </attributes>
+                      <operations>
+                        <operation id="o2893aebeaa3347edb278788a1a0b4997819" cid="OP007" name="GetBoundingBox" creation-date="10/08/2021 20:24:57" type="RectangularCuboid" type-id="RectangularCuboid" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(Position, SizeX, SizeY, SizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o6dddb0a449b94d909ff34bd6a8fc8b69819" cid="OP008" name="ContainsPoint" creation-date="10/08/2021 20:24:57" type="bool" type-id="bool" visibility="public">
+                          <parameters>
+                            <parameter id="p563d6a52eef34b1e9372d8e352e0b452" name="point" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            var minPoint = new Vector3(
+                Position.X - this.SizeX / 2,
+                Position.Y - this.SizeY / 2,
+                Position.Z - this.SizeZ / 2);
+            var maxPoint = new Vector3(
+                Position.X + this.SizeX / 2,
+                Position.Y + this.SizeY / 2,
+                Position.Z + this.SizeZ / 2);
+
+            return point &gt;= minPoint &amp;&amp; point &lt;= maxPoint;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="ofd840bf8efc548ad864599d456686434820" cid="OP009" name="RectangularCuboid" creation-date="10/08/2021 20:24:57" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p356fa25c5ac647649419c67b31b0dd84" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p15de1cbedf4d4b698318922eb5454534" name="sizeX" type="double" type-id="double" />
+                            <parameter id="pf659b087d7f74c3fb8fa6cbff7961f6f" name="sizeY" type="double" type-id="double" />
+                            <parameter id="pd2622b994f754829b6ad9cb159b294d1" name="sizeZ" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="1922f70dd6cc453b8f72ac745c2e4eb0" cid="PROP003" type="property" name="SizeX" style-class="" owner="cea87d2d896b42d1b6879af4531dab6e" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="1922f70dd6cc453b8f72ac745c2e4eb0_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="3d9276cb8b0645f29af9b3f05abf5863" cid="PROP004" type="property" name="SizeY" style-class="" owner="cea87d2d896b42d1b6879af4531dab6e" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="3d9276cb8b0645f29af9b3f05abf5863_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="a8a61d778e3f4b69a748cfa2ef06ef78" cid="PROP005" type="property" name="SizeZ" style-class="" owner="cea87d2d896b42d1b6879af4531dab6e" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="a8a61d778e3f4b69a748cfa2ef06ef78_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="86096a51c1e0438494d755d89ff87df4" cid="C004" type="class" name="Cylinder" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tv4c105633bd044415b5902c6cc6e56618" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Virtual" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="1ae99fb2ae0b42c9a3e66c9a9a1f14c8" />
+                        <owned-item ref="b6ad9ee464724db58f8d29b0371027ec" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="ab633af0fdedd4c1fa1d1dd221a1e1c2b820" cid="PROP006" name="SizeZ" creation-date="10/08/2021 20:24:57" property-ref="1ae99fb2ae0b42c9a3e66c9a9a1f14c8" />
+                        <attribute id="a47821e7c0df94cd8936773073629fd53820" cid="PROP007" name="Radius" creation-date="10/08/2021 20:24:57" property-ref="b6ad9ee464724db58f8d29b0371027ec" />
+                      </attributes>
+                      <operations>
+                        <operation id="ob7a8cba15a644a0783552e2a81bc9321820" cid="OP010" name="GetBoundingBox" creation-date="10/08/2021 20:24:57" type="RectangularCuboid" type-id="RectangularCuboid" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+            return new RectangularCuboid(Position, Radius * 2, Radius * 2, SizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o25df15956861454db4c0fbfb21ae32c1820" cid="OP011" name="ContainsPoint" creation-date="10/08/2021 20:24:57" type="bool" type-id="bool" visibility="public">
+                          <parameters>
+                            <parameter id="pa1337bfb362f42659200cad7405f31f6" name="point" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            var vectorX = point.X - Position.X;
+            var vectorY = point.Y - Position.Y;
+            var length2 = vectorX * vectorX + vectorY * vectorY;
+            var minZ = Position.Z - this.SizeZ / 2;
+            var maxZ = minZ + this.SizeZ;
+
+            return length2 &lt;= this.Radius * this.Radius &amp;&amp; point.Z &gt;= minZ &amp;&amp; point.Z &lt;= maxZ;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="oa649a07383ae4ea88df11beb7a462fa4820" cid="OP012" name="Cylinder" creation-date="10/08/2021 20:24:57" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="ped2cf1283b2d4247840e31bde1d7df82" name="position" type="Vector3" type-id="Vector3" />
+                            <parameter id="p61a2f42275eb4576abe9b86527fdf088" name="sizeZ" type="double" type-id="double" />
+                            <parameter id="pc3e46c2b7823462c88cb6d77047dc211" name="radius" type="double" type-id="double" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="1ae99fb2ae0b42c9a3e66c9a9a1f14c8" cid="PROP006" type="property" name="SizeZ" style-class="" owner="86096a51c1e0438494d755d89ff87df4" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="1ae99fb2ae0b42c9a3e66c9a9a1f14c8_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="b6ad9ee464724db58f8d29b0371027ec" cid="PROP007" type="property" name="Radius" style-class="" owner="86096a51c1e0438494d755d89ff87df4" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="b6ad9ee464724db58f8d29b0371027ec_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="double" type-id="double" />
+                      <property />
+                    </item>
+                    <item id="00932188ffd2484f8beba335aa79bdf4" cid="C005" type="class" name="CompoundBody" style-class="" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <tagged-values>
+                        <tagged-value id="tvd3d03612310649758c8b8cc100ff3ab2" name="namespace" type="text" multiple="false" value="Inheritance.Geometry.Virtual" />
+                      </tagged-values>
+                      <owned-items>
+                        <owned-item ref="bd53d6eb6cfc497aad3a2eaf4b800191" />
+                        <owned-item ref="75f5459a18824abf8ab4ff172464201b" />
+                      </owned-items>
+                      <attributes>
+                        <attribute id="aba1399a609c04e208e9af7b31bff2d53820" cid="PROP008" name="Parts" creation-date="10/08/2021 20:24:57" property-ref="bd53d6eb6cfc497aad3a2eaf4b800191" />
+                      </attributes>
+                      <operations>
+                        <operation id="o476532bd3d0d41cfbd2db1e0d8515569820" cid="OP013" name="GetBoundingSize" creation-date="10/08/2021 20:24:57" type="double" type-id="double" visibility="private">
+                          <parameters>
+                            <parameter id="p863a951920284613988a0b48e5609504" name="boundingMinPoint" type="double" type-id="double" />
+                            <parameter id="p61e6c4ca22a643a287b3dbda9b29e0b4" name="boundingMaxPoint" type="double" type-id="double" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            if (boundingMinPoint &lt; 0 &amp;&amp; boundingMaxPoint &gt;= 0)
+            {
+                return Math.Abs(boundingMinPoint) + boundingMaxPoint;
+            }
+            else if (boundingMinPoint &lt; 0 &amp;&amp; boundingMaxPoint &lt; 0)
+            {
+                return Math.Abs(boundingMaxPoint - boundingMinPoint);
+            }
+            else if (boundingMinPoint &gt;= 0 &amp;&amp; boundingMaxPoint &gt;= 0)
+            {
+                return boundingMaxPoint - boundingMinPoint;
+            }
+            return 1;
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o732e0e72a9354b008dcbb7e49de7fdae431" cid="OP017" name="GetBoundingMinPoint" creation-date="10/09/2021 17:39:47" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p5b827052ea6d4d7ea0c8ca033c1e80b3" name="boundingMinPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="p888c73446a684fd3992766bd767fdd19" name="minPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                        <operation id="ob4c28fe0e98d42fcad45e943f86107f2230" cid="OP018" name="GetBoundingMaxPoint" creation-date="10/09/2021 17:40:45" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="pfff884c6e982416da984870c7edb3554" name="boundingMaxPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="pc0cb6729e65c47cfaf6531d1c510bd9c" name="maxPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                        <operation id="o8ccf3d82a4b3475286d8c5ec4e9a203b820" cid="OP014" name="GetBoundingBox" creation-date="10/08/2021 20:24:57" type="RectangularCuboid" type-id="RectangularCuboid" visibility="public">
+                          <source-codes>
+                            <source-code language="CSharp">
+            var boundingMinPoint = new Vector3(1000,1000,1000);
+            var boundingMaxPoint = new Vector3(-1000,-1000,-1000);
+            double boundingSizeX;
+            double boundingSizeY;
+            double boundingSizeZ;
+            for (int i = 0; i &lt; Parts.Count; i++)
+            {
+                RectangularCuboid currentRectangularCuboid = Parts[i].GetBoundingBox();
+                var minPoint = new Vector3(
+                    currentRectangularCuboid.Position.X - currentRectangularCuboid.SizeX / 2,
+                    currentRectangularCuboid.Position.Y - currentRectangularCuboid.SizeY / 2,
+                    currentRectangularCuboid.Position.Z - currentRectangularCuboid.SizeZ / 2);
+                var maxPoint = new Vector3(
+                    currentRectangularCuboid.Position.X + currentRectangularCuboid.SizeX / 2,
+                    currentRectangularCuboid.Position.Y + currentRectangularCuboid.SizeY / 2,
+                    currentRectangularCuboid.Position.Z + currentRectangularCuboid.SizeZ / 2);
+                if (boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Y &gt;= minPoint.Y &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = minPoint;
+                } 
+                else if(boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Y &gt;= minPoint.Y)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, minPoint.Y, boundingMinPoint.Z);
+                } 
+                else if(boundingMinPoint.X &gt;= minPoint.X &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, boundingMinPoint.Y, minPoint.Z);
+                }
+                else if (boundingMinPoint.Y &gt;= minPoint.Y &amp;&amp; boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, minPoint.Y, minPoint.Z);
+                }
+                else if (boundingMinPoint.X &gt;= minPoint.X)
+                {
+                    boundingMinPoint = new Vector3(minPoint.X, boundingMinPoint.Y, boundingMinPoint.Z);
+                }
+                else if (boundingMinPoint.Y &gt;= minPoint.Y)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, minPoint.Y, boundingMinPoint.Z);
+                }
+                else if (boundingMinPoint.Z &gt;= minPoint.Z)
+                {
+                    boundingMinPoint = new Vector3(boundingMinPoint.X, boundingMinPoint.Y, minPoint.Z);
+                }
+
+                if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Y &lt;= maxPoint.Y &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = maxPoint;
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Y &lt;= maxPoint.Y)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, maxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, boundingMaxPoint.Y, maxPoint.Z);
+                }
+                else if (boundingMaxPoint.Y &lt;= maxPoint.Y &amp;&amp; boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, maxPoint.Y, maxPoint.Z);
+                }
+                else if (boundingMaxPoint.X &lt;= maxPoint.X)
+                {
+                    boundingMaxPoint = new Vector3(maxPoint.X, boundingMaxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.Y &lt;= maxPoint.Y)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, maxPoint.Y, boundingMaxPoint.Z);
+                }
+                else if (boundingMaxPoint.Z &lt;= maxPoint.Z)
+                {
+                    boundingMaxPoint = new Vector3(boundingMaxPoint.X, boundingMaxPoint.Y, maxPoint.Z);
+                }
+            }
+            boundingSizeX = GetBoundingSize(boundingMinPoint.X, boundingMaxPoint.X);
+            boundingSizeY = GetBoundingSize(boundingMinPoint.Y, boundingMaxPoint.Y);
+            boundingSizeZ = GetBoundingSize(boundingMinPoint.Z, boundingMaxPoint.Z);
+
+            var boundingPoint = 
+                new Vector3(
+                (boundingMaxPoint.X + boundingMinPoint.X) / 2, 
+                (boundingMaxPoint.Y + boundingMinPoint.Y) / 2, 
+                (boundingMaxPoint.Z + boundingMinPoint.Z) / 2
+                );
+
+            return new RectangularCuboid(boundingPoint, boundingSizeX, boundingSizeY, boundingSizeZ);
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="od5a5125ff6c14491b93a26c6060f440f820" cid="OP015" name="ContainsPoint" creation-date="10/08/2021 20:24:57" type="bool" type-id="bool" visibility="public">
+                          <parameters>
+                            <parameter id="p3443e59ca4804830800e97d048da87c4" name="point" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                          <source-codes>
+                            <source-code language="CSharp">
+            return this.Parts.Any(body =&gt; body.ContainsPoint(point));
+        </source-code>
+                          </source-codes>
+                        </operation>
+                        <operation id="o728223567611421c9a2173f4b6902eeb820" cid="OP016" name="CompoundBody" creation-date="10/08/2021 20:24:57" type="" type-id="" visibility="public">
+                          <parameters>
+                            <parameter id="p8b7bfbd65f1040d3a46a1527ac89d631" name="parts" type="IReadOnlyList&lt;Body&gt;" type-id="IReadOnlyList&lt;Body&gt;" />
+                          </parameters>
+                          <stereotypes>
+                            <stereotype>create</stereotype>
+                          </stereotypes>
+                        </operation>
+                        <operation id="ofa28b48a48924098ae2d10f3f41c5236743" cid="OP019" name="GetMinPoint" creation-date="10/23/2021 10:10:06" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p97c6df6a229e4faa90cc33809164964c" name="RectangularCuboid currentRectangularCuboid" type="" type-id="" />
+                          </parameters>
+                        </operation>
+                        <operation id="o06f5ac08d30f44b7abc542308ac66d0f812" cid="OP020" name="GetMaxPoint" creation-date="10/23/2021 10:10:41" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="p51ef6b4b051e4449a2b119515c1ac21b" name="RectangularCuboid currentRectangularCuboid" type="" type-id="" />
+                          </parameters>
+                        </operation>
+                        <operation id="o20a7cced538d4fb6a13eb7208263a91b464" cid="OP021" name="GetBoundingPoint" creation-date="10/23/2021 10:11:07" type="Vector3" type-id="Vector3" visibility="private">
+                          <parameters>
+                            <parameter id="pe3d4dcd2b5ea4751940cf51f446e6586" name="boundingMinPoint" type="Vector3" type-id="Vector3" />
+                            <parameter id="p803dfeb2d2954a258569433cb74ef395" name="boundingMaxPoint" type="Vector3" type-id="Vector3" />
+                          </parameters>
+                        </operation>
+                      </operations>
+                    </item>
+                    <item id="bd53d6eb6cfc497aad3a2eaf4b800191" cid="PROP008" type="property" name="Parts" style-class="" owner="00932188ffd2484f8beba335aa79bdf4" creator="" creation-date="10/08/2021 20:24:57" visibility="public">
+                      <stereotypes>
+                        <stereotype name="property" />
+                      </stereotypes>
+                      <stereotype-instances>
+                        <stereotype id="bd53d6eb6cfc497aad3a2eaf4b800191_property_c" type="property" ref="" />
+                      </stereotype-instances>
+                      <feature />
+                      <structural-feature type="IReadOnlyList&lt;Body&gt;" type-id="IReadOnlyList&lt;Body&gt;" />
+                      <property />
+                    </item>
+                    <item id="1541bed5bc344d6392daa707c4d823c7" cid="GNR001" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="40ad671a1d3149c1aa715f246b06bf3f" to="83374ca6a2c941a1b80817db409f76e6" visibility="undefined" />
+                    <item id="3d06dfed34a34024ad02485dce335f45" cid="GNR002" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="cea87d2d896b42d1b6879af4531dab6e" to="83374ca6a2c941a1b80817db409f76e6" visibility="undefined" />
+                    <item id="1f3a942f84d04afbbc5c8ea5a4ee2e0b" cid="GNR003" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="86096a51c1e0438494d755d89ff87df4" to="83374ca6a2c941a1b80817db409f76e6" visibility="undefined" />
+                    <item id="4d576741b3ff4a79b34259eecada4b9e" cid="GNR004" type="generalization" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="00932188ffd2484f8beba335aa79bdf4" to="83374ca6a2c941a1b80817db409f76e6" visibility="undefined" />
+                    <item id="90b6154986464802a1e633aabd8de00d" cid="REL001" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="83374ca6a2c941a1b80817db409f76e6" to="cea87d2d896b42d1b6879af4531dab6e" visibility="package">
+                      <relation from="83374ca6a2c941a1b80817db409f76e6" to="cea87d2d896b42d1b6879af4531dab6e" derived="false">
+                        <start-role id="umlar-2ee38b6f-56fc-48fc-8161-426089d0a79c" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-460391ac-1401-482e-98ab-ff77b6f6404d" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="810efad213424d26a4226218973e81c4" cid="REL002" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="40ad671a1d3149c1aa715f246b06bf3f" to="cea87d2d896b42d1b6879af4531dab6e" visibility="package">
+                      <relation from="40ad671a1d3149c1aa715f246b06bf3f" to="cea87d2d896b42d1b6879af4531dab6e" derived="false">
+                        <start-role id="umlar-7066efc5-b564-44bb-9480-5ca01194277d" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-0714fffa-6400-4426-a8f4-e1135f6955e7" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="7d21669c55d5468c9259e3d41474df1e" cid="REL004" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="86096a51c1e0438494d755d89ff87df4" to="cea87d2d896b42d1b6879af4531dab6e" visibility="package">
+                      <relation from="86096a51c1e0438494d755d89ff87df4" to="cea87d2d896b42d1b6879af4531dab6e" derived="false">
+                        <start-role id="umlar-5f118fbb-ce1d-41fb-be39-1f7d6d2b0c52" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-47b24b96-0f93-42de-a9af-54df73af41b4" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                    <item id="529773b7e6ce487a9ed2d8cf303fbb4e" cid="REL005" type="relationship" name="" style-class="" creator="" creation-date="10/08/2021 20:24:57" from="00932188ffd2484f8beba335aa79bdf4" to="cea87d2d896b42d1b6879af4531dab6e" visibility="package">
+                      <relation from="00932188ffd2484f8beba335aa79bdf4" to="cea87d2d896b42d1b6879af4531dab6e" derived="false">
+                        <start-role id="umlar-f63c0a3c-42bf-433e-822d-eabf843cd6a6" name="" navigability="" association-type="aggregation" visibility="private" />
+                        <end-role id="umlar-c7ac6c2b-07ca-472a-83fe-03d606da12a4" name="" navigability="" association-type="association" visibility="private" />
+                      </relation>
+                    </item>
+                  </abstract-items>
+                  <sub-models />
+                  <diagram type="uml-class" id="pf0e3636273294385949ac9b5c302d1aa_749007209" name="Virtual" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Inheritance.Geometry.Virtual" view-location="-342,-225" zoom="0.9">
+                    <style>
+                      <background-color index="1" color="#FFFFFFFF" />
+                      <background-color index="2" color="#FFFFFFFF" />
+                      <background-type type="vertical-linear" />
+                    </style>
+                    <meta>
+                      <authors>
+                        <author> </author>
+                      </authors>
+                      <description />
+                      <creation-date>10/08/2021 20:24:57</creation-date>
+                      <change-date>10/08/2021 20:28:38</change-date>
+                      <revision-count>0</revision-count>
+                      <version />
+                    </meta>
+                    <abstract-items />
+                    <layer id="032c53bf8fa048a0a9a9d6b2620731ac" name="Default" visible="true" enabled="true" locked="false">
+                      <item id="83374ca6a2c941a1b80817db409f76e6" iid="ba7859dc41134aa39b7f8d6adb559806" creation-date="10/08/2021 20:24:57" order-index="0" type="entity">
+                        <layout ax="445" ay="28" awidth="252" aheight="122" x="445" y="28" width="252" height="122" />
+                        <class />
+                      </item>
+                      <item id="40ad671a1d3149c1aa715f246b06bf3f" iid="db1afb6f09cc4fdfb552250fb54fc0e5" creation-date="10/08/2021 20:24:57" order-index="1" type="entity">
+                        <layout ax="71.5" ay="317.5" awidth="305" aheight="122" x="71.5" y="317.5" width="305" height="122" />
+                        <class />
+                      </item>
+                      <item id="cea87d2d896b42d1b6879af4531dab6e" iid="e4af928150df431a809a68552dc1a495" creation-date="10/08/2021 20:24:57" order-index="2" type="entity">
+                        <layout ax="-40" ay="15" awidth="345" aheight="178" x="-40" y="15" width="345" height="178" />
+                        <class />
+                      </item>
+                      <item id="86096a51c1e0438494d755d89ff87df4" iid="23b2baa260c04c0aab94a2ccfc5b2f72" creation-date="10/08/2021 20:24:57" order-index="3" type="entity">
+                        <layout ax="176.5" ay="-223" awidth="329" aheight="159" x="176.5" y="-223" width="329" height="159" />
+                        <class />
+                      </item>
+                      <item id="00932188ffd2484f8beba335aa79bdf4" iid="abd2f212eb85468fab28f4dd45643a35" creation-date="10/08/2021 20:24:57" order-index="4" type="entity">
+                        <layout ax="399.5" ay="279.5" awidth="415" aheight="344" x="399.5" y="279.5" width="415" height="203" rotation-center="-31,-22" />
+                        <class />
+                      </item>
+                      <item id="1541bed5bc344d6392daa707c4d823c7" iid="52874afa6f9b41618b1047ad16f92b61" creation-date="10/08/2021 20:24:57" order-index="5" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="277" y1="318" x2="482" y2="150" start-border-pos="0.168442621827126" end-border-pos="0.71329365670681" start-local-pos="203.5" end-local-pos="37" name-position="0,20">
+                          <points>
+                            <point x="277" y="318" />
+                            <point x="482" y="150" />
+                          </points>
+                        </layout>
+                        <relation from="40ad671a1d3149c1aa715f246b06bf3f" from-iid="db1afb6f09cc4fdfb552250fb54fc0e5" to="83374ca6a2c941a1b80817db409f76e6" to-iid="ba7859dc41134aa39b7f8d6adb559806" />
+                      </item>
+                      <item id="3d06dfed34a34024ad02485dce335f45" iid="9a1b8345e1674b6aa73a8df74c6e967b" creation-date="10/08/2021 20:24:57" order-index="6" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="305" y1="68" x2="445" y2="69" start-border-pos="0.324438202247191" end-border-pos="0.915983602404594" start-local-pos="44" end-local-pos="41" name-position="0,20">
+                          <points>
+                            <point x="305" y="68" />
+                            <point x="445" y="69" />
+                          </points>
+                        </layout>
+                        <relation from="cea87d2d896b42d1b6879af4531dab6e" from-iid="e4af928150df431a809a68552dc1a495" to="83374ca6a2c941a1b80817db409f76e6" to-iid="ba7859dc41134aa39b7f8d6adb559806" />
+                      </item>
+                      <item id="1f3a942f84d04afbbc5c8ea5a4ee2e0b" iid="d6775537b8ac459daab42db3c79a9db2" creation-date="10/08/2021 20:24:57" order-index="7" type="relation">
+                        <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="506" y1="-144" x2="571" y2="28" start-border-pos="0.374213836477987" end-border-pos="0.125" start-local-pos="79" name-position="0,20">
+                          <points>
+                            <point x="506" y="-144" />
+                            <point x="571" y="28" />
+                          </points>
+                        </layout>
+                        <relation from="86096a51c1e0438494d755d89ff87df4" from-iid="23b2baa260c04c0aab94a2ccfc5b2f72" to="83374ca6a2c941a1b80817db409f76e6" to-iid="ba7859dc41134aa39b7f8d6adb559806" />
+                      </item>
+                      <item id="4d576741b3ff4a79b34259eecada4b9e" iid="e3f132fe9ecf493d8744253e6cfe311d" creation-date="10/08/2021 20:24:57" order-index="8" type="relation">
+                        <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="594" y1="280" x2="593" y2="150" start-border-pos="0.117168672382832" end-border-pos="0.603174604475498" start-local-pos="148.5" end-local-pos="126" name-position="-75,42">
+                          <points>
+                            <point x="594" y="280" />
+                            <point x="593" y="150" />
+                          </points>
+                        </layout>
+                        <relation from="00932188ffd2484f8beba335aa79bdf4" from-iid="abd2f212eb85468fab28f4dd45643a35" to="83374ca6a2c941a1b80817db409f76e6" to-iid="ba7859dc41134aa39b7f8d6adb559806" />
+                      </item>
+                      <item id="90b6154986464802a1e633aabd8de00d" iid="c63a32213f364b0b8942eace22453a88" creation-date="10/08/2021 20:24:57" order-index="9" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-to-fields="false" auto-path="" x1="445" y1="104" x2="305" y2="104" start-border-pos="0.844262295081967" end-border-pos="0.375" start-local-pos="81" name-position="0,50">
+                          <points>
+                            <point x="445" y="104" />
+                            <point x="305" y="104" />
+                          </points>
+                        </layout>
+                        <relation from="83374ca6a2c941a1b80817db409f76e6" from-iid="ba7859dc41134aa39b7f8d6adb559806" to="cea87d2d896b42d1b6879af4531dab6e" to-iid="e4af928150df431a809a68552dc1a495" />
+                      </item>
+                      <item id="810efad213424d26a4226218973e81c4" iid="44ae6602d53b4f5db89af4a64c1112d2" creation-date="10/08/2021 20:24:57" order-index="10" type="relation">
+                        <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="146" y1="318" x2="145" y2="193" start-border-pos="0.0610655732452869" end-border-pos="0.615942031145096" start-local-pos="101.5" end-local-pos="115" name-position="0,20">
+                          <points>
+                            <point x="146" y="318" />
+                            <point x="145" y="193" />
+                          </points>
+                        </layout>
+                        <relation from="40ad671a1d3149c1aa715f246b06bf3f" from-iid="db1afb6f09cc4fdfb552250fb54fc0e5" to="cea87d2d896b42d1b6879af4531dab6e" to-iid="e4af928150df431a809a68552dc1a495" />
+                      </item>
+                      <item id="7d21669c55d5468c9259e3d41474df1e" iid="7f654ebf10864e3394ae8744315a7e0f" creation-date="10/08/2021 20:24:57" order-index="12" type="relation">
+                        <layout start-role-position="25,15" end-role-position="46,-13" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="190" y1="-64" x2="190" y2="15" start-border-pos="0.739741638302803" end-border-pos="0.58333333581686" start-local-pos="13.5" end-local-pos="230" name-position="0,20">
+                          <points>
+                            <point x="190" y="-64" />
+                            <point x="190" y="15" />
+                          </points>
+                        </layout>
+                        <relation from="86096a51c1e0438494d755d89ff87df4" from-iid="23b2baa260c04c0aab94a2ccfc5b2f72" to="cea87d2d896b42d1b6879af4531dab6e" to-iid="e4af928150df431a809a68552dc1a495" />
+                      </item>
+                      <item id="529773b7e6ce487a9ed2d8cf303fbb4e" iid="0151d4af0ed541cd969840ce44cdd05b" creation-date="10/08/2021 20:24:57" order-index="13" type="relation">
+                        <layout start-role-position="25,15" end-role-position="62,-24" start-multiplicity-position="25,-15" end-multiplicity-position="57,51" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="400" y1="588" x2="2" y2="193" start-border-pos="0.775943396613002" end-border-pos="0.719565212726593" start-local-pos="142.5" end-local-pos="42" name-position="-385,113">
+                          <points>
+                            <point x="400" y="588" />
+                            <point x="2" y="193" />
+                          </points>
+                        </layout>
+                        <relation from="00932188ffd2484f8beba335aa79bdf4" from-iid="abd2f212eb85468fab28f4dd45643a35" from-field="o728223567611421c9a2173f4b6902eeb820" to="cea87d2d896b42d1b6879af4531dab6e" to-iid="e4af928150df431a809a68552dc1a495" />
+                      </item>
+                    </layer>
+                  </diagram>
+                </model>
+              </sub-models>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="pf4279de584a4498da363f5ddf083d69b_266178197" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/08/2021 20:24:57</creation-date>
+          <change-date>10/08/2021 20:24:57</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="956b44f5608d42568eaa36eb15d20990" name="Default" visible="true" enabled="true" locked="false">
+          <item id="56900356d93a4868946622a602a70682" iid="c9db9287190e457581b3c477804565b4" creation-date="10/08/2021 20:24:57" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="116" aheight="56" x="0" y="0" width="116" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="d9f6cf0140a345bb94dbe4cd5d5ed742" iid="84b4020560634c878306cd6ea2127f8d" creation-date="10/08/2021 20:24:57" order-index="1" type="entity">
+            <layout ax="5" ay="156" awidth="106" aheight="56" x="5" y="156" width="106" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="0dabff4df55e4800a349f12f4bc51974" iid="9887449980a44e6ab1ab58f631b348d2" creation-date="10/08/2021 20:24:57" order-index="2" type="entity">
+            <layout ax="16" ay="312" awidth="84" aheight="56" x="16" y="312" width="84" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="322246934f0c422a8939e30c204de9eb" iid="9c5e1c2469b1492db24d13542ac56d73" creation-date="10/08/2021 20:24:57" order-index="3" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="58" y1="156" x2="58" y2="56" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="58" y="156" />
+                <point x="58" y="106" />
+                <point x="58" y="106" />
+                <point x="58" y="56" />
+              </points>
+            </layout>
+            <relation from="d9f6cf0140a345bb94dbe4cd5d5ed742" from-iid="84b4020560634c878306cd6ea2127f8d" to="56900356d93a4868946622a602a70682" to-iid="c9db9287190e457581b3c477804565b4" />
+          </item>
+          <item id="59eb51a4c3984afba9af47d44d3f6107" iid="e65a054f8d3247c296685566c0981bbf" creation-date="10/08/2021 20:24:57" order-index="4" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="58" y1="312" x2="58" y2="212" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="58" y="312" />
+                <point x="58" y="262" />
+                <point x="58" y="262" />
+                <point x="58" y="212" />
+              </points>
+            </layout>
+            <relation from="0dabff4df55e4800a349f12f4bc51974" from-iid="9887449980a44e6ab1ab58f631b348d2" to="d9f6cf0140a345bb94dbe4cd5d5ed742" to-iid="84b4020560634c878306cd6ea2127f8d" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

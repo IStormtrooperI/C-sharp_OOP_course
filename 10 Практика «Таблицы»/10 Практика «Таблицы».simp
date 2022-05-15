@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpcd444b38eb624bb0943eeb390b1c2696">
+  <meta>
+    <name>10 Практика «Таблицы»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>159</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>8</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-71ce083b6bea4845b0b1b202d321a549" name="" task-id-sequence="0">
+    <working-schedule uid="ws-8ff6d0c63e694b30b602ac6f7f1af750" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-24ff1155af5b4311bc2a65376b5a0a5e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1c5100b69788465f98988312688d88b5" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Dictionary&lt;int, TIntRows&gt;" tid="" name="Dictionary&lt;int, TIntRows&gt;" description="" />
+      <type id="Dictionary&lt;int, TStringColumns&gt;" tid="" name="Dictionary&lt;int, TStringColumns&gt;" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="CountToRowsAndColumns" tid="" name="CountToRowsAndColumns" description="" />
+      <type id="bool" tid="" name="bool" description="" />
+      <type id="TIntRows" tid="" name="TIntRows" description="" />
+      <type id="TStringColumns" tid="" name="TStringColumns" description="" />
+      <type id="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" tid="" name="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" description="" />
+      <type id="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" tid="" name="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" description="" />
+      <type id="TDoubleContent" tid="" name="TDoubleContent" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pee812b0d7ba4423ebf643e7cd11f0de2_541882198" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/16/2021 22:12:42</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="5230b84bfb004493a75909fa5e241b9f" cid="PKG001" type="package" name="Generics" style-class="" creator="" creation-date="10/16/2021 22:12:48" visibility="undefined" />
+        <item id="c4aefb86c55847a1b409b19df78b27b8" cid="PKG002" type="package" name="Tables" style-class="" creator="" creation-date="10/16/2021 22:12:48" visibility="undefined" />
+        <item id="df2197ce62c046149bf6579cdf156344" cid="CNT002" type="containment" name="" style-class="" creator="" creation-date="10/16/2021 22:12:48" from="c4aefb86c55847a1b409b19df78b27b8" to="5230b84bfb004493a75909fa5e241b9f" />
+      </abstract-items>
+      <sub-models>
+        <model id="p9098546e5f654e5081bbbb678a8c54ec_589578470" name="Generics" namespace="Generics" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/16/2021 22:12:48</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p15c33eb8a1444a3e99261f9531e97015_295090441" name="Tables" namespace="Generics.Tables" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/16/2021 22:12:48</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="48f2f88b30f24e1e847f024a0b02385c" cid="C001" type="class" name="Table" style-class="" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvaaa722439040474e8e2effca33161988" name="namespace" type="text" multiple="false" value="Generics.Tables" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="a50fae16bfcd4de9b842170aeb4ffdbe" />
+                    <owned-item ref="87fb86b59c7f49a9bb63da7510e70a1a" />
+                    <owned-item ref="cfcebdab52074976a0384f71c4251604" />
+                    <owned-item ref="98a865cc6e2b4027a5fdaa9108e7ed37" />
+                    <owned-item ref="9e4503b508d64b68845a5e3cb3d29657" />
+                    <owned-item ref="ab8ccd3f2be4452492a4541ab8673ff8" />
+                    <owned-item ref="7ec8ab7ec7bb4523b8733a9efd0359c6" />
+                    <owned-item ref="c83a0d07e46c41ca92f05f4ad243ecbb" />
+                    <owned-item ref="791c9cea53884738b1b4e6344f6a4ef9" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a76d053abb2784fa480c54938e14feb23350" cid="PROP001" name="rows" creation-date="10/16/2021 22:12:48" property-ref="a50fae16bfcd4de9b842170aeb4ffdbe" />
+                    <attribute id="af7f0b5d733c7448aa0ec6fa13cab3540351" cid="PROP002" name="columns" creation-date="10/16/2021 22:12:48" property-ref="87fb86b59c7f49a9bb63da7510e70a1a" />
+                    <attribute id="a1e71304c4d13496d844c0224e5960498179" cid="PROP014" name="content" creation-date="10/16/2021 22:16:23" property-ref="791c9cea53884738b1b4e6344f6a4ef9" />
+                    <attribute id="afb259a21993b4d0fb01fced14308408e357" cid="PROP004" name="countRows" creation-date="10/16/2021 22:12:48" property-ref="cfcebdab52074976a0384f71c4251604" />
+                    <attribute id="ad250d14ed02048849294bf4c34d659e8361" cid="PROP005" name="Rows" creation-date="10/16/2021 22:12:48" property-ref="98a865cc6e2b4027a5fdaa9108e7ed37" />
+                    <attribute id="a1ab1af58cfbf49c48a22b2e90bd55ff4363" cid="PROP007" name="countColumns" creation-date="10/16/2021 22:12:48" property-ref="9e4503b508d64b68845a5e3cb3d29657" />
+                    <attribute id="a2ba2730231254285a33293b4c149e83a363" cid="PROP008" name="Columns" creation-date="10/16/2021 22:12:48" property-ref="ab8ccd3f2be4452492a4541ab8673ff8" />
+                    <attribute id="aa85764371e9f463d9d8a583059df61ca369" cid="PROP010" name="Open" creation-date="10/16/2021 22:12:48" property-ref="7ec8ab7ec7bb4523b8733a9efd0359c6" />
+                    <attribute id="a0a99487d28c8447eb22f742064eaa9a0369" cid="PROP011" name="Existed" creation-date="10/16/2021 22:12:48" property-ref="c83a0d07e46c41ca92f05f4ad243ecbb" />
+                  </attributes>
+                  <operations>
+                    <operation id="o821ba4c3631549b68bca9c9f9d895dce363" cid="OP002" name="AddRow" creation-date="10/16/2021 22:12:48" type="bool" type-id="bool" visibility="public">
+                      <parameters>
+                        <parameter id="pd0eca3fde07c4c488a84b47ad7550031" name="row" type="TIntRows" type-id="TIntRows" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (rows == null) 
+            {
+                rows = new Dictionary&lt;int, TIntRows&gt; { { 0, row } };
+                ++countRows.count;
+                return true;
+            }
+            else if (!rows.ContainsValue(row))
+            {
+                rows.Add(rows.Count, row);
+                ++countRows.count;
+                return true;
+            }
+            return false;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o0fb35628ba0c43159dd5eaab695c9b16368" cid="OP003" name="AddColumn" creation-date="10/16/2021 22:12:48" type="bool" type-id="bool" visibility="public">
+                      <parameters>
+                        <parameter id="p90548a0364a94a7caacc0dfe48c8e823" name="column" type="TStringColumns" type-id="TStringColumns" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (columns == null)
+            {
+                columns = new Dictionary&lt;int, TStringColumns&gt; { { 0, column } };
+                ++countColumns.count;
+                return true;
+            }
+            else if (!columns.ContainsValue(column))
+            {
+                columns.Add(columns.Count, column);
+                ++countColumns.count;
+                return true;
+            }
+            return false;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="obd9b73cfdc7e44f7ac5c6b700b87cfad369" cid="OP004" name="GetRowIndex" creation-date="10/16/2021 22:12:48" type="int" type-id="int" visibility="public">
+                      <parameters>
+                        <parameter id="p3ee9691c33374a13bf6a25fbfc2a36cf" name="row" type="TIntRows" type-id="TIntRows" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (rows != null) 
+            {
+                for (int i = 0; i &lt; rows.Count; i++)
+                {
+                    rows.TryGetValue(i, out TIntRows value);
+                    if (row.Equals(value))
+                    {
+                        return i;
+                    }
+                }
+            }
+            return -1; 
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o3fb720b188744dddbc5ef30680f2007a369" cid="OP005" name="GetColumnIndex" creation-date="10/16/2021 22:12:48" type="int" type-id="int" visibility="public">
+                      <parameters>
+                        <parameter id="p1c894fce508d49cfb5a19125b8d2d2d7" name="column" type="TStringColumns" type-id="TStringColumns" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (columns != null) 
+            {
+                for (int i = 0; i &lt; columns.Count; i++)
+                {
+                    columns.TryGetValue(i, out TStringColumns value);
+                    if (column.Equals(value))
+                    {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o394a8aa3d71944afae729304bba1c074369" cid="OP006" name="AddDefaultContent" creation-date="10/16/2021 22:12:48" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="p21556652fb21426d91f2fe9ccdd06094" name="row" type="TIntRows" type-id="TIntRows" />
+                        <parameter id="p2b92ae95ccac4c6dadf0cc41e3e11ad3" name="column" type="TStringColumns" type-id="TStringColumns" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if(AddRow(row))
+                --countRows.count;
+
+            if(AddColumn(column))
+                --countColumns.count;
+
+
+            var indexRow = GetRowIndex(row);
+            var indexColumn = GetColumnIndex(column);
+
+            if (content[indexRow, indexColumn] == null)
+            {
+                content[indexRow, indexColumn] = default;
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t2e4d7cc7cee544bfa9923b1371aa1187336" name="TIntRows" kind="" default-value="" />
+                    <template-parameter id="t195028bb0d204843b0da4d6978840ede337" name="TStringColumns" kind="" default-value="" />
+                    <template-parameter id="tfc74b990821540b683a972a74c151b7b337" name="TDoubleContent" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="a50fae16bfcd4de9b842170aeb4ffdbe" cid="PROP001" type="property" name="rows" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <feature />
+                  <structural-feature type="Dictionary&lt;int, TIntRows&gt;" type-id="Dictionary&lt;int, TIntRows&gt;" />
+                  <property />
+                </item>
+                <item id="87fb86b59c7f49a9bb63da7510e70a1a" cid="PROP002" type="property" name="columns" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <feature />
+                  <structural-feature type="Dictionary&lt;int, TStringColumns&gt;" type-id="Dictionary&lt;int, TStringColumns&gt;" />
+                  <property />
+                </item>
+                <item id="84ece1f3310748788f0e2fff101dcd15" cid="C002" type="class" name="CountToRowsAndColumns" style-class="" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tve641d80a921b480d86c3a476b725dd1f" name="namespace" type="text" multiple="false" value="Generics.Tables" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="fea276e1df164f8f9ac0a21ff6c1131e" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a9975335fe0094dddbfde57ccc7401585352" cid="PROP003" name="count" creation-date="10/16/2021 22:12:48" property-ref="fea276e1df164f8f9ac0a21ff6c1131e" />
+                  </attributes>
+                  <operations>
+                    <operation id="o4b389fa0c81c4551a75f8b3ddf00d3f2356" cid="OP001" name="Count" creation-date="10/16/2021 22:12:48" type="int" type-id="int" visibility="public">
+                      <source-codes>
+                        <source-code language="CSharp">
+                return count;
+            </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="fea276e1df164f8f9ac0a21ff6c1131e" cid="PROP003" type="property" name="count" style-class="" owner="84ece1f3310748788f0e2fff101dcd15" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="cfcebdab52074976a0384f71c4251604" cid="PROP004" type="property" name="countRows" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="private">
+                  <feature />
+                  <structural-feature read-only="true" type="CountToRowsAndColumns" type-id="CountToRowsAndColumns" />
+                  <property default-value="new CountToRowsAndColumns()" />
+                </item>
+                <item id="98a865cc6e2b4027a5fdaa9108e7ed37" cid="PROP005" type="property" name="Rows" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="98a865cc6e2b4027a5fdaa9108e7ed37_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="CountToRowsAndColumns" type-id="CountToRowsAndColumns" />
+                  <property>
+                    <source-codes>
+                      <source-code language="CSharp" uid="scs-efb283cf-0adc-4430-9ef5-c9e54d017718">
+                        <script name="Get">
+                return countRows;
+            </script>
+                      </source-code>
+                    </source-codes>
+                  </property>
+                </item>
+                <item id="791c9cea53884738b1b4e6344f6a4ef9" cid="PROP014" type="property" name="content" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:16:23" visibility="public">
+                  <feature />
+                  <structural-feature multiplicity="," type="TDoubleContent" type-id="TDoubleContent" />
+                  <property default-value="new TDoubleContent[5000,5000]" />
+                </item>
+                <item id="9e4503b508d64b68845a5e3cb3d29657" cid="PROP007" type="property" name="countColumns" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="private">
+                  <feature />
+                  <structural-feature read-only="true" type="CountToRowsAndColumns" type-id="CountToRowsAndColumns" />
+                  <property default-value="new CountToRowsAndColumns()" />
+                </item>
+                <item id="ab8ccd3f2be4452492a4541ab8673ff8" cid="PROP008" type="property" name="Columns" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="ab8ccd3f2be4452492a4541ab8673ff8_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="CountToRowsAndColumns" type-id="CountToRowsAndColumns" />
+                  <property>
+                    <source-codes>
+                      <source-code language="CSharp" uid="scs-2c7f4c4d-9e6e-45a4-b4c9-fb7091e8f4dc">
+                        <script name="Get">
+                return countColumns;
+            </script>
+                      </source-code>
+                    </source-codes>
+                  </property>
+                </item>
+                <item id="7ec8ab7ec7bb4523b8733a9efd0359c6" cid="PROP010" type="property" name="Open" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <feature />
+                  <structural-feature type="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" type-id="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" />
+                  <property default-value="&gt;&#xD;&#xA;            new Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;(this, true)" />
+                </item>
+                <item id="c83a0d07e46c41ca92f05f4ad243ecbb" cid="PROP011" type="property" name="Existed" style-class="" owner="48f2f88b30f24e1e847f024a0b02385c" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <feature />
+                  <structural-feature type="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" type-id="Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;" />
+                  <property default-value="&gt;&#xD;&#xA;            new Indexator&lt;TIntRows, TStringColumns, TDoubleContent&gt;(this, false)" />
+                </item>
+                <item id="cf04072a99474528a2769e32b8d07ef6" cid="C003" type="class" name="Indexator" style-class="" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv219d520795354b43badf4f40c81b4b97" name="namespace" type="text" multiple="false" value="Generics.Tables" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="26e457b9923a49a0bdc1f67f1d37628c" />
+                    <owned-item ref="19ac12752e4f4083b9e599c1cff1959e" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a0aaf63b6046e4fcaa00368246cce29bd369" cid="PROP012" name="IsAccess" creation-date="10/16/2021 22:12:48" property-ref="26e457b9923a49a0bdc1f67f1d37628c" />
+                    <attribute id="a58182b3e21094c4790a52b748cb3a2cc369" cid="PROP013" name="Table" creation-date="10/16/2021 22:12:48" property-ref="19ac12752e4f4083b9e599c1cff1959e" />
+                  </attributes>
+                  <operations>
+                    <operation id="o844bbbd387cb4fafaa83fe5898fc8aa8369" cid="OP007" name="Indexator" creation-date="10/16/2021 22:12:48" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="paed4b6fbda19441ba56e628bad4e169f" name="table" type="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" type-id="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" />
+                        <parameter id="pfd34c473a2954f1c8732aa8e14670250" name="isAccess" type="bool" type-id="bool" />
+                      </parameters>
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="tbd995dc7862842c88eb1370d3acef128369" name="TIntRows" kind="" default-value="" />
+                    <template-parameter id="t4fe2bef40c794840a51847bb9c9fd80b369" name="TStringColumns" kind="" default-value="" />
+                    <template-parameter id="t03748a241f7b49839e73b510cf6733e2369" name="TDoubleContent" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="26e457b9923a49a0bdc1f67f1d37628c" cid="PROP012" type="property" name="IsAccess" style-class="" owner="cf04072a99474528a2769e32b8d07ef6" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="26e457b9923a49a0bdc1f67f1d37628c_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="bool" type-id="bool" />
+                  <property />
+                </item>
+                <item id="19ac12752e4f4083b9e599c1cff1959e" cid="PROP013" type="property" name="Table" style-class="" owner="cf04072a99474528a2769e32b8d07ef6" creator="" creation-date="10/16/2021 22:12:48" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="19ac12752e4f4083b9e599c1cff1959e_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" type-id="Table&lt;TIntRows, TStringColumns, TDoubleContent&gt;" />
+                  <property />
+                </item>
+                <item id="799a2702cc9440a5a67f7848ee656531" cid="REL001" type="relationship" name="" style-class="" creator="" creation-date="10/16/2021 22:12:48" from="48f2f88b30f24e1e847f024a0b02385c" to="84ece1f3310748788f0e2fff101dcd15" visibility="package">
+                  <relation from="48f2f88b30f24e1e847f024a0b02385c" to="84ece1f3310748788f0e2fff101dcd15" derived="false">
+                    <start-role id="umlar-a2e3467b-1f3c-4cf9-948b-b5c641818682" name="" navigability="" association-type="aggregation" visibility="private" />
+                    <end-role id="umlar-28057dd4-31fe-46d2-8d8e-2205ea6366f6" name="" navigability="" association-type="association" visibility="private" attribute-ref="a9975335fe0094dddbfde57ccc7401585352" />
+                  </relation>
+                </item>
+              </abstract-items>
+              <sub-models />
+              <diagram type="uml-class" id="p73585ed9d5884793b16e878f344b8382_207252732" name="Tables" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Generics.Tables" view-location="-108,-152">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>10/16/2021 22:12:48</creation-date>
+                  <change-date>10/29/2021 12:46:03</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items>
+                  <item id="74321a42fe9040ee86dee0da7c932015" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="10/16/2021 22:20:07" from="48f2f88b30f24e1e847f024a0b02385c" to="cf04072a99474528a2769e32b8d07ef6" visibility="package">
+                    <relation from="48f2f88b30f24e1e847f024a0b02385c" to="cf04072a99474528a2769e32b8d07ef6" derived="false">
+                      <start-role id="umlar-99326b66-d61d-4b43-9ea6-939bc52cf971" name="" navigability="" association-type="association" visibility="private" attribute-ref="aa85764371e9f463d9d8a583059df61ca369" />
+                      <end-role id="umlar-abd9cc50-c4b0-4f4a-b889-93aeaa6ed824" name="" navigability="yes" association-type="association" visibility="private" attribute-ref="a58182b3e21094c4790a52b748cb3a2cc369" />
+                    </relation>
+                  </item>
+                </abstract-items>
+                <layer id="3b435e7bf0ef407e8cfad1652cd3a714" name="Default" visible="true" enabled="true" locked="false">
+                  <item id="48f2f88b30f24e1e847f024a0b02385c" iid="652c1b87668d4b1c85af4aace679535a" creation-date="10/16/2021 22:12:48" order-index="0" type="entity">
+                    <layout ax="0" ay="0" awidth="543" aheight="360" x="0" y="0" width="543" height="360" rotation-center="-98.5,133.5" />
+                    <class />
+                  </item>
+                  <item id="84ece1f3310748788f0e2fff101dcd15" iid="e545b293bda241928bbaf85b707c159f" creation-date="10/16/2021 22:12:48" order-index="1" type="entity">
+                    <layout ax="609" ay="184" awidth="206" aheight="84" x="609" y="184" width="206" height="84" />
+                    <class />
+                  </item>
+                  <item id="cf04072a99474528a2769e32b8d07ef6" iid="6c45c182dbbb4222b9d0b421e601bde5" creation-date="10/16/2021 22:12:48" order-index="2" type="entity">
+                    <layout ax="584" ay="0" awidth="431" aheight="149" x="584" y="0" width="431" height="149" rotation-center="-44,0" />
+                    <class />
+                  </item>
+                  <item id="74321a42fe9040ee86dee0da7c932015" iid="590166bff1fb44d981ff0db92a5730c6" creation-date="10/16/2021 22:20:07" order-index="5" type="relation">
+                    <layout start-role-position="25,15" end-role-position="24.99998,-15.00001" start-multiplicity-position="25.00002,-14.99998" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="543" y1="56" x2="584" y2="55" start-border-pos="0.288802083581686" end-border-pos="0.907718122005463" start-local-pos="75" end-local-pos="55" name-position="0,20">
+                      <points>
+                        <point x="543" y="56" />
+                        <point x="584" y="55" />
+                      </points>
+                    </layout>
+                    <relation from="48f2f88b30f24e1e847f024a0b02385c" from-iid="652c1b87668d4b1c85af4aace679535a" from-field="aa85764371e9f463d9d8a583059df61ca369" to="cf04072a99474528a2769e32b8d07ef6" to-iid="6c45c182dbbb4222b9d0b421e601bde5" to-field="a0aaf63b6046e4fcaa00368246cce29bd369" />
+                  </item>
+                  <item id="799a2702cc9440a5a67f7848ee656531" iid="7fc276f9c549401dae89781a49226b5a" creation-date="10/16/2021 22:12:48" order-index="4" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="543" y1="214" x2="609" y2="214" start-border-pos="0.39861111342907" end-border-pos="0.910714285714286" start-local-pos="214" end-local-pos="30" name-position="0,20">
+                      <points>
+                        <point x="543" y="214" />
+                        <point x="609" y="214" />
+                      </points>
+                    </layout>
+                    <relation from="48f2f88b30f24e1e847f024a0b02385c" from-iid="652c1b87668d4b1c85af4aace679535a" to="84ece1f3310748788f0e2fff101dcd15" to-iid="e545b293bda241928bbaf85b707c159f" to-field="a9975335fe0094dddbfde57ccc7401585352" />
+                  </item>
+                </layer>
+              </diagram>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p687aabc227144facb0d71fe2bb33ff7e_119767158" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/16/2021 22:12:48</creation-date>
+          <change-date>10/16/2021 22:12:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="8d46df2308c34f73b29cd733a18047a6" name="Default" visible="true" enabled="true" locked="false">
+          <item id="5230b84bfb004493a75909fa5e241b9f" iid="ce2fd79be5894d01b3f2bb8306b3f898" creation-date="10/16/2021 22:12:48" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="96" aheight="56" x="0" y="0" width="96" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="c4aefb86c55847a1b409b19df78b27b8" iid="25d66606f9f94010b1f28a9fb7680484" creation-date="10/16/2021 22:12:48" order-index="1" type="entity">
+            <layout ax="6" ay="156" awidth="84" aheight="56" x="6" y="156" width="84" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="df2197ce62c046149bf6579cdf156344" iid="10905826681845928940ef5211dc932b" creation-date="10/16/2021 22:12:48" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="48" y1="156" x2="48" y2="56" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="48" y="156" />
+                <point x="48" y="106" />
+                <point x="48" y="106" />
+                <point x="48" y="56" />
+              </points>
+            </layout>
+            <relation from="c4aefb86c55847a1b409b19df78b27b8" from-iid="25d66606f9f94010b1f28a9fb7680484" to="5230b84bfb004493a75909fa5e241b9f" to-iid="ce2fd79be5894d01b3f2bb8306b3f898" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

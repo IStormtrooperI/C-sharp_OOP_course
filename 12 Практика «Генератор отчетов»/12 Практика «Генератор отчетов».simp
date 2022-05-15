@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpc108e07f7afc425b82f2d6d70d888e72">
+  <meta>
+    <name>12 Практика «Генератор отчетов»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>682</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>8</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-3ccc7369e08c4fc78d13a15c8b660a12" name="" task-id-sequence="0">
+    <working-schedule uid="ws-2b3ad55c47164b23b37c0db296492e0c" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-e783a54205eb4cf0839337080ebaeaef" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-a11f227ae50848edbdfe17ade6c84e6a" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2614ee431e944f12b6aa8fe6252bdf42" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="string" tid="" name="string" description="" />
+      <type id="Statistic&lt;TStatistics&gt;" tid="" name="Statistic&lt;TStatistics&gt;" description="" />
+      <type id="IEnumerable&lt;double&gt;" tid="" name="IEnumerable&lt;double&gt;" description="" />
+      <type id="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" tid="" name="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" description="" />
+      <type id="T" tid="" name="T" description="" />
+      <type id="IEnumerable&lt;Measurement&gt;" tid="" name="IEnumerable&lt;Measurement&gt;" description="" />
+      <type id="Statistic&lt;MeanAndStd&gt;" tid="" name="Statistic&lt;MeanAndStd&gt;" description="" />
+      <type id="Statistic&lt;double&gt;" tid="" name="Statistic&lt;double&gt;" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p8ec85a24d17f4c3f91fe1d07435ef727_584490945" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/04/2021 16:40:40</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="fa57a39b428d453bb25ef2de79aca6d4" cid="PKG001" type="package" name="Delegates" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="undefined" />
+        <item id="003c9dee05a14beeabe1d45954b6d9f1" cid="PKG002" type="package" name="Reports" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="undefined" />
+        <item id="509b1bb034fa49eea1f84df0da1289be" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="11/04/2021 16:40:47" from="003c9dee05a14beeabe1d45954b6d9f1" to="fa57a39b428d453bb25ef2de79aca6d4" />
+      </abstract-items>
+      <sub-models>
+        <model id="pd5550964d55740f09a09abca58cb4a9f_585923815" name="Delegates" namespace="Delegates" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>11/04/2021 16:40:47</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p6100c4d8b19c467fac5f52e45abab7f9_379864982" name="Reports" namespace="Delegates.Reports" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>11/04/2021 16:40:47</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="69ed3897e4a24b0ebf4e5aa1dc4d7263" cid="C001" type="class" name="IStatisticsMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="interface" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvfc0de0b7bf0f46f8aa450fb95b39f1d1" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="69ed3897e4a24b0ebf4e5aa1dc4d7263_interface_c" type="interface" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="3c9bf618ae0b4c059c1575e0a72a4bb0" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a32f51dd058474c62b38e55144626161615" cid="PROP001" name="Caption" creation-date="11/04/2021 16:40:47" property-ref="3c9bf618ae0b4c059c1575e0a72a4bb0" />
+                  </attributes>
+                  <operations>
+                    <operation id="od0e74ce70dcc43f280fc98df162395dc29" cid="OP001" name="MakeStatistics" creation-date="11/04/2021 16:40:47" type="Statistic&lt;TStatistics&gt;" type-id="Statistic&lt;TStatistics&gt;" visibility="undefined">
+                      <parameters>
+                        <parameter id="p5452a856a3d24f9d8373cef3e276f192" name="valueType" type="string" type-id="string" />
+                        <parameter id="p85de0ebf8a6b4345a4b352ef676db49e" name="data" type="IEnumerable&lt;double&gt;" type-id="IEnumerable&lt;double&gt;" />
+                      </parameters>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="tc26f6d29eed344eaabb4cdba85e11fea10" name="TStatistics" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="3c9bf618ae0b4c059c1575e0a72a4bb0" cid="PROP001" type="property" name="Caption" style-class="" owner="69ed3897e4a24b0ebf4e5aa1dc4d7263" creator="" creation-date="11/04/2021 16:40:47" visibility="undefined">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="3c9bf618ae0b4c059c1575e0a72a4bb0_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="8cb3d15ee916425baa7f1e4a22ceb0c7" cid="C002" type="class" name="ReportMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public" is-abstract="true">
+                  <tagged-values>
+                    <tagged-value id="tv4729938dbf9c4492a48e3baf41dd7607" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="2a32dce281d54c22bf0bb84f0cf644a7" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a7d4db64179414dcb9558b434d36e448d37" cid="PROP002" name="Caption" creation-date="11/04/2021 16:40:47" property-ref="2a32dce281d54c22bf0bb84f0cf644a7" />
+                  </attributes>
+                  <operations>
+                    <operation id="oa902a9290ad54b1196d4ea027dfee80837" cid="OP002" name="MakeReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="package" abstract="true">
+                      <parameters>
+                        <parameter id="pd6a915ec32964104b143916db7995b75" name="statistics" type="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" type-id="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" />
+                      </parameters>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t27b399c2ecb1410ba33cc18321711ac436" name="TStatistics" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="2a32dce281d54c22bf0bb84f0cf644a7" cid="PROP002" type="property" name="Caption" style-class="" owner="8cb3d15ee916425baa7f1e4a22ceb0c7" creator="" creation-date="11/04/2021 16:40:47" visibility="protected">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="2a32dce281d54c22bf0bb84f0cf644a7_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="578d1717c5f44036b44e5c326ff45ea0" cid="C003" type="class" name="Statistic" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tveb1bceb81e5949418132582842566217" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="d8f2566c783548dfadd9e60ea9eb58f4" />
+                    <owned-item ref="a454e476c67b4055820cf22191d090c9" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="abdfb760bfa31413fade317187144ab1e37" cid="PROP003" name="ValueType" creation-date="11/04/2021 16:40:47" property-ref="d8f2566c783548dfadd9e60ea9eb58f4" />
+                    <attribute id="ae7ddef38e1cb4bb68c7bf22f1a21c40337" cid="PROP004" name="Entry" creation-date="11/04/2021 16:40:47" property-ref="a454e476c67b4055820cf22191d090c9" />
+                  </attributes>
+                  <template-parameters>
+                    <template-parameter id="t2d12a5eebd1f40fba1310773766398af37" name="T" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="d8f2566c783548dfadd9e60ea9eb58f4" cid="PROP003" type="property" name="ValueType" style-class="" owner="578d1717c5f44036b44e5c326ff45ea0" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="d8f2566c783548dfadd9e60ea9eb58f4_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property />
+                </item>
+                <item id="a454e476c67b4055820cf22191d090c9" cid="PROP004" type="property" name="Entry" style-class="" owner="578d1717c5f44036b44e5c326ff45ea0" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="a454e476c67b4055820cf22191d090c9_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="T" type-id="T" />
+                  <property />
+                </item>
+                <item id="3decd000f4784808afccefde51c93b68" cid="C004" type="class" name="Report" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv070f74770d3c4639b9dc28bb45784d5b" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <operations>
+                    <operation id="oebcd4f8527f0452f907a20959ebbf58137" cid="OP003" name="MakeReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p8aa142bbeb6a449999ee32ac5a6afede" name="data" type="IEnumerable&lt;Measurement&gt;" type-id="IEnumerable&lt;Measurement&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			var statisticsMaker = new TStatisticsMaker();
+			var reportMaker = (TReportMaker)Activator.CreateInstance(typeof(TReportMaker), statisticsMaker.Caption);
+
+			var statisticsList = new List&lt;Statistic&lt;TStatistics&gt;&gt; {
+				statisticsMaker.MakeStatistics("Temperature", data.Select(m =&gt; m.Temperature)),
+				statisticsMaker.MakeStatistics("Humidity", data.Select(m =&gt; m.Humidity))
+			};
+
+			return reportMaker.MakeReport(statisticsList);
+		</source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t528886762a2245c88ad9f5b6c061684537" name="TStatistics" kind="" default-value="" />
+                    <template-parameter id="te93ac5074b7b483a938757c8ee2a7e8c37" name="TReportMaker" kind="ReportMaker&lt;TStatistics&gt;" default-value="" />
+                    <template-parameter id="t1a0c33c2a24a4bd8977548efaaea83bf37" name="TStatisticsMaker" kind="IStatisticsMaker&lt;TStatistics&gt;" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="ed06ed59a2a5407f8af0495eaf3b2b9d" cid="C005" type="class" name="HtmlReportMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv4b6a1ede5082424ca83c0c49cde95fa4" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <operations>
+                    <operation id="o43eae42c4f6b4c0b992c95e61deac59737" cid="OP004" name="HtmlReportMaker" creation-date="11/04/2021 16:40:47" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="pa3255cdc81a744618de9e8418050c31e" name="caption" type="string" type-id="string" />
+                      </parameters>
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                    </operation>
+                    <operation id="o6b39a6e73af14cba8f820a834d9a83ea38" cid="OP005" name="MakeReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="package">
+                      <parameters>
+                        <parameter id="p5336ceada308462c8df90989f90c1082" name="statistics" type="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" type-id="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			var result = new StringBuilder();
+			result.Append($"&lt;h1&gt;{Caption}&lt;/h1&gt;&lt;ul&gt;");
+			foreach (Statistic&lt;TStatistics&gt; statistic in statistics)
+			{
+				result.Append($"&lt;li&gt;&lt;b&gt;{statistic.ValueType}&lt;/b&gt;: {statistic.Entry}");
+			}
+			result.Append("&lt;/ul&gt;");
+			return result.ToString();
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t147194561f994788a3994cbbb88337e537" name="TStatistics" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="cfcaa0f255a84a63ae2523d257236a7a" cid="C006" type="class" name="MarkdownReportMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv5f35b8cf0dfc4b7184901c9198b510a8" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <operations>
+                    <operation id="o49e17125bda64cda8512308de69ccbe640" cid="OP006" name="MarkdownReportMaker" creation-date="11/04/2021 16:40:47" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="pe7b6d2fab57e488bad789352b9fdbc56" name="caption" type="string" type-id="string" />
+                      </parameters>
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                    </operation>
+                    <operation id="o51de07f505f9431b999be2744977421640" cid="OP007" name="MakeReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="package">
+                      <parameters>
+                        <parameter id="p51c577dc1f8d47caab2ddd2b233edc5e" name="statistics" type="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" type-id="IEnumerable&lt;Statistic&lt;TStatistics&gt;&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			var result = new StringBuilder();
+			result.Append($"## {Caption}\n\n");
+			result.Append("");
+			foreach (Statistic&lt;TStatistics&gt; statistic in statistics)
+			{
+				result.Append($" * **{statistic.ValueType}**: {statistic.Entry}\n\n");
+			}
+			result.Append("");
+			return result.ToString();
+		</source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t685f753f2ea445e981af840f114663a840" name="TStatistics" kind="" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="149daed9007c49b787543c8a2f2abb64" cid="C007" type="class" name="MeanAndStdMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv1af6f5051dad470aafb33b1c8f544c6c" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="76a8c55319134176b755665c40f1d11c" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="ac6984af375664f41b261297fcdb74ba140" cid="PROP005" name="Caption" creation-date="11/04/2021 16:40:47" property-ref="76a8c55319134176b755665c40f1d11c" />
+                  </attributes>
+                  <operations>
+                    <operation id="o05eec6ccc2994392956f5284a919a2dd42" cid="OP008" name="MakeStatistics" creation-date="11/04/2021 16:40:47" type="Statistic&lt;MeanAndStd&gt;" type-id="Statistic&lt;MeanAndStd&gt;" visibility="public">
+                      <parameters>
+                        <parameter id="p483f3506f1b845049a4d3497774725cb" name="valueType" type="string" type-id="string" />
+                        <parameter id="pc2bfa4bb91a342019a792ad4435ea507" name="data" type="IEnumerable&lt;double&gt;" type-id="IEnumerable&lt;double&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			var mean = data.Average();
+			var entry = new MeanAndStd
+			{
+				Mean = mean,
+				Std = Math.Sqrt(data.Select(z =&gt; Math.Pow(z - mean, 2)).Sum() / (data.Count() - 1))
+			};
+			return new Statistic&lt;MeanAndStd&gt;
+			{
+				ValueType = valueType,
+				Entry = entry
+			};
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="76a8c55319134176b755665c40f1d11c" cid="PROP005" type="property" name="Caption" style-class="" owner="149daed9007c49b787543c8a2f2abb64" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="76a8c55319134176b755665c40f1d11c_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property>
+                    <source-codes>
+                      <source-code language="CSharp" uid="scs-9df9c940-8930-42a6-83b0-8b84978b1105">
+                        <script name="Get">
+				return "Mean and Std";
+			</script>
+                      </source-code>
+                    </source-codes>
+                  </property>
+                </item>
+                <item id="8e8e4e4de08a4fb3afe645819f71a871" cid="C008" type="class" name="MedianMaker" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv4de54875102d4de1a3350e0bf8bdf83a" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="e63c56e0cf39477bb222a5c66a976466" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="ae4afc11ef77248149cda763b0e9af9e342" cid="PROP007" name="Caption" creation-date="11/04/2021 16:40:47" property-ref="e63c56e0cf39477bb222a5c66a976466" />
+                  </attributes>
+                  <operations>
+                    <operation id="o9368b40706c84972a7ce676cfc98a7f042" cid="OP009" name="MakeStatistics" creation-date="11/04/2021 16:40:47" type="Statistic&lt;double&gt;" type-id="Statistic&lt;double&gt;" visibility="public">
+                      <parameters>
+                        <parameter id="p2660392928f34f93ae165b01a0fb8409" name="valueType" type="string" type-id="string" />
+                        <parameter id="p4013951e46904eb3b969b65d7a079e53" name="data" type="IEnumerable&lt;double&gt;" type-id="IEnumerable&lt;double&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			var list = data.OrderBy(z =&gt; z).ToList();
+			double entry;
+			if (list.Count % 2 == 0)
+				entry = (list[list.Count / 2] + list[list.Count / 2 - 1]) / 2;
+			else
+				entry = list[list.Count / 2];
+			return new Statistic&lt;double&gt;
+			{
+				ValueType = valueType,
+				Entry = entry
+			};
+		</source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="e63c56e0cf39477bb222a5c66a976466" cid="PROP007" type="property" name="Caption" style-class="" owner="8e8e4e4de08a4fb3afe645819f71a871" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="e63c56e0cf39477bb222a5c66a976466_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="string" type-id="string" />
+                  <property>
+                    <source-codes>
+                      <source-code language="CSharp" uid="scs-606231ab-25ca-4b35-afef-c8990ab08814">
+                        <script name="Get">
+				return "Median";
+            </script>
+                      </source-code>
+                    </source-codes>
+                  </property>
+                </item>
+                <item id="9ad3b95a191f4cc39c2d6b1f7c281cc6" cid="C009" type="class" name="ReportMakerHelper" style-class="" creator="" creation-date="11/04/2021 16:40:47" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv8b071d68b4fe46edb54e004ff7031a7d" name="namespace" type="text" multiple="false" value="Delegates.Reports" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="9ad3b95a191f4cc39c2d6b1f7c281cc6_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <operations>
+                    <operation id="o6334530e37564a8190f405e69d665d0e43" cid="OP010" name="MeanAndStdHtmlReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="pce6f652498b643f5ad40bb883d06fe05" name="data" type="IEnumerable&lt;Measurement&gt;" type-id="IEnumerable&lt;Measurement&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			return Report&lt;MeanAndStd, HtmlReportMaker&lt;MeanAndStd&gt;, MeanAndStdMaker&gt;.MakeReport(data);
+		</source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o197c8e07f5eb454d9beeb9804b12525343" cid="OP011" name="MedianMarkdownReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p66ee6d19a5cd4acf9524081cc99a9f49" name="data" type="IEnumerable&lt;Measurement&gt;" type-id="IEnumerable&lt;Measurement&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			return Report&lt;double, MarkdownReportMaker&lt;double&gt;, MedianMaker&gt;.MakeReport(data);
+		</source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o47be64a8609e4a6ca0766458b7e9aa7643" cid="OP012" name="MeanAndStdMarkdownReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p328a6a8bec1f471b9e9e9e46ad9e0ab1" name="measurements" type="IEnumerable&lt;Measurement&gt;" type-id="IEnumerable&lt;Measurement&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			return Report&lt;MeanAndStd, MarkdownReportMaker&lt;MeanAndStd&gt;, MeanAndStdMaker&gt;.MakeReport(measurements);
+		</source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="odc3c6d2cf75141e985cc2351b339e13443" cid="OP013" name="MedianHtmlReport" creation-date="11/04/2021 16:40:47" type="string" type-id="string" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p1bdc272bd812492fab9672af12e6f58c" name="measurements" type="IEnumerable&lt;Measurement&gt;" type-id="IEnumerable&lt;Measurement&gt;" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+			return Report&lt;double, HtmlReportMaker&lt;double&gt;, MedianMaker&gt;.MakeReport(measurements);
+		</source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="2f5f37c9cec145cab323eb812f4f3ee5" cid="GNR001" type="generalization" name="" style-class="" creator="" creation-date="11/04/2021 16:40:47" from="ed06ed59a2a5407f8af0495eaf3b2b9d" to="8cb3d15ee916425baa7f1e4a22ceb0c7" visibility="undefined" />
+                <item id="6e6588da57404b10a7c142a4b5635b51" cid="GNR002" type="generalization" name="" style-class="" creator="" creation-date="11/04/2021 16:40:47" from="cfcaa0f255a84a63ae2523d257236a7a" to="8cb3d15ee916425baa7f1e4a22ceb0c7" visibility="undefined" />
+                <item id="520529145ec143479665b7984788ddd8" cid="REA001" type="realization" name="" style-class="" creator="" creation-date="11/04/2021 16:40:47" from="149daed9007c49b787543c8a2f2abb64" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" visibility="undefined" />
+                <item id="3227f07087c8480c92cd16c815bdbed6" cid="REA002" type="realization" name="" style-class="" creator="" creation-date="11/04/2021 16:40:47" from="8e8e4e4de08a4fb3afe645819f71a871" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" visibility="undefined" />
+              </abstract-items>
+              <sub-models />
+              <diagram type="uml-class" id="pb7a9b43483ed48e79416d73bf6b6ada2_666536872" name="Reports" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Delegates.Reports" view-location="-142,-229" zoom="0.9">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>11/04/2021 16:40:47</creation-date>
+                  <change-date>11/06/2021 14:17:40</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items>
+                  <item id="282150406b25498e9c68cb318da02f20" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/04/2021 16:50:48" from="9ad3b95a191f4cc39c2d6b1f7c281cc6" to="3decd000f4784808afccefde51c93b68" visibility="package">
+                    <relation from="9ad3b95a191f4cc39c2d6b1f7c281cc6" to="3decd000f4784808afccefde51c93b68" derived="false">
+                      <start-role id="umlar-2a56f327-b148-462b-90c3-c27cc462afdf" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-1817996d-9d7b-417a-b842-9c572163c5af" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="4bbda13604644227a408d5a5584d0043" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/04/2021 16:53:28" from="3decd000f4784808afccefde51c93b68" to="578d1717c5f44036b44e5c326ff45ea0" visibility="package">
+                    <relation from="3decd000f4784808afccefde51c93b68" to="578d1717c5f44036b44e5c326ff45ea0" derived="false">
+                      <start-role id="umlar-7a755059-49ff-4dca-9839-c584a07f76d5" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-962783fd-ebc7-4805-a4c7-ef2c2afd7789" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="3f0e2c4bf7d14fd69062e59e807670b8" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/04/2021 16:55:45" from="8cb3d15ee916425baa7f1e4a22ceb0c7" to="578d1717c5f44036b44e5c326ff45ea0" visibility="package">
+                    <relation from="8cb3d15ee916425baa7f1e4a22ceb0c7" to="578d1717c5f44036b44e5c326ff45ea0" derived="false">
+                      <start-role id="umlar-476366c6-aaef-4e35-a687-e6e2c8babd7a" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-08392993-343e-49c6-8f8a-56206397b778" name="" navigability="yes" association-type="association" visibility="private" attribute-ref="abdfb760bfa31413fade317187144ab1e37" />
+                    </relation>
+                  </item>
+                  <item id="0c4aca7cbfa8457c8b71b054addf7b81" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/04/2021 16:56:11" from="69ed3897e4a24b0ebf4e5aa1dc4d7263" to="578d1717c5f44036b44e5c326ff45ea0" visibility="package">
+                    <relation from="69ed3897e4a24b0ebf4e5aa1dc4d7263" to="578d1717c5f44036b44e5c326ff45ea0" derived="false">
+                      <start-role id="umlar-de999003-a1f3-488c-96e1-d383e3e7cd26" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-71c9c90d-af19-4e0c-bc99-9d2072fd9db3" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="ddb469e892d444a0be6ba5f8bac69da3" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/04/2021 17:22:43" from="8cb3d15ee916425baa7f1e4a22ceb0c7" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" visibility="package">
+                    <relation from="8cb3d15ee916425baa7f1e4a22ceb0c7" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" derived="false">
+                      <start-role id="umlar-9549b329-33e8-4df1-8c61-0ce89f32f333" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-7088f68b-7ab0-435d-8ebf-efe7e1972e4f" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="bcd195ba289f4c2783564aa0d7d69455" cid="REL007" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/06/2021 14:17:33" from="3decd000f4784808afccefde51c93b68" to="8cb3d15ee916425baa7f1e4a22ceb0c7" visibility="package">
+                    <relation from="3decd000f4784808afccefde51c93b68" to="8cb3d15ee916425baa7f1e4a22ceb0c7" derived="false">
+                      <start-role id="umlar-3294d5af-5a54-41a5-a096-2c5acdd4a69b" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-d9fc7d3a-38e1-4ab3-bc13-97e9c3c54168" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                </abstract-items>
+                <layer id="fa07afe305954e86b1f28d0ce4b55565" name="Default" visible="true" enabled="true" locked="false">
+                  <item id="69ed3897e4a24b0ebf4e5aa1dc4d7263" iid="5b3c5ce6dfc44aff8746dbb68f642642" creation-date="11/04/2021 16:40:47" order-index="0" type="entity">
+                    <layout ax="1019.5" ay="83.85707" awidth="499" aheight="110.7345" x="1019.5" y="83.85707" width="499" height="110.7345" rotation-center="-117,9" />
+                    <class />
+                  </item>
+                  <item id="8cb3d15ee916425baa7f1e4a22ceb0c7" iid="2a2bc1094dd840dea3cff97f8ba363d9" creation-date="11/04/2021 16:40:47" order-index="1" type="entity">
+                    <layout ax="-50" ay="63" awidth="420" aheight="92" x="-50" y="63" width="420" height="92" rotation-center="-53.5,10" />
+                    <class />
+                  </item>
+                  <item id="578d1717c5f44036b44e5c326ff45ea0" iid="03e2d1c367d44bc3b08400412809f5d3" creation-date="11/04/2021 16:40:47" order-index="2" type="entity">
+                    <layout ax="570.5" ay="-171.9872" awidth="190" aheight="92" x="570.5" y="-171.9872" width="190" height="92" />
+                    <class />
+                  </item>
+                  <item id="3decd000f4784808afccefde51c93b68" iid="cc2b06533a6c40bfb01b2202eae24994" creation-date="11/04/2021 16:40:47" order-index="3" type="entity">
+                    <layout ax="513.5" ay="42.51285" awidth="348" aheight="81" x="513.5" y="42.51285" width="348" height="81" rotation-center="-13,1.5" />
+                    <class />
+                  </item>
+                  <item id="ed06ed59a2a5407f8af0495eaf3b2b9d" iid="6999fd20321344bea813ba6574018ec0" creation-date="11/04/2021 16:40:47" order-index="4" type="entity">
+                    <layout ax="-52" ay="215.75" awidth="422" aheight="92" x="-52" y="215.75" width="422" height="92" rotation-center="-54.5,-4" />
+                    <class />
+                  </item>
+                  <item id="cfcaa0f255a84a63ae2523d257236a7a" iid="2af6a3e925084d4bbaff055d3c208c57" creation-date="11/04/2021 16:40:47" order-index="5" type="entity">
+                    <layout ax="-50" ay="-74" awidth="420" aheight="92" x="-50" y="-74" width="420" height="92" rotation-center="-52.5,5.5" />
+                    <class />
+                  </item>
+                  <item id="149daed9007c49b787543c8a2f2abb64" iid="81c69f8803aa4425a550e752d0b4afaf" creation-date="11/04/2021 16:40:47" order-index="6" type="entity">
+                    <layout ax="1019.5" ay="261.4312" awidth="536" aheight="81.05562" x="1019.5" y="261.4312" width="536" height="81.05562" rotation-center="-126.5,9.125" />
+                    <class />
+                  </item>
+                  <item id="8e8e4e4de08a4fb3afe645819f71a871" iid="9dd9b873a825484a892353757fcd9f0c" creation-date="11/04/2021 16:40:47" order-index="7" type="entity">
+                    <layout ax="1019.5" ay="-74.76254" awidth="499" aheight="91.77991" x="1019.5" y="-74.76254" width="499" height="91.77991" rotation-center="-108,14.5" />
+                    <class />
+                  </item>
+                  <item id="9ad3b95a191f4cc39c2d6b1f7c281cc6" iid="db06d07aa41b482ca37c448bf403a36b" creation-date="11/04/2021 16:40:47" order-index="8" type="entity">
+                    <layout ax="442.5" ay="179.1941" awidth="526" aheight="128.5559" x="442.5" y="179.1941" width="526" height="128.5559" rotation-center="-102,36.77798" />
+                    <class />
+                  </item>
+                  <item id="2f5f37c9cec145cab323eb812f4f3ee5" iid="976fb09c6ad34ca9a9199fa0c1e70908" creation-date="11/04/2021 16:40:47" order-index="9" type="relation">
+                    <layout line-style="perpendicular" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="161" y1="216" x2="160" y2="155" start-border-pos="0.126184836030006" end-border-pos="0.625" start-local-pos="151" end-local-pos="156.5" name-position="27,21">
+                      <points>
+                        <point x="161" y="216" />
+                        <point x="160" y="155" />
+                      </points>
+                    </layout>
+                    <relation from="ed06ed59a2a5407f8af0495eaf3b2b9d" from-iid="6999fd20321344bea813ba6574018ec0" to="8cb3d15ee916425baa7f1e4a22ceb0c7" to-iid="2a2bc1094dd840dea3cff97f8ba363d9" />
+                  </item>
+                  <item id="6e6588da57404b10a7c142a4b5635b51" iid="0994c517b94e44b48d5ad8ffd08b6e78" creation-date="11/04/2021 16:40:47" order-index="10" type="relation">
+                    <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="160" y1="18" x2="160" y2="63" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="260" end-local-pos="156.5" name-position="0,20">
+                      <points>
+                        <point x="160" y="18" />
+                        <point x="160" y="63" />
+                      </points>
+                    </layout>
+                    <relation from="cfcaa0f255a84a63ae2523d257236a7a" from-iid="2af6a3e925084d4bbaff055d3c208c57" to="8cb3d15ee916425baa7f1e4a22ceb0c7" to-iid="2a2bc1094dd840dea3cff97f8ba363d9" />
+                  </item>
+                  <item id="520529145ec143479665b7984788ddd8" iid="ee5040a40f654daeb91fefe939af66e8" creation-date="11/04/2021 16:40:47" order-index="11" type="relation">
+                    <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1269" y1="261" x2="1269" y2="195" start-border-pos="0.116371266543865" end-border-pos="0.625" start-local-pos="252.5" end-local-pos="249.5" name-position="68,31">
+                      <points>
+                        <point x="1269" y="261" />
+                        <point x="1269" y="195" />
+                      </points>
+                    </layout>
+                    <relation from="149daed9007c49b787543c8a2f2abb64" from-iid="81c69f8803aa4425a550e752d0b4afaf" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" to-iid="5b3c5ce6dfc44aff8746dbb68f642642" />
+                  </item>
+                  <item id="3227f07087c8480c92cd16c815bdbed6" iid="f97e9fa1f7de4af187e125ae6eedec62" creation-date="11/04/2021 16:40:47" order-index="12" type="relation">
+                    <layout line-style="perpendicular" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1269" y1="17" x2="1269" y2="84" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="249.5" end-local-pos="249.5" name-position="0,20">
+                      <points>
+                        <point x="1269" y="17" />
+                        <point x="1269" y="84" />
+                      </points>
+                    </layout>
+                    <relation from="8e8e4e4de08a4fb3afe645819f71a871" from-iid="9dd9b873a825484a892353757fcd9f0c" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" to-iid="5b3c5ce6dfc44aff8746dbb68f642642" />
+                  </item>
+                  <item id="282150406b25498e9c68cb318da02f20" iid="d312cf1241ba492285e72827afeece03" creation-date="11/04/2021 16:50:48" order-index="13" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="18.0485,-24.35291" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="687" y1="179" x2="688" y2="124" start-border-pos="0.116444863379002" end-border-pos="0.624640804597701" start-local-pos="244.5" end-local-pos="174.5" name-position="0,20">
+                      <points>
+                        <point x="687" y="179" />
+                        <point x="688" y="124" />
+                      </points>
+                    </layout>
+                    <relation from="9ad3b95a191f4cc39c2d6b1f7c281cc6" from-iid="db06d07aa41b482ca37c448bf403a36b" to="3decd000f4784808afccefde51c93b68" to-iid="cc2b06533a6c40bfb01b2202eae24994" to-field="oebcd4f8527f0452f907a20959ebbf58137" />
+                  </item>
+                  <item id="4bbda13604644227a408d5a5584d0043" iid="4cf6f10b0df5439ea9b95817a55a1c3a" creation-date="11/04/2021 16:53:28" order-index="14" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="553" y1="43" x2="596" y2="-80" start-border-pos="0.0283764358609915" end-border-pos="0.716447368264198" start-local-pos="39.5" end-local-pos="25.5" name-position="0,20">
+                      <points>
+                        <point x="553" y="43" />
+                        <point x="596" y="-80" />
+                      </points>
+                    </layout>
+                    <relation from="3decd000f4784808afccefde51c93b68" from-iid="cc2b06533a6c40bfb01b2202eae24994" to="578d1717c5f44036b44e5c326ff45ea0" to-iid="03e2d1c367d44bc3b08400412809f5d3" />
+                  </item>
+                  <item id="3f0e2c4bf7d14fd69062e59e807670b8" iid="b3b60d1dca604ee485301671ac02d62f" creation-date="11/04/2021 16:55:45" order-index="15" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="370" y1="96" x2="570" y2="-125" start-border-pos="0.339673914015293" end-border-pos="0.873641304671764" start-local-pos="33" end-local-pos="46.5" name-position="0,20">
+                      <points>
+                        <point x="370" y="96" />
+                        <point x="570" y="-125" />
+                      </points>
+                    </layout>
+                    <relation from="8cb3d15ee916425baa7f1e4a22ceb0c7" from-iid="2a2bc1094dd840dea3cff97f8ba363d9" to="578d1717c5f44036b44e5c326ff45ea0" to-iid="03e2d1c367d44bc3b08400412809f5d3" to-field="abdfb760bfa31413fade317187144ab1e37" />
+                  </item>
+                  <item id="0c4aca7cbfa8457c8b71b054addf7b81" iid="98fe2082752e4346b12505bb27857660" creation-date="11/04/2021 16:56:11" order-index="16" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1020" y1="84" x2="760" y2="-125" start-border-pos="0.999677315354347" end-border-pos="0.376358695652174" start-local-pos="0.1429291" end-local-pos="46.5" name-position="0,20">
+                      <points>
+                        <point x="1020" y="84" />
+                        <point x="760" y="-125" />
+                      </points>
+                    </layout>
+                    <relation from="69ed3897e4a24b0ebf4e5aa1dc4d7263" from-iid="5b3c5ce6dfc44aff8746dbb68f642642" to="578d1717c5f44036b44e5c326ff45ea0" to-iid="03e2d1c367d44bc3b08400412809f5d3" />
+                  </item>
+                  <item id="ddb469e892d444a0be6ba5f8bac69da3" iid="5cb9e72b90ab4e30a63b064a28837344" creation-date="11/04/2021 17:22:43" order-index="17" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="370" y1="135" x2="1020" y2="139" start-border-pos="0.445652171969414" end-border-pos="0.875506430864334" start-local-pos="72" end-local-pos="55.14293" name-position="0,20">
+                      <points>
+                        <point x="370" y="135" />
+                        <point x="415" y="154" />
+                        <point x="413" y="356" />
+                        <point x="994" y="355" />
+                        <point x="987" y="142" />
+                        <point x="1020" y="139" />
+                      </points>
+                    </layout>
+                    <relation from="8cb3d15ee916425baa7f1e4a22ceb0c7" from-iid="2a2bc1094dd840dea3cff97f8ba363d9" from-field="oa902a9290ad54b1196d4ea027dfee80837" to="69ed3897e4a24b0ebf4e5aa1dc4d7263" to-iid="5b3c5ce6dfc44aff8746dbb68f642642" />
+                  </item>
+                  <item id="bcd195ba289f4c2783564aa0d7d69455" iid="a40e01da003542029dfa6a4581cddbc1" creation-date="11/06/2021 14:17:33" order-index="18" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="514" y1="97" x2="370" y2="109" start-border-pos="0.830878622737932" end-border-pos="0.375" end-local-pos="46" name-position="0,20">
+                      <points>
+                        <point x="514" y="97" />
+                        <point x="370" y="109" />
+                      </points>
+                    </layout>
+                    <relation from="3decd000f4784808afccefde51c93b68" from-iid="cc2b06533a6c40bfb01b2202eae24994" to="8cb3d15ee916425baa7f1e4a22ceb0c7" to-iid="2a2bc1094dd840dea3cff97f8ba363d9" />
+                  </item>
+                </layer>
+              </diagram>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p73544cc353614a219a5e96e9d292ab1e_460333087" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/04/2021 16:40:47</creation-date>
+          <change-date>11/04/2021 16:40:47</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="69303dfe6d3e49c9adbf8342658c8722" name="Default" visible="true" enabled="true" locked="false">
+          <item id="fa57a39b428d453bb25ef2de79aca6d4" iid="a2f9b264c320431a81116fc290ceca7a" creation-date="11/04/2021 16:40:47" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="106" aheight="56" x="0" y="0" width="106" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="003c9dee05a14beeabe1d45954b6d9f1" iid="36b6366c7f6d4d1da333ec779587c5ae" creation-date="11/04/2021 16:40:47" order-index="1" type="entity">
+            <layout ax="7.5" ay="156" awidth="91" aheight="56" x="7.5" y="156" width="91" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="509b1bb034fa49eea1f84df0da1289be" iid="29d0efa883b94bdc90647f93dffc9f60" creation-date="11/04/2021 16:40:47" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="53" y1="156" x2="53" y2="56" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="53" y="156" />
+                <point x="53" y="106" />
+                <point x="53" y="106" />
+                <point x="53" y="56" />
+              </points>
+            </layout>
+            <relation from="003c9dee05a14beeabe1d45954b6d9f1" from-iid="36b6366c7f6d4d1da333ec779587c5ae" to="fa57a39b428d453bb25ef2de79aca6d4" to-iid="a2f9b264c320431a81116fc290ceca7a" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

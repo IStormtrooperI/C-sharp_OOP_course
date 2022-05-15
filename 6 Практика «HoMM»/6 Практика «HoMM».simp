@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp8185da663e464c56a7a97f54cf528b86">
+  <meta>
+    <name>6 Практика «HoMM»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>231</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>5</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-01b9b6e220c54477800eb17406d78c72" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-da1ddd307b6c438bb3f6b70dcadd2551" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="int" tid="" name="int" description="" />
+      <type id="Army" tid="" name="Army" description="" />
+      <type id="Treasure" tid="" name="Treasure" description="" />
+      <type id="Player" tid="" name="Player" description="" />
+      <type id="ITreasure" tid="" name="ITreasure" description="" />
+      <type id="IOwner" tid="" name="IOwner" description="" />
+      <type id="object" tid="" name="object" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p82f207187a87450ca2fe4736887c6506_526757939" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/09/2021 14:54:43</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="50b31871af934be2a780af6403cac01e" cid="PKG001" type="package" name="Inheritance" style-class="" creator="" creation-date="10/09/2021 14:54:51" />
+        <item id="ee0acd5f6fb646e395e6a0f0facc2287" cid="PKG002" type="package" name="MapObjects" style-class="" creator="" creation-date="10/09/2021 14:54:51" />
+        <item id="400e80b4b8fd405695a43a91c52cfc0d" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="ee0acd5f6fb646e395e6a0f0facc2287" to="50b31871af934be2a780af6403cac01e" />
+      </abstract-items>
+      <sub-models>
+        <model id="p6fe6e60c4f6a4703b43c7c6d0ae1086e_157811591" name="Inheritance" namespace="Inheritance" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/09/2021 14:54:51</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="pfc21d8e77042469b880d1cd786df3243_973944591" name="MapObjects" namespace="Inheritance.MapObjects" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/09/2021 14:54:51</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="2b413a42e29340e4a97245768d6e8e3f" cid="C001" type="class" name="Dwelling" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvc0ff920aafe543419c465b4f41207659" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="c9d514cb0f6845b88aa498d4f4430441" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a171fee129d4f4a3e8ac648babb445c50124" cid="PROP001" name="Owner" creation-date="10/09/2021 14:54:51" property-ref="c9d514cb0f6845b88aa498d4f4430441" />
+                  </attributes>
+                </item>
+                <item id="c9d514cb0f6845b88aa498d4f4430441" cid="PROP001" type="property" name="Owner" style-class="" owner="2b413a42e29340e4a97245768d6e8e3f" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="c9d514cb0f6845b88aa498d4f4430441_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="a6d562729c3342c8a5140c71c87bed36" cid="C002" type="class" name="Mine" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tva7a2e9e828ce490296ba84d39650bf84" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="a20a9ebe3901417580b554bcf48cd2f0" />
+                    <owned-item ref="124871a1d06147518b22d44ee22e0274" />
+                    <owned-item ref="661f2d975aa242cba7165715aa69af3f" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="afed131d514184f779b7f54c880eaa12a128" cid="PROP002" name="Owner" creation-date="10/09/2021 14:54:51" property-ref="a20a9ebe3901417580b554bcf48cd2f0" />
+                    <attribute id="a34b6ec0af8954cf1865ec08e0efd0f9c129" cid="PROP003" name="Army" creation-date="10/09/2021 14:54:51" property-ref="124871a1d06147518b22d44ee22e0274" />
+                    <attribute id="a08ae84708e564daaa88382ac28146a06129" cid="PROP004" name="Treasure" creation-date="10/09/2021 14:54:51" property-ref="661f2d975aa242cba7165715aa69af3f" />
+                  </attributes>
+                </item>
+                <item id="a20a9ebe3901417580b554bcf48cd2f0" cid="PROP002" type="property" name="Owner" style-class="" owner="a6d562729c3342c8a5140c71c87bed36" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="a20a9ebe3901417580b554bcf48cd2f0_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="124871a1d06147518b22d44ee22e0274" cid="PROP003" type="property" name="Army" style-class="" owner="a6d562729c3342c8a5140c71c87bed36" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="124871a1d06147518b22d44ee22e0274_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Army" type-id="Army" />
+                  <property />
+                </item>
+                <item id="661f2d975aa242cba7165715aa69af3f" cid="PROP004" type="property" name="Treasure" style-class="" owner="a6d562729c3342c8a5140c71c87bed36" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="661f2d975aa242cba7165715aa69af3f_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Treasure" type-id="Treasure" />
+                  <property />
+                </item>
+                <item id="7057195d682d430a91063d2f80b008de" cid="C003" type="class" name="Creeps" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv25232e8b639a42d6bc9b9b7cc365f492" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="b93d8b2eb20e4a49a34a066c99898ad4" />
+                    <owned-item ref="3f5265197db849deb50f737717c274fe" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a30d74bedca9a41fea1e92ca5cd2620f3129" cid="PROP005" name="Army" creation-date="10/09/2021 14:54:51" property-ref="b93d8b2eb20e4a49a34a066c99898ad4" />
+                    <attribute id="a698057f34ef4441a87c7f702c780ad7b129" cid="PROP006" name="Treasure" creation-date="10/09/2021 14:54:51" property-ref="3f5265197db849deb50f737717c274fe" />
+                  </attributes>
+                </item>
+                <item id="b93d8b2eb20e4a49a34a066c99898ad4" cid="PROP005" type="property" name="Army" style-class="" owner="7057195d682d430a91063d2f80b008de" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="b93d8b2eb20e4a49a34a066c99898ad4_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Army" type-id="Army" />
+                  <property />
+                </item>
+                <item id="3f5265197db849deb50f737717c274fe" cid="PROP006" type="property" name="Treasure" style-class="" owner="7057195d682d430a91063d2f80b008de" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="3f5265197db849deb50f737717c274fe_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Treasure" type-id="Treasure" />
+                  <property />
+                </item>
+                <item id="719b5cfc9d8a4ba6b85cdf49d1389ec5" cid="C004" type="class" name="Wolves" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv50a5fdf96c93406eaa948f549c778e8a" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="5799ecb5e12b40edb9baedb8c72892be" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="ab3f7509dea9843b59d36be5c6b17c523129" cid="PROP007" name="Army" creation-date="10/09/2021 14:54:51" property-ref="5799ecb5e12b40edb9baedb8c72892be" />
+                  </attributes>
+                </item>
+                <item id="5799ecb5e12b40edb9baedb8c72892be" cid="PROP007" type="property" name="Army" style-class="" owner="719b5cfc9d8a4ba6b85cdf49d1389ec5" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="5799ecb5e12b40edb9baedb8c72892be_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Army" type-id="Army" />
+                  <property />
+                </item>
+                <item id="9e41ccbce9644ce5b0d00bcbe7361ab0" cid="C005" type="class" name="ResourcePile" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv65617ef79e5941ce9eff8334d257e03b" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="01d6f9206cad4a4b81338a005b4895f3" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a5e179449e2dc4705b610d73582e3f122129" cid="PROP008" name="Treasure" creation-date="10/09/2021 14:54:51" property-ref="01d6f9206cad4a4b81338a005b4895f3" />
+                  </attributes>
+                </item>
+                <item id="01d6f9206cad4a4b81338a005b4895f3" cid="PROP008" type="property" name="Treasure" style-class="" owner="9e41ccbce9644ce5b0d00bcbe7361ab0" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="01d6f9206cad4a4b81338a005b4895f3_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Treasure" type-id="Treasure" />
+                  <property />
+                </item>
+                <item id="fc1c4be041de4610bfe890dc36fc24ef" cid="C006" type="class" name="IArmy" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="interface" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tva2ef165633c34c4faed6860a6e86921d" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="fc1c4be041de4610bfe890dc36fc24ef_interface_c" type="interface" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="8466ed4fec6f4004a19ad9b6171f531e" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a8cf95bab06db4a7cab828c58554c99a8129" cid="PROP009" name="Army" creation-date="10/09/2021 14:54:51" property-ref="8466ed4fec6f4004a19ad9b6171f531e" />
+                  </attributes>
+                </item>
+                <item id="8466ed4fec6f4004a19ad9b6171f531e" cid="PROP009" type="property" name="Army" style-class="" owner="fc1c4be041de4610bfe890dc36fc24ef" creator="" creation-date="10/09/2021 14:54:51" visibility="undefined">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="8466ed4fec6f4004a19ad9b6171f531e_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Army" type-id="Army" />
+                  <property />
+                </item>
+                <item id="fa21cfe3726c4c58b470aaded9c1d3f9" cid="C007" type="class" name="ITreasure" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="interface" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv174468bc7dd5452c95295eff6405a7c6" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="fa21cfe3726c4c58b470aaded9c1d3f9_interface_c" type="interface" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="344d76cee4c548e99a613c62e62d2646" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a1d9d8d61a41a4fbdb2b335743bc91f45129" cid="PROP010" name="Treasure" creation-date="10/09/2021 14:54:51" property-ref="344d76cee4c548e99a613c62e62d2646" />
+                  </attributes>
+                </item>
+                <item id="344d76cee4c548e99a613c62e62d2646" cid="PROP010" type="property" name="Treasure" style-class="" owner="fa21cfe3726c4c58b470aaded9c1d3f9" creator="" creation-date="10/09/2021 14:54:51" visibility="undefined">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="344d76cee4c548e99a613c62e62d2646_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="Treasure" type-id="Treasure" />
+                  <property />
+                </item>
+                <item id="79ea22e267144e03b345ead2fe13ca35" cid="C008" type="class" name="IOwner" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="interface" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvc9fc8c2e362a4514a4e7cb4b4e712f39" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="79ea22e267144e03b345ead2fe13ca35_interface_c" type="interface" ref="" />
+                  </stereotype-instances>
+                  <owned-items>
+                    <owned-item ref="aa1c3680e60444e0ba98fd2162d785c5" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a947d3853f29c449c9ee290c126c72b04129" cid="PROP011" name="Owner" creation-date="10/09/2021 14:54:51" property-ref="aa1c3680e60444e0ba98fd2162d785c5" />
+                  </attributes>
+                </item>
+                <item id="aa1c3680e60444e0ba98fd2162d785c5" cid="PROP011" type="property" name="Owner" style-class="" owner="79ea22e267144e03b345ead2fe13ca35" creator="" creation-date="10/09/2021 14:54:51" visibility="undefined">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="aa1c3680e60444e0ba98fd2162d785c5_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="int" type-id="int" />
+                  <property />
+                </item>
+                <item id="1a0672a69b5943c58d0a64f769139b0f" cid="C009" type="class" name="Interaction" style-class="" creator="" creation-date="10/09/2021 14:54:51" visibility="public">
+                  <stereotypes>
+                    <stereotype name="static" />
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv85161bd7c6524caf8f332af24b6eecb4" name="namespace" type="text" multiple="false" value="Inheritance.MapObjects" />
+                  </tagged-values>
+                  <stereotype-instances>
+                    <stereotype id="1a0672a69b5943c58d0a64f769139b0f_static_c" type="static" ref="" />
+                  </stereotype-instances>
+                  <operations>
+                    <operation id="o4b19c79d9e5b43a990bf89cc16bbe2bb133" cid="OP001" name="ResultOfFight" creation-date="10/09/2021 14:54:51" type="" type-id="" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="pdf6b1b535f6846f1aeef0c07f8e0a5ee" name="player" type="Player" type-id="Player" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            player.Die();
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o442af39acd8a491ea350cd0a8db83aab140" cid="OP002" name="ResultOfGetTreasure" creation-date="10/09/2021 14:54:51" type="" type-id="" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p2b925f736b654ea7a996f78791bd4fd2" name="player" type="Player" type-id="Player" />
+                        <parameter id="p6949ba08630d45babaacca77738e12de" name="treasure" type="ITreasure" type-id="ITreasure" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            player.Consume(treasure.Treasure);
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o510c632d6f2e49b09097e191ff2c88ef142" cid="OP003" name="ResultOfGetOwn" creation-date="10/09/2021 14:54:51" type="" type-id="" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p06a89d23bb2f4535a15bf2e7b5bed057" name="player" type="Player" type-id="Player" />
+                        <parameter id="p69a4eda6a18b40bfb64252fd6f977f66" name="owner" type="IOwner" type-id="IOwner" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            owner.Owner = player.Id;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o98f288dc14c94856be34cfac73738268142" cid="OP004" name="Make" creation-date="10/09/2021 14:54:51" type="" type-id="" visibility="public" static="true">
+                      <parameters>
+                        <parameter id="p878671b684a04e1ba48c61aa8dd6926b" name="player" type="Player" type-id="Player" />
+                        <parameter id="pe7e1cfc5464943a8a30cd29a00192d49" name="mapObject" type="object" type-id="object" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (mapObject is IArmy army) 
+            { 
+                if (!player.CanBeat(army.Army))
+                {
+                    ResultOfFight(player);
+                    return;
+                }
+            }
+            if (mapObject is ITreasure treasure)
+            {
+                ResultOfGetTreasure(player, treasure);
+            }
+            if (mapObject is IOwner owner)
+            {
+                ResultOfGetOwn(player, owner);
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="0ddf116d8c404f49833d3c4a6329392c" cid="REA001" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="2b413a42e29340e4a97245768d6e8e3f" to="79ea22e267144e03b345ead2fe13ca35" />
+                <item id="eda20c69edf2407780202ead3ea719bc" cid="REA002" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="a6d562729c3342c8a5140c71c87bed36" to="fc1c4be041de4610bfe890dc36fc24ef" />
+                <item id="2c0d964f79334a19b7030e5a89a5d578" cid="REA003" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="a6d562729c3342c8a5140c71c87bed36" to="fa21cfe3726c4c58b470aaded9c1d3f9" />
+                <item id="2d27ea7cf8724361a9f97d417edb093b" cid="REA004" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="a6d562729c3342c8a5140c71c87bed36" to="79ea22e267144e03b345ead2fe13ca35" />
+                <item id="4031602c15c0435da3585a4b76640b53" cid="REA005" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="7057195d682d430a91063d2f80b008de" to="fc1c4be041de4610bfe890dc36fc24ef" />
+                <item id="9bf91adbacbe43468723c7315c1f8c83" cid="REA006" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="7057195d682d430a91063d2f80b008de" to="fa21cfe3726c4c58b470aaded9c1d3f9" />
+                <item id="c12280abb08d423482604a2e95a25574" cid="REA007" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="719b5cfc9d8a4ba6b85cdf49d1389ec5" to="fc1c4be041de4610bfe890dc36fc24ef" />
+                <item id="582a7aec06174a5ab3e35087cf10682b" cid="REA008" type="realization" name="" style-class="" creator="" creation-date="10/09/2021 14:54:51" from="9e41ccbce9644ce5b0d00bcbe7361ab0" to="fa21cfe3726c4c58b470aaded9c1d3f9" />
+              </abstract-items>
+              <sub-models />
+              <diagram type="uml-class" id="p13603115f3714dfeaf06aa3bea6beeb9_880297114" name="MapObjects" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Inheritance.MapObjects" view-location="-407,-200">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>10/09/2021 14:54:51</creation-date>
+                  <change-date>10/09/2021 14:56:34</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items />
+                <layer id="2a737bcf77364f79b7fc1c31f6701ac8" name="Default" visible="true" enabled="true" locked="false">
+                  <item id="2b413a42e29340e4a97245768d6e8e3f" iid="d75ce59d36ab456cbef5550e858ac50b" creation-date="10/09/2021 14:54:51" order-index="0" type="entity">
+                    <layout ax="524" ay="283.5" awidth="151" aheight="63" x="524" y="283.5" width="151" height="63" />
+                    <class />
+                  </item>
+                  <item id="a6d562729c3342c8a5140c71c87bed36" iid="88c57f3bd77c41afbf969e17aa0446b6" creation-date="10/09/2021 14:54:51" order-index="1" type="entity">
+                    <layout ax="278" ay="-59" awidth="195" aheight="101" x="278" y="-59" width="195" height="101" />
+                    <class />
+                  </item>
+                  <item id="7057195d682d430a91063d2f80b008de" iid="0543e47d0fdc4b4890038deb2f767c85" creation-date="10/09/2021 14:54:51" order-index="2" type="entity">
+                    <layout ax="62.5" ay="274" awidth="195" aheight="82" x="62.5" y="274" width="195" height="82" />
+                    <class />
+                  </item>
+                  <item id="719b5cfc9d8a4ba6b85cdf49d1389ec5" iid="25eced3f7d924539aad5ea923bacbc3e" creation-date="10/09/2021 14:54:51" order-index="3" type="entity">
+                    <layout ax="318.5" ay="356" awidth="159" aheight="63" x="318.5" y="356" width="159" height="63" />
+                    <class />
+                  </item>
+                  <item id="9e41ccbce9644ce5b0d00bcbe7361ab0" iid="10fa2b1b50f24b3da9675aed56bb63f8" creation-date="10/09/2021 14:54:51" order-index="4" type="entity">
+                    <layout ax="-198" ay="150.5" awidth="195" aheight="63" x="-198" y="150.5" width="195" height="63" />
+                    <class />
+                  </item>
+                  <item id="fc1c4be041de4610bfe890dc36fc24ef" iid="bb4b6f1005784a81a98deb08d085323c" creation-date="10/09/2021 14:54:51" order-index="5" type="entity">
+                    <layout ax="323" ay="142" awidth="150" aheight="80" x="323" y="142" width="150" height="80" />
+                    <class />
+                  </item>
+                  <item id="fa21cfe3726c4c58b470aaded9c1d3f9" iid="ed87020210284b638be32c40ef0d0651" creation-date="10/09/2021 14:54:51" order-index="6" type="entity">
+                    <layout ax="67" ay="142" awidth="186" aheight="80" x="67" y="142" width="186" height="80" />
+                    <class />
+                  </item>
+                  <item id="79ea22e267144e03b345ead2fe13ca35" iid="4f3b873e81e045c89bd966e6f3dcde3a" creation-date="10/09/2021 14:54:51" order-index="7" type="entity">
+                    <layout ax="533" ay="142" awidth="142" aheight="80" x="533" y="142" width="142" height="80" />
+                    <class />
+                  </item>
+                  <item id="1a0672a69b5943c58d0a64f769139b0f" iid="da9b5792b0924363acf3214520ca9abb" creation-date="10/09/2021 14:54:51" order-index="8" type="entity">
+                    <layout ax="-166" ay="-88" awidth="354" aheight="130" x="-166" y="-88" width="354" height="130" />
+                    <class />
+                  </item>
+                  <item id="0ddf116d8c404f49833d3c4a6329392c" iid="cb7ebddeaa43476fb4790e3675128318" creation-date="10/09/2021 14:54:51" order-index="9" type="relation">
+                    <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="604" y1="284" x2="604" y2="222" start-border-pos="0.132450327277184" end-border-pos="0.625" name-position="46,21">
+                      <points>
+                        <point x="604" y="284" />
+                        <point x="604" y="222" />
+                      </points>
+                    </layout>
+                    <relation from="2b413a42e29340e4a97245768d6e8e3f" from-iid="d75ce59d36ab456cbef5550e858ac50b" to="79ea22e267144e03b345ead2fe13ca35" to-iid="4f3b873e81e045c89bd966e6f3dcde3a" />
+                  </item>
+                  <item id="eda20c69edf2407780202ead3ea719bc" iid="b47132d7662046bea349062abc0b3578" creation-date="10/09/2021 14:54:51" order-index="10" type="relation">
+                    <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="398" y1="42" x2="398" y2="142" start-border-pos="0.596153847873211" end-border-pos="0.125" start-local-pos="75" end-local-pos="75" name-position="0,20">
+                      <points>
+                        <point x="398" y="42" />
+                        <point x="398" y="142" />
+                      </points>
+                    </layout>
+                    <relation from="a6d562729c3342c8a5140c71c87bed36" from-iid="88c57f3bd77c41afbf969e17aa0446b6" to="fc1c4be041de4610bfe890dc36fc24ef" to-iid="bb4b6f1005784a81a98deb08d085323c" />
+                  </item>
+                  <item id="2c0d964f79334a19b7030e5a89a5d578" iid="6e5573ae3e11406fa8287165e1af08f9" creation-date="10/09/2021 14:54:51" order-index="11" type="relation">
+                    <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="396" y1="42" x2="121" y2="142" start-border-pos="0.598717950284481" end-border-pos="0.0725806429982185" start-local-pos="97" end-local-pos="54" name-position="0,20">
+                      <points>
+                        <point x="396" y="42" />
+                        <point x="121" y="142" />
+                      </points>
+                    </layout>
+                    <relation from="a6d562729c3342c8a5140c71c87bed36" from-iid="88c57f3bd77c41afbf969e17aa0446b6" to="fa21cfe3726c4c58b470aaded9c1d3f9" to-iid="ed87020210284b638be32c40ef0d0651" />
+                  </item>
+                  <item id="2d27ea7cf8724361a9f97d417edb093b" iid="677dd8af566a447ab5ac13bb30a8df0e" creation-date="10/09/2021 14:54:51" order-index="12" type="relation">
+                    <layout line-style="perpendicular" lock-start-point="true" lock-to-fields="false" auto-path="" x1="398" y1="42" x2="604" y2="142" start-border-pos="0.596153847873211" end-border-pos="0.125" start-local-pos="97" name-position="0,20">
+                      <points>
+                        <point x="398" y="42" />
+                        <point x="604" y="142" />
+                      </points>
+                    </layout>
+                    <relation from="a6d562729c3342c8a5140c71c87bed36" from-iid="88c57f3bd77c41afbf969e17aa0446b6" to="79ea22e267144e03b345ead2fe13ca35" to-iid="4f3b873e81e045c89bd966e6f3dcde3a" />
+                  </item>
+                  <item id="4031602c15c0435da3585a4b76640b53" iid="319d93255ae84e4f88f00c69a0fd8d0e" creation-date="10/09/2021 14:54:51" order-index="13" type="relation">
+                    <layout line-style="perpendicular" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="258" y1="315" x2="398" y2="222" start-border-pos="0.375" end-border-pos="0.625" start-local-pos="41" name-position="0,20">
+                      <points>
+                        <point x="258" y="315" />
+                        <point x="398" y="222" />
+                      </points>
+                    </layout>
+                    <relation from="7057195d682d430a91063d2f80b008de" from-iid="0543e47d0fdc4b4890038deb2f767c85" to="fc1c4be041de4610bfe890dc36fc24ef" to-iid="bb4b6f1005784a81a98deb08d085323c" />
+                  </item>
+                  <item id="9bf91adbacbe43468723c7315c1f8c83" iid="50a5f7ac782c462a8deaec89a8678e76" creation-date="10/09/2021 14:54:51" order-index="14" type="relation">
+                    <layout line-style="perpendicular" lock-end-point="true" lock-to-fields="false" auto-path="" x1="149" y1="274" x2="149" y2="222" start-border-pos="0.110897436738014" end-border-pos="0.639784947037697" end-local-pos="82" name-position="0,20">
+                      <points>
+                        <point x="149" y="274" />
+                        <point x="149" y="222" />
+                      </points>
+                    </layout>
+                    <relation from="7057195d682d430a91063d2f80b008de" from-iid="0543e47d0fdc4b4890038deb2f767c85" to="fa21cfe3726c4c58b470aaded9c1d3f9" to-iid="ed87020210284b638be32c40ef0d0651" />
+                  </item>
+                  <item id="c12280abb08d423482604a2e95a25574" iid="feffd8a4d95d46849cd93e052971ab4e" creation-date="10/09/2021 14:54:51" order-index="15" type="relation">
+                    <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="398" y1="356" x2="398" y2="222" start-border-pos="0.125" end-border-pos="0.625" name-position="0,20">
+                      <points>
+                        <point x="398" y="356" />
+                        <point x="398" y="222" />
+                      </points>
+                    </layout>
+                    <relation from="719b5cfc9d8a4ba6b85cdf49d1389ec5" from-iid="25eced3f7d924539aad5ea923bacbc3e" to="fc1c4be041de4610bfe890dc36fc24ef" to-iid="bb4b6f1005784a81a98deb08d085323c" />
+                  </item>
+                  <item id="582a7aec06174a5ab3e35087cf10682b" iid="8f95fa02e8384b39bce21a138b0b1ac3" creation-date="10/09/2021 14:54:51" order-index="16" type="relation">
+                    <layout line-style="perpendicular" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-3" y1="182" x2="67" y2="182" start-border-pos="0.373015873015873" end-border-pos="0.875" start-local-pos="31" end-local-pos="40" name-position="0,20">
+                      <points>
+                        <point x="-3" y="182" />
+                        <point x="67" y="182" />
+                      </points>
+                    </layout>
+                    <relation from="9e41ccbce9644ce5b0d00bcbe7361ab0" from-iid="10fa2b1b50f24b3da9675aed56bb63f8" to="fa21cfe3726c4c58b470aaded9c1d3f9" to-iid="ed87020210284b638be32c40ef0d0651" />
+                  </item>
+                </layer>
+              </diagram>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p367cd47b84c54856885cbb58aa1df3e2_973671658" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/09/2021 14:54:51</creation-date>
+          <change-date>10/09/2021 14:54:51</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="ddf9176d5ff64b65accecd5cf59bcb6c" name="Default" visible="true" enabled="true" locked="false">
+          <item id="50b31871af934be2a780af6403cac01e" iid="8b16fcd1d90b40c4a93a5fd0a76a0058" creation-date="10/09/2021 14:54:51" order-index="0" type="entity">
+            <layout ax="2.5" ay="0" awidth="116" aheight="56" x="2.5" y="0" width="116" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="ee0acd5f6fb646e395e6a0f0facc2287" iid="3be0bd9af83c45f7992672490802f159" creation-date="10/09/2021 14:54:51" order-index="1" type="entity">
+            <layout ax="0" ay="156" awidth="121" aheight="56" x="0" y="156" width="121" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="400e80b4b8fd405695a43a91c52cfc0d" iid="513f46e2d6b247b18fa063b177d8e3ee" creation-date="10/09/2021 14:54:51" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="60" y1="156" x2="60" y2="56" start-border-pos="0.123471074380165" end-border-pos="0.625573275862069" name-position="0,20">
+              <points>
+                <point x="60" y="156" />
+                <point x="60" y="106" />
+                <point x="60" y="106" />
+                <point x="60" y="56" />
+              </points>
+            </layout>
+            <relation from="ee0acd5f6fb646e395e6a0f0facc2287" from-iid="3be0bd9af83c45f7992672490802f159" to="50b31871af934be2a780af6403cac01e" to-iid="8b16fcd1d90b40c4a93a5fd0a76a0058" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

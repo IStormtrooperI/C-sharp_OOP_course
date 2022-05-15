@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpcd4266d811534dfe9ce9ba47b12c4be1">
+  <meta>
+    <name>18 Практика «ValueType»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>25</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>6</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-e6269653910e4a7ab69f8e8b41e6c5a3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-cbdbd492e2064eb4a681adcc618e5450" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="List&lt;PropertyInfo&gt;" tid="" name="List&lt;PropertyInfo&gt;" description="" />
+      <type id="PersonName" tid="" name="PersonName" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p2983943917f3429e8a1102add11bd3ce_201123887" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2021 14:52:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pe18add47c677431c898573a7098cf5aa_748696968" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-3,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/23/2021 14:52:29</creation-date>
+          <change-date>11/23/2021 14:52:34</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="f52e32c0b152414a99062772e060f91c" cid="C001" type="class" name="ValueType&lt;T&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 14:52:33">
+            <owned-items>
+              <owned-item ref="6af668e78ada46f7b5b179907230c2bb" />
+            </owned-items>
+            <attributes>
+              <attribute id="ad664e3c9c4504e37afa83559c72cdb83695" cid="PROP001" name="PropertiesOfOrder" creation-date="11/23/2021 14:52:53" property-ref="6af668e78ada46f7b5b179907230c2bb" />
+            </attributes>
+            <operations>
+              <operation id="o75e15f0165a045cf954f153e1ffca164695" cid="OP001" name="ValueType" creation-date="11/23/2021 14:54:17" type="" type-id="" visibility="public">
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o08dac94fb02e49e6a57123c47024c0be159" cid="OP002" name="Equals" creation-date="11/23/2021 14:55:41" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p7f1ad5c90b9c4c81bef2badd45a7875e" name="objToCheck" type="Object" type-id="Uml.Object" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ob524296ba94e4222ba6cfc9c61153a5c111" cid="OP003" name="Equals" creation-date="11/23/2021 14:56:07" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="pd5e6ad25f31e4b6fbd7940d729a6d78f" name="name" type="PersonName" type-id="PersonName" />
+                </parameters>
+              </operation>
+              <operation id="o692a91552b6547a8a3b2c341cfce0eb1871" cid="OP004" name="GetHashCode" creation-date="11/23/2021 15:00:07" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ob6df93c72ea44659bee76e06aa82e0e354" cid="OP005" name="ToString" creation-date="11/23/2021 15:00:33" type="String" type-id="Uml.String" visibility="public">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="6af668e78ada46f7b5b179907230c2bb" cid="PROP001" type="property" name="PropertiesOfOrder" style-class="" owner="f52e32c0b152414a99062772e060f91c" creator="" creation-date="11/23/2021 14:52:53" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="6af668e78ada46f7b5b179907230c2bb_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="List&lt;PropertyInfo&gt;" type-id="List&lt;PropertyInfo&gt;" />
+            <property />
+          </item>
+        </abstract-items>
+        <layer id="cba4b08b11cb4275be6848fb50e11d90" name="Default" visible="true" enabled="true" locked="false">
+          <item id="f52e32c0b152414a99062772e060f91c" iid="38bf13b18848450facdcc938743c84af" creation-date="11/23/2021 14:52:34" order-index="0" type="entity">
+            <layout ax="216" ay="31" awidth="311" aheight="154" x="216" y="31" width="311" height="154" rotation-center="-85.5,3" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp7005cd4ca24e4f359d6f912ab3584e17">
+  <meta>
+    <name>17 Практика «Дифференцирование»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>21</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>7</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-cd155423c68d47debcac2201efac6ef3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-8e06f1f336244440ac1c75bcf4f94842" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Expression&lt;Func&lt;double" tid="" name="Expression&lt;Func&lt;double" description="" />
+      <type id="Expression&lt;Func&lt;double, double&gt;&gt;" tid="" name="Expression&lt;Func&lt;double, double&gt;&gt;" description="" />
+      <type id="Expression" tid="" name="Expression" description="" />
+      <type id="BinaryExpression" tid="" name="BinaryExpression" description="" />
+      <type id="ConstantExpression" tid="" name="ConstantExpression" description="" />
+      <type id="ParameterExpression" tid="" name="ParameterExpression" description="" />
+      <type id="MethodCallExpression" tid="" name="MethodCallExpression" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p7c26990d5b11489ab663c0bf6e916fae_812855895" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/15/2021 22:58:52</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p0fe779933394429f82c2183b02b32c18_606297577" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-84,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/15/2021 22:58:52</creation-date>
+          <change-date>11/15/2021 22:58:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="debb28a0753f479da53102a00736e246" cid="C001" type="class" name="Algebra" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 22:58:56">
+            <operations>
+              <operation id="o6d84feb43e394c9fb0b8b442ac8cdda4923" cid="OP001" name="Differentiate" creation-date="11/15/2021 22:59:44" type="Expression&lt;Func&lt;double, double&gt;&gt;" type-id="Expression&lt;Func&lt;double, double&gt;&gt;" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p1bb55f3f2cf047e7b3565cd28e84e723" name="function" type="Expression&lt;Func&lt;double" type-id="Expression&lt;Func&lt;double" />
+                  <parameter id="pcb8802e2480c46049613d5ab495b4832" name="double&gt;&gt;" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o633b1ccad2da4f14bfc6734bbb98f872867" cid="OP002" name="Differentiate" creation-date="11/15/2021 23:08:00" type="Expression" type-id="Expression" visibility="private">
+                <parameters>
+                  <parameter id="p1fb2d77c84814f16ba2f6a9686a4242b" name="expresFunction" type="Expression&lt;Func&lt;double" type-id="Expression&lt;Func&lt;double" />
+                </parameters>
+              </operation>
+              <operation id="od4995efae80242c0950efee5829bd313586" cid="OP003" name="Differentiate" creation-date="11/15/2021 23:09:51" type="Expression" type-id="Expression" visibility="private">
+                <parameters>
+                  <parameter id="pfbe7cacd91d140a4b073c34f989a4b59" name="expresFunction" type="BinaryExpression" type-id="BinaryExpression" />
+                </parameters>
+              </operation>
+              <operation id="obcfabe6185834e8ba13d5beaea90fbbd347" cid="OP004" name="Differentiate" creation-date="11/15/2021 23:10:25" type="Expression" type-id="Expression" visibility="private">
+                <parameters>
+                  <parameter id="p59b77293b1024884aa42583106f39ab0" name="expresFunction" type="ConstantExpression" type-id="ConstantExpression" />
+                </parameters>
+              </operation>
+              <operation id="o151b6c1db3b345768e4461d688ca1510851" cid="OP005" name="Differentiate" creation-date="11/15/2021 23:10:38" type="Expression" type-id="Expression" visibility="private">
+                <parameters>
+                  <parameter id="pa9c4db566fee4964805d8f3dc6033579" name="expresFunction" type="ParameterExpression" type-id="ParameterExpression" />
+                </parameters>
+              </operation>
+              <operation id="o500830f8f73b419eb0727a5b08c8f44c755" cid="OP006" name="Differentiate" creation-date="11/15/2021 23:10:50" type="Expression" type-id="Expression" visibility="private">
+                <parameters>
+                  <parameter id="pf0ac79941754480a9bd614f67dc275b0" name="expresFunction" type="MethodCallExpression" type-id="MethodCallExpression" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="9ab85e67af4147469b959636c5b5916b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="debb28a0753f479da53102a00736e246" iid="8486f5e89317480bbc651b206fa055a4" creation-date="11/15/2021 22:58:56" order-index="0" type="entity">
+            <layout ax="-12" ay="21" awidth="605" aheight="160" x="-12" y="21" width="605" height="160" rotation-center="-232.5,0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

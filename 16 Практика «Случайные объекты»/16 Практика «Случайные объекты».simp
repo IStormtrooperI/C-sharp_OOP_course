@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpcab4b0624cc6459c99295949d84b000b">
+  <meta>
+    <name>16 Практика «Случайные объекты»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>78</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>11</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-dcea104e79454caeaa08c78246bc7a59" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-8b3fba5af18347c39d77d63e1f44b3fe" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="IContinuousDistribution" tid="" name="IContinuousDistribution" description="" />
+      <type id="Type" tid="" name="Type" description="" />
+      <type id="object" tid="" name="object" description="" />
+      <type id="&lt;string, IContinuousDistribution&gt;" tid="" name="&lt;string, IContinuousDistribution&gt;" description="" />
+      <type id="Class:3eaff5aff8de4e488bb9a0863bf6aee1" tid="" name="Generator&lt;T&gt;" description="" class-ref="3eaff5aff8de4e488bb9a0863bf6aee1" />
+      <type id="ParameterExpression" tid="" name="ParameterExpression" description="" />
+      <type id="List&lt;MemberBindig&gt;" tid="" name="List&lt;MemberBindig&gt;" description="" />
+      <type id="Random" tid="" name="Random" description="" />
+      <type id="T" tid="" name="T" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p18e9ad5ea06248b3bc9989005348472c_615020087" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/15/2021 19:25:56</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pc23096b5cd444b7faa1d378b739ff53d_800115224" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/15/2021 19:25:56</creation-date>
+          <change-date>11/15/2021 19:45:19</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="2beea98b71af46a8a84dc3352ffba5a5" cid="C001" type="class" name="FromDistribution" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 19:26:07">
+            <owned-items>
+              <owned-item ref="88c4954f1a744baea125ee46d6556e6b" />
+            </owned-items>
+            <attributes>
+              <attribute id="aa560e991af8f4f52b522f4dc974281dd847" cid="PROP001" name="Distribution" creation-date="11/15/2021 19:26:31" property-ref="88c4954f1a744baea125ee46d6556e6b" />
+            </attributes>
+            <operations>
+              <operation id="ob3c057457333409b98cd6bdd41d38e97353" cid="OP001" name="FromDistribution" creation-date="11/15/2021 19:28:29" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pea96c197d18746a6b499df9bbb26f2e0" name="type" type="Type" type-id="Type" />
+                  <parameter id="p5aeb634deb5b432b8698a72677eda6e5" name="args" type="object" type-id="object" multiplicity="*" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="88c4954f1a744baea125ee46d6556e6b" cid="PROP001" type="property" name="Distribution" style-class="" owner="2beea98b71af46a8a84dc3352ffba5a5" creator="" creation-date="11/15/2021 19:26:31" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="88c4954f1a744baea125ee46d6556e6b_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="IContinuousDistribution" type-id="IContinuousDistribution" />
+            <property />
+          </item>
+          <item id="3eaff5aff8de4e488bb9a0863bf6aee1" cid="C002" type="class" name="Generator&lt;T&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 19:29:49">
+            <owned-items>
+              <owned-item ref="86aab71f1b9246278b3f598e51b584e8" />
+              <owned-item ref="6b5e45ec3c634887b85cb44ef6d6ca47" />
+              <owned-item ref="4afba0a6d7c342489fd2b9ec65a98fc3" />
+            </owned-items>
+            <attributes>
+              <attribute id="ab66a84e3a01843899d13c62d551bb612959" cid="PROP002" name="distributions" creation-date="11/15/2021 19:30:01" property-ref="86aab71f1b9246278b3f598e51b584e8" />
+              <attribute id="af79b1b5dbe6b4bfe8be386c3a06da9b9591" cid="PROP003" name="compiledFunc Func&lt;Dictionary&lt;string, IContinuous&gt;, Random, T&gt;" creation-date="11/15/2021 19:31:37" property-ref="6b5e45ec3c634887b85cb44ef6d6ca47" />
+              <attribute id="a2caaf5dd96f840b88b2fb68ea747da9a782" cid="PROP004" name="isNeedToRecompileFunc" creation-date="11/15/2021 19:32:25" property-ref="4afba0a6d7c342489fd2b9ec65a98fc3" />
+            </attributes>
+            <operations>
+              <operation id="o544bef6661794518a6eba1f8091c5c02775" cid="OP005" name="CreateDictionaryOfProperties" creation-date="11/15/2021 19:37:27" type="" type-id="" visibility="private" />
+              <operation id="o3e44204ae36e4f1d91abd330e579cdaf887" cid="OP006" name="CompileFunc" creation-date="11/15/2021 19:37:47" type="" type-id="" visibility="private" />
+              <operation id="odb2a98110e2841f8b5e824d9f8cd0b66119" cid="OP007" name="CreateBindings" creation-date="11/15/2021 19:38:01" type="List&lt;MemberBindig&gt;" type-id="List&lt;MemberBindig&gt;" visibility="private">
+                <parameters>
+                  <parameter id="pa7bf38cc1ea14e8996198917dcf82d2a" name="rnd" type="ParameterExpression" type-id="ParameterExpression" />
+                  <parameter id="pa19bb2594ff44dea9d8d7d68aa1990a9" name="dict" type="ParameterExpression" type-id="ParameterExpression" />
+                </parameters>
+              </operation>
+              <operation id="o518ba062364c4922b85aa40b240d075332" cid="OP010" name="Generator" creation-date="11/15/2021 19:40:45" type="" type-id="" visibility="public">
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o5f2e5d6ff8da489fb0563035c0f1cfa5175" cid="OP009" name="Generate" creation-date="11/15/2021 19:40:02" type="T" type-id="T" visibility="public">
+                <parameters>
+                  <parameter id="p42e7e41daaf4474aa3e836dbf66c7bbe" name="rnd" type="Random" type-id="Random" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="86aab71f1b9246278b3f598e51b584e8" cid="PROP002" type="property" name="distributions" style-class="" owner="3eaff5aff8de4e488bb9a0863bf6aee1" creator="" creation-date="11/15/2021 19:30:01" visibility="private">
+            <feature />
+            <structural-feature type="&lt;string, IContinuousDistribution&gt;" type-id="&lt;string, IContinuousDistribution&gt;" />
+            <property />
+          </item>
+          <item id="6b5e45ec3c634887b85cb44ef6d6ca47" cid="PROP003" type="property" name="compiledFunc Func&lt;Dictionary&lt;string, IContinuous&gt;, Random, T&gt;" style-class="" owner="3eaff5aff8de4e488bb9a0863bf6aee1" creator="" creation-date="11/15/2021 19:31:37" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="4afba0a6d7c342489fd2b9ec65a98fc3" cid="PROP004" type="property" name="isNeedToRecompileFunc" style-class="" owner="3eaff5aff8de4e488bb9a0863bf6aee1" creator="" creation-date="11/15/2021 19:32:25" visibility="private">
+            <feature />
+            <structural-feature type="Boolean" type-id="Uml.Boolean" />
+            <property />
+          </item>
+          <item id="4d89eb75e6d84289ac214546fad3678f" cid="C003" type="class" name="PropertiesKeeper" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 19:33:46">
+            <owned-items>
+              <owned-item ref="3ecbac65dfa643a686e4252548459df8" />
+              <owned-item ref="4b3d2f14aa2e4550a52286546f7c921f" />
+              <owned-item ref="6fdd9ccf28ae40b1acbdff28a73a59c8" />
+            </owned-items>
+            <attributes>
+              <attribute id="a586a6322dbd245abadec7dea6a937e8d279" cid="PROP005" name="PropertyName" creation-date="11/15/2021 19:34:10" property-ref="3ecbac65dfa643a686e4252548459df8" />
+              <attribute id="a64fa0e1039e34e2ca68727fefa962ba2847" cid="PROP006" name="Parent" creation-date="11/15/2021 19:34:56" property-ref="4b3d2f14aa2e4550a52286546f7c921f" />
+            </attributes>
+            <operations>
+              <operation id="o8f586e9b09ec4c288fab722defc3c5cc136" cid="OP003" name="PropertiesKeeper" creation-date="11/15/2021 19:35:34" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4422b92333bc45659b7a8639b697fc6d" name="propertyName" type="String" type-id="Uml.String">
+                    <tagged-values>
+                      <tagged-value id="tv020f007211a446e480f21bb9d69139e1" name="set_propertyName" type="reference" multiple="false" ref="3ecbac65dfa643a686e4252548459df8" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pb160a85ae98845b68c7448e9e733a29f" name="parent" type="Generator&lt;T&gt;" type-id="Class:3eaff5aff8de4e488bb9a0863bf6aee1">
+                    <tagged-values>
+                      <tagged-value id="tvc221a575556e401484897348f059e9e5" name="set_parent" type="reference" multiple="false" ref="4b3d2f14aa2e4550a52286546f7c921f" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="od4e8cffdb2294af0936eaddf822b7878207" cid="OP004" name="Set" creation-date="11/15/2021 19:36:21" type="Generator&lt;T&gt;" type-id="Class:3eaff5aff8de4e488bb9a0863bf6aee1" visibility="public">
+                <parameters>
+                  <parameter id="pa499362f02ba48098509bf75ada8d4e3" name="distribution" type="IContinuousDistribution" type-id="IContinuousDistribution" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="3ecbac65dfa643a686e4252548459df8" cid="PROP005" type="property" name="PropertyName" style-class="" owner="4d89eb75e6d84289ac214546fad3678f" creator="" creation-date="11/15/2021 19:34:10" visibility="private">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="3ecbac65dfa643a686e4252548459df8_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="4b3d2f14aa2e4550a52286546f7c921f" cid="PROP006" type="property" name="Parent" style-class="" owner="4d89eb75e6d84289ac214546fad3678f" creator="" creation-date="11/15/2021 19:34:56" visibility="private">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4b3d2f14aa2e4550a52286546f7c921f_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Generator&lt;T&gt;" type-id="Class:3eaff5aff8de4e488bb9a0863bf6aee1" />
+            <property />
+          </item>
+          <item id="b77f45d6332540f3bab3c45fab736216" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 19:44:50" from="3eaff5aff8de4e488bb9a0863bf6aee1" to="4d89eb75e6d84289ac214546fad3678f" visibility="package">
+            <relation from="3eaff5aff8de4e488bb9a0863bf6aee1" to="4d89eb75e6d84289ac214546fad3678f" derived="false">
+              <start-role id="umlar-7a2e1678-f546-4738-8a4f-36fe77408578" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d3c6dc10-694e-4dcd-af6d-9efafb71861c" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="c384eb0a7f914914a85ed0510c0bd209" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/15/2021 19:45:14" from="3eaff5aff8de4e488bb9a0863bf6aee1" to="2beea98b71af46a8a84dc3352ffba5a5" visibility="package">
+            <relation from="3eaff5aff8de4e488bb9a0863bf6aee1" to="2beea98b71af46a8a84dc3352ffba5a5" derived="false">
+              <start-role id="umlar-2c8f8c0e-4b25-44cc-9088-63af81da9d50" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2cce3640-4b7f-4dba-98bc-7a9caa8fca59" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="7479acad7591446ea79938ef37d4e8c1" name="Default" visible="true" enabled="true" locked="false">
+          <item id="2beea98b71af46a8a84dc3352ffba5a5" iid="3e9b5a58dd2f4c0899ebefb15535c818" creation-date="11/15/2021 19:26:07" order-index="0" type="entity">
+            <layout ax="93" ay="-70" awidth="307" aheight="80" x="93" y="-70" width="307" height="80" rotation-center="-83.5,40" />
+            <class />
+          </item>
+          <item id="3eaff5aff8de4e488bb9a0863bf6aee1" iid="b095f9d6f23d4690a2b0c655e49ac5aa" creation-date="11/15/2021 19:29:49" order-index="1" type="entity">
+            <layout ax="59" ay="56" awidth="415" aheight="211" x="59" y="56" width="415" height="211" rotation-center="-137.5,21" />
+            <class />
+          </item>
+          <item id="4d89eb75e6d84289ac214546fad3678f" iid="73405515857045da9e8deb8b5794f9dd" creation-date="11/15/2021 19:33:46" order-index="2" type="entity">
+            <layout ax="30.5" ay="302" awidth="472" aheight="117" x="30.5" y="302" width="472" height="117" rotation-center="-166,21.5" />
+            <class />
+          </item>
+          <item id="b77f45d6332540f3bab3c45fab736216" iid="26a97c3a365a4e2590712fcae11dca7d" creation-date="11/15/2021 19:44:50" order-index="3" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="266" y1="267" x2="266" y2="302" start-border-pos="0.625301204819277" end-border-pos="0.124735169491525" name-position="0,20">
+              <points>
+                <point x="266" y="267" />
+                <point x="266" y="302" />
+              </points>
+            </layout>
+            <relation from="3eaff5aff8de4e488bb9a0863bf6aee1" from-iid="b095f9d6f23d4690a2b0c655e49ac5aa" to="4d89eb75e6d84289ac214546fad3678f" to-iid="73405515857045da9e8deb8b5794f9dd" />
+          </item>
+          <item id="c384eb0a7f914914a85ed0510c0bd209" iid="af551f38463140c5ae9441a9123e5a1f" creation-date="11/15/2021 19:45:14" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="255" y1="56" x2="250" y2="10" start-border-pos="0.118047185691006" end-border-pos="0.622014110950383" name-position="0,20">
+              <points>
+                <point x="255" y="56" />
+                <point x="250" y="10" />
+              </points>
+            </layout>
+            <relation from="3eaff5aff8de4e488bb9a0863bf6aee1" from-iid="b095f9d6f23d4690a2b0c655e49ac5aa" to="2beea98b71af46a8a84dc3352ffba5a5" to-iid="3e9b5a58dd2f4c0899ebefb15535c818" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

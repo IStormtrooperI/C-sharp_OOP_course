@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpe6df1a109c064c6bb8e70f7a765d0703">
+  <meta>
+    <name>15 Практика «Анализ пар»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>33</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>6</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-f5717f67e3c34cc9bc9d23310c756494" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-cd4f31cfd7b2400c8fa1dba600316fb3" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="IEnumerable&lt;T&gt;" tid="" name="IEnumerable&lt;T&gt;" description="" />
+      <type id="IEnumerable&lt;Tuple&lt;T, T&gt;&gt;" tid="" name="IEnumerable&lt;Tuple&lt;T, T&gt;&gt;" description="" />
+      <type id="void" tid="" name="void" description="" />
+      <type id="double" tid="" name="double" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p3ad44dbdfcce4dd9987fa5041941f411_938506822" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/09/2021 20:33:38</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p20815615925d4f4f84205bf632e06b41_596580686" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-92,-77">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/09/2021 20:33:38</creation-date>
+          <change-date>11/09/2021 20:33:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="117bb5779d374a20bba3be8426c12bf2" cid="C001" type="class" name="Analysis&lt;static&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/09/2021 20:33:46">
+            <operations>
+              <operation id="o519b657966504b3d81d424c439efa865684" cid="OP001" name="Pairs&lt;T&gt;" creation-date="11/09/2021 20:34:52" type="IEnumerable&lt;Tuple&lt;T, T&gt;&gt;" type-id="IEnumerable&lt;Tuple&lt;T, T&gt;&gt;" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pcaab895f0e1643b48fa0f8c8fba6d38a" name="dates" type="IEnumerable&lt;T&gt;" type-id="IEnumerable&lt;T&gt;" />
+                </parameters>
+              </operation>
+              <operation id="o8f30701b960d49ae98c0331de12ef3d6390" cid="OP002" name="MaxIndex&lt;T&gt;" creation-date="11/09/2021 20:36:03" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p95717a5efc0d4f89bfe548dcbc3bc573" name="dates" type="IEnumerable&lt;T&gt;" type-id="IEnumerable&lt;T&gt;" />
+                </parameters>
+              </operation>
+              <operation id="oda9706c6da604f35be8500350b2f958f551" cid="OP003" name="CheckLength&lt;T&gt;" creation-date="11/09/2021 20:36:29" type="void" type-id="void" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p774eb2d535ae4261b28770380a6fa1db" name="dates" type="IEnumerable&lt;T&gt;" type-id="IEnumerable&lt;T&gt;" />
+                </parameters>
+              </operation>
+              <operation id="o9165e3cfd8b245de9ec9cf1cd1eb74b2102" cid="OP004" name="FindMaxPeriodIndex" creation-date="11/09/2021 20:36:50" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pa5e5f75bbe5f43d1b75ee5559819b0c6" name="dates" type="DateTime" type-id="Uml.DateTime" multiplicity="*" />
+                </parameters>
+              </operation>
+              <operation id="o76d87a6834884aea981b42cb92200bb0766" cid="OP005" name="FindAverageRelativeDifference" creation-date="11/09/2021 20:37:17" type="double" type-id="double" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pb21ad4fb80f746cea3ce56897144ab0b" name="dates" type="double" type-id="double" multiplicity="*" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="76dc61889a1849db90379aa1381ac039" name="Default" visible="true" enabled="true" locked="false">
+          <item id="117bb5779d374a20bba3be8426c12bf2" iid="5cecb9e5079e4689ac974383143d30b7" creation-date="11/09/2021 20:33:46" order-index="0" type="entity">
+            <layout ax="91" ay="31" awidth="401" aheight="138" x="91" y="31" width="401" height="138" rotation-center="-130.5,11" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simpb18992d987644961836b4d81d7fec135">
+  <meta>
+    <name>20 Практика «GraphViz»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="Enumeration" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>474</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="Enumeration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>24</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-b341aef8235b46fabcdf73aa0510c873" name="" task-id-sequence="0">
+    <working-schedule uid="ws-f9482b4f7b984c9ab260d0ebd9576385" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-3c00bb7681ec49efb251a479b71abe9e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-cd48c9c830c044e08ae7a16b68442423" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="GraphEdgeBuilder" tid="" name="GraphEdgeBuilder" description="" />
+      <type id="GraphNodeBuilder" tid="" name="GraphNodeBuilder" description="" />
+      <type id="Class:cf5e5c9966224a5a891aed8746f3a7dd" tid="" name="Graph" description="" class-ref="cf5e5c9966224a5a891aed8746f3a7dd" />
+      <type id="Class:22197431749c4a4f809f11b6a16a3832" tid="" name="IGraphBuilder" description="" class-ref="22197431749c4a4f809f11b6a16a3832" />
+      <type id="GraphEdge" tid="" name="GraphEdge" description="" />
+      <type id="Action&lt;EdgeCommonAttributesConfig&gt;" tid="" name="Action&lt;EdgeCommonAttributesConfig&gt;" description="" />
+      <type id="GraphNode" tid="" name="GraphNode" description="" />
+      <type id="IDictionary&lt;string, string&gt;" tid="" name="IDictionary&lt;string, string&gt;" description="" />
+      <type id="Action&lt;NodeCommonAttributesConfig&gt;" tid="" name="Action&lt;NodeCommonAttributesConfig&gt;" description="" />
+      <type id="GraphNode, parent : IGraphBuilder): GraphNodeBuilder" tid="" name="GraphNode, parent : IGraphBuilder): GraphNodeBuilder" description="" />
+      <type id="IDictionary&lt;string" tid="" name="IDictionary&lt;string" description="" />
+      <type id="TConfig" tid="" name="TConfig" description="" />
+      <type id="float" tid="" name="float" description="" />
+      <type id="Class:dc0af86148424cc1812dc313431ab18c" tid="" name="EdgeCommonAttributesConfig" description="" class-ref="dc0af86148424cc1812dc313431ab18c" />
+      <type id="Class:e6db07af2f8e48f4a77b18e3a16cec13" tid="" name="NodeShape" description="" class-ref="e6db07af2f8e48f4a77b18e3a16cec13" />
+      <type id="Class:f21b837e75ad41109e3ccf1b892d31ec" tid="" name="NodeCommonAttributesConfig" description="" class-ref="f21b837e75ad41109e3ccf1b892d31ec" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="did698e5f9a00e4401bce1a2383181d24a4004" cid="PROP004" type="property" name="Node" style-class="" owner="diab44fb08ec1945aab2c800581bfae9229774" creator="" creation-date="11/23/2021 18:08:44" visibility="private">
+      <stereotypes>
+        <stereotype name="getOnly" />
+      </stereotypes>
+      <stereotype-instances>
+        <stereotype id="did698e5f9a00e4401bce1a2383181d24a4004_getOnly_c" type="getOnly" ref="" />
+      </stereotype-instances>
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature />
+      <structural-feature type="GraphNode" type-id="GraphNode" />
+      <property />
+    </item>
+  </items>
+  <models>
+    <model id="pc6bc111b720645bf82ab8bb5d0e929a3_280348996" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2021 17:57:00</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p37debfab9675450287de51a40f51acb7_887641441" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-415,-141" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/23/2021 17:57:00</creation-date>
+          <change-date>12/04/2021 13:08:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="e6db07af2f8e48f4a77b18e3a16cec13" cid="E001" type="enumeration" name="NodeShape" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 17:57:08" visibility="undefined">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="e6db07af2f8e48f4a77b18e3a16cec13_enumeration_c" type="enumeration" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="a53c9acd5a55942b18f7886f0e959c77113" cid="ENI001" name="Box" creation-date="11/23/2021 17:57:14" />
+              <enumeration-item id="acc6a061f84de448bba30a8b3be92fbc8828" cid="ENI002" name="Ellipse" creation-date="11/23/2021 17:57:16" />
+            </enumeration-items>
+          </item>
+          <item id="22197431749c4a4f809f11b6a16a3832" cid="I001" type="uml-interface-classifier" name="IGraphBuilder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 17:57:34" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="22197431749c4a4f809f11b6a16a3832_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="odc1af166b6ad49568c10dcfb0383e165535" cid="OP001" name="AddEdge" creation-date="11/23/2021 17:57:52" type="GraphEdgeBuilder" type-id="GraphEdgeBuilder" visibility="undefined">
+                <parameters>
+                  <parameter id="pb51d3d891b08496b9bca6499399e96a7" name="sourceNode" type="String" type-id="Uml.String" />
+                  <parameter id="p4a07489de75b44609738e8b71a94c1ba" name="destinationNode" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o7a45da84c66c46fcb0d63b567df01c9e592" cid="OP002" name="AddNode" creation-date="11/23/2021 17:58:55" type="GraphNodeBuilder" type-id="GraphNodeBuilder" visibility="undefined">
+                <parameters>
+                  <parameter id="pf03484df9dc54a9ab1cf48f32aa7889d" name="nodeName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o0b069a8898cb437fa325a24dc6b1c4f8660" cid="OP003" name="Build" creation-date="11/23/2021 17:59:13" type="String" type-id="Uml.String" visibility="undefined" />
+            </operations>
+          </item>
+          <item id="bf4343d5e00643caafe10934a338089d" cid="C001" type="class" name="DotGraphBuilder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 17:59:34" visibility="undefined">
+            <owned-items>
+              <owned-item ref="cf5e5c9966224a5a891aed8746f3a7dd" />
+            </owned-items>
+            <attributes>
+              <attribute id="a53166a45cf3c4ddca265920358f14e0a50" cid="PROP001" name="Graph" creation-date="11/23/2021 17:59:45" property-ref="cf5e5c9966224a5a891aed8746f3a7dd" />
+            </attributes>
+            <operations>
+              <operation id="oc306d787c4534de5bd652968ad24d4e370" cid="OP004" name="DotGraphBuilder" creation-date="11/23/2021 18:00:23" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p8b43dd87edbc46909bf31f35a09f6417" name="graphName" type="String" type-id="Uml.String" />
+                  <parameter id="p1c8a53e3393c4b71b97b732af03b24f0" name="directed" type="Boolean" type-id="Uml.Boolean" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o602490c1190547c3a33ad0140ad09c7d828" cid="OP005" name="AddEdge" creation-date="11/23/2021 18:00:55" type="GraphEdgeBuilder" type-id="GraphEdgeBuilder" visibility="public">
+                <parameters>
+                  <parameter id="pca6519a6bb0048ce8ade65103f84bf67" name="sourceNode" type="String" type-id="Uml.String" />
+                  <parameter id="pecf9bf3424334fa5a7f9f4775ea824e0" name="destinationNode" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o7fb9218b976a4be5b8d608afc99cfe8c100" cid="OP006" name="AddNode" creation-date="11/23/2021 18:01:24" type="GraphNodeBuilder" type-id="GraphNodeBuilder" visibility="public">
+                <parameters>
+                  <parameter id="p4a82a0b0d9374d7db3f945f29fde27f8" name="nodeName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="oa0d10d5b99ff4e74a51d4cb09626f176460" cid="OP007" name="Build" creation-date="11/23/2021 18:01:47" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o7c1be38fd10e441fb99df34cf189a040732" cid="OP008" name="DirectedGraph" creation-date="11/23/2021 18:02:01" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p176c7e2d2939435e8a2fb26a4b9a63ab" name="graphName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o07f9b676ab7844418cdcef986217676652" cid="OP009" name="UndirectedGraph" creation-date="11/23/2021 18:02:22" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p7078dc24aea74553b7eac4de981476d2" name="graphName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="cf5e5c9966224a5a891aed8746f3a7dd" cid="PROP001" type="property" name="Graph" style-class="" owner="bf4343d5e00643caafe10934a338089d" creator="" creation-date="11/23/2021 17:59:45" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cf5e5c9966224a5a891aed8746f3a7dd_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Graph" type-id="Class:cf5e5c9966224a5a891aed8746f3a7dd" />
+            <property />
+          </item>
+          <item id="87e86694d5da4f5ba5e5396c494ccf2b" cid="REA001" type="realization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:03:09" from="bf4343d5e00643caafe10934a338089d" to="22197431749c4a4f809f11b6a16a3832" visibility="package" />
+          <item id="41e08f08a4414a0ca2577ac4aab6b1aa" cid="C002" type="class" name="GraphBuilder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:03:35" visibility="undefined">
+            <owned-items>
+              <owned-item ref="b50e3b83a34e4377a70687d8e153864f" />
+            </owned-items>
+            <attributes>
+              <attribute id="ac4d76cf621e74ebc826320270695f50a36" cid="PROP002" name="Parent" creation-date="11/23/2021 18:03:48" property-ref="b50e3b83a34e4377a70687d8e153864f" />
+            </attributes>
+            <operations>
+              <operation id="o0dba3aeb3a434c32b98926962624540f531" cid="OP010" name="GraphBuilder" creation-date="11/23/2021 18:04:32" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd6973c2ce03c471f81691dfa29be3dec" name="parent" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832">
+                    <tagged-values>
+                      <tagged-value id="tvc7862c80679f4d44aed1de99b75ca83e" name="set_parent" type="reference" multiple="false" ref="b50e3b83a34e4377a70687d8e153864f" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o94ab5e04c3a0420eb73447ff95ba4b40892" cid="OP012" name="AddEdge" creation-date="11/23/2021 18:05:23" type="GraphEdgeBuilder" type-id="GraphEdgeBuilder" visibility="public">
+                <parameters>
+                  <parameter id="p9ad28e1b75924dfe869164a582b377b7" name="sourceNode" type="String" type-id="Uml.String" />
+                  <parameter id="p9d78e13da0a74a38b5e82b5fca01d9cc" name="destinationNode" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="of48e46caacb946fd8b042d393d70aca5172" cid="OP011" name="AddNode" creation-date="11/23/2021 18:04:42" type="GraphNodeBuilder" type-id="GraphNodeBuilder" visibility="public">
+                <parameters>
+                  <parameter id="pc8ba5e23d0ba41b6bbf54d1082cb52ab" name="nodeName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o2d40cd708dae4b9ea40a751fe06a745e492" cid="OP013" name="Build" creation-date="11/23/2021 18:07:19" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="b50e3b83a34e4377a70687d8e153864f" cid="PROP002" type="property" name="Parent" style-class="" owner="41e08f08a4414a0ca2577ac4aab6b1aa" creator="" creation-date="11/23/2021 18:03:48" visibility="protected">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="b50e3b83a34e4377a70687d8e153864f_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" />
+            <property />
+          </item>
+          <item id="c0ab528f089d4cd5b08638ad6564952a" cid="REA002" type="realization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:07:36" from="41e08f08a4414a0ca2577ac4aab6b1aa" to="22197431749c4a4f809f11b6a16a3832" visibility="package" />
+          <item id="784e17cb0d85424f9e43afb556f46123" cid="C003" type="class" name="GraphEdgeBuilder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:08:37" visibility="undefined">
+            <owned-items>
+              <owned-item ref="19d962f1f20945a7a5469a10496454d0" />
+            </owned-items>
+            <attributes>
+              <attribute id="aee5663152d5d4a8f8b0e91513748e8e3732" cid="PROP003" name="Edge" creation-date="11/23/2021 18:08:44" property-ref="19d962f1f20945a7a5469a10496454d0" />
+            </attributes>
+            <operations>
+              <operation id="o4bb6a4c509bc455980b29261709acd47878" cid="OP014" name="GraphEdgeBuilder" creation-date="11/23/2021 18:09:19" type="GraphEdgeBuilder" type-id="GraphEdgeBuilder" visibility="public">
+                <parameters>
+                  <parameter id="p05d0137be8f94f7996c08cfd77b5f2e2" name="edge" type="GraphEdge" type-id="GraphEdge">
+                    <tagged-values>
+                      <tagged-value id="tv53468c7b83b844c59864b158b4673b28" name="set_edge" type="reference" multiple="false" ref="19d962f1f20945a7a5469a10496454d0" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pacd196c9be8b461fb4b57abc26a99877" name="parent" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o0e2b58f9109541f5afd45cd602100c8b724" cid="OP015" name="With" creation-date="11/23/2021 18:09:45" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" visibility="public">
+                <parameters>
+                  <parameter id="pb4b0a181da57405aab86a41ce4ca1a3e" name="attributesToApply" type="Action&lt;EdgeCommonAttributesConfig&gt;" type-id="Action&lt;EdgeCommonAttributesConfig&gt;" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="19d962f1f20945a7a5469a10496454d0" cid="PROP003" type="property" name="Edge" style-class="" owner="784e17cb0d85424f9e43afb556f46123" creator="" creation-date="11/23/2021 18:08:44" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="19d962f1f20945a7a5469a10496454d0_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="GraphEdge" type-id="GraphEdge" />
+            <property />
+          </item>
+          <item id="diab44fb08ec1945aab2c800581bfae9229774" cid="C004" type="class" name="GraphNodeBuilder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:08:37" visibility="undefined">
+            <owned-items>
+              <owned-item ref="did698e5f9a00e4401bce1a2383181d24a4004" />
+            </owned-items>
+            <attributes>
+              <attribute id="aee5663152d5d4a8f8b0e91513748e8e3732" cid="PROP004" name="Node" creation-date="11/23/2021 18:08:44" property-ref="did698e5f9a00e4401bce1a2383181d24a4004" />
+            </attributes>
+            <operations>
+              <operation id="o4bb6a4c509bc455980b29261709acd47878" cid="OP014" name="GraphNodeBuilder node" creation-date="11/23/2021 18:09:19" type="GraphNode, parent : IGraphBuilder): GraphNodeBuilder" type-id="GraphNode, parent : IGraphBuilder): GraphNodeBuilder" visibility="public">
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o0e2b58f9109541f5afd45cd602100c8b724" cid="OP015" name="With" creation-date="11/23/2021 18:09:45" type="IGraphBuilder" type-id="Class:22197431749c4a4f809f11b6a16a3832" visibility="public">
+                <parameters>
+                  <parameter id="pb4b0a181da57405aab86a41ce4ca1a3e" name="attributesToApply" type="Action&lt;NodeCommonAttributesConfig&gt;" type-id="Action&lt;NodeCommonAttributesConfig&gt;" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="b8d19e6130d54c7ab800ca180d5cfb57" cid="C006" type="class" name="CommonAttributesConfig&lt;TConfig&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:17:12" visibility="undefined">
+            <owned-items>
+              <owned-item ref="615a705eab5540ea8387f6bcee0ed1c2" />
+            </owned-items>
+            <attributes>
+              <attribute id="a7cb42eab69914fb7a41801715434f928932" cid="PROP005" name="Attributes" creation-date="11/23/2021 18:17:29" property-ref="615a705eab5540ea8387f6bcee0ed1c2" />
+            </attributes>
+            <operations>
+              <operation id="ofdbba13277e24253a7bf03f617d06348861" cid="OP016" name="CommonAttributesConfig" creation-date="11/23/2021 18:18:34" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p2a86d4471546490fbf815e93a27aa6e2" name="attributes" type="IDictionary&lt;string" type-id="IDictionary&lt;string">
+                    <tagged-values>
+                      <tagged-value id="tvddadcb2f2f3e4d21a4373e8f8f05edff" name="set_attributes" type="reference" multiple="false" ref="615a705eab5540ea8387f6bcee0ed1c2" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p7349539c437545f7a0744d96247f900e" name="string&gt;" type="" type-id="" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o45a29b9bd84a4f9b9aafa22016138797804" cid="OP017" name="Label" creation-date="11/23/2021 18:18:47" type="TConfig" type-id="TConfig" visibility="public">
+                <parameters>
+                  <parameter id="pf999f2f78b1c4611b61d5f63dcba4e37" name="label" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o146bcec659574170a2c2996a49cd78ab190" cid="OP018" name="FontSize" creation-date="11/23/2021 18:19:06" type="TConfig" type-id="TConfig" visibility="public">
+                <parameters>
+                  <parameter id="p088084b6fb144879979ad6561a976925" name="sizeInPt" type="Real" type-id="Uml.Real" />
+                </parameters>
+              </operation>
+              <operation id="o16111663b7504f4d8dcc260e6516c9eb108" cid="OP019" name="Color" creation-date="11/23/2021 18:19:55" type="TConfig" type-id="TConfig" visibility="public">
+                <parameters>
+                  <parameter id="p7551e17093ee44eb8fdff485a243471d" name="color" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="5cd4e860f9734d14acc384f449b3a57f" cid="GNR003" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:13:35" from="784e17cb0d85424f9e43afb556f46123" to="41e08f08a4414a0ca2577ac4aab6b1aa" visibility="package" />
+          <item id="5394d8ef05df485cb3b75e97c8b80710" cid="GNR004" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:13:55" from="diab44fb08ec1945aab2c800581bfae9229774" to="41e08f08a4414a0ca2577ac4aab6b1aa" visibility="package" />
+          <item id="615a705eab5540ea8387f6bcee0ed1c2" cid="PROP005" type="property" name="Attributes" style-class="" owner="b8d19e6130d54c7ab800ca180d5cfb57" creator="" creation-date="11/23/2021 18:17:29" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="615a705eab5540ea8387f6bcee0ed1c2_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="IDictionary&lt;string, string&gt;" type-id="IDictionary&lt;string, string&gt;" />
+            <property />
+          </item>
+          <item id="dc0af86148424cc1812dc313431ab18c" cid="C007" type="class" name="EdgeCommonAttributesConfig" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:20:40" visibility="undefined">
+            <owned-items>
+              <owned-item ref="a86f79fb769642d3b4aa47303b2ded62" />
+            </owned-items>
+            <attributes>
+              <attribute id="adc8a2d295d8c437ca45fdd18c9ce74ce892" cid="PROP006" name="Edge" creation-date="11/23/2021 18:20:56" property-ref="a86f79fb769642d3b4aa47303b2ded62" />
+            </attributes>
+            <operations>
+              <operation id="oe7f83d1b553b45419dc356c21a87a378119" cid="OP020" name="EdgeCommonAttributesConfig" creation-date="11/23/2021 18:21:19" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pfc3f500fb2a8470baed91dd1955301ba" name="edge" type="GraphEdge" type-id="GraphEdge">
+                    <tagged-values>
+                      <tagged-value id="tv692fd1b9ad8541818de8f0455ce3a19d" name="set_edge" type="reference" multiple="false" ref="a86f79fb769642d3b4aa47303b2ded62" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oa7468a334eae434f964f28e536ef447e663" cid="OP021" name="Weight" creation-date="11/23/2021 18:21:26" type="EdgeCommonAttributesConfig" type-id="Class:dc0af86148424cc1812dc313431ab18c" visibility="public">
+                <parameters>
+                  <parameter id="p78075ccf1c984619bcd818d4535485f1" name="weight" type="Real" type-id="Uml.Real" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="a86f79fb769642d3b4aa47303b2ded62" cid="PROP006" type="property" name="Edge" style-class="" owner="dc0af86148424cc1812dc313431ab18c" creator="" creation-date="11/23/2021 18:20:56" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="a86f79fb769642d3b4aa47303b2ded62_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="GraphEdge" type-id="GraphEdge" />
+            <property />
+          </item>
+          <item id="f21b837e75ad41109e3ccf1b892d31ec" cid="C008" type="class" name="NodeCommonAttributesConfig" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:21:54" visibility="undefined">
+            <owned-items>
+              <owned-item ref="87b05f0cef2e416aa674a3d6f9ab4041" />
+            </owned-items>
+            <attributes>
+              <attribute id="a22c29ad39b084b6997eb8e5c4d8b809c85" cid="PROP007" name="Node" creation-date="11/23/2021 18:22:07" property-ref="87b05f0cef2e416aa674a3d6f9ab4041" />
+            </attributes>
+            <operations>
+              <operation id="ob82729a59b764fe3b4a4b4d9caf83591431" cid="OP022" name="NodeCommonAttributesConfig" creation-date="11/23/2021 18:22:33" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7dc570e6d8b94620b075e030a34b67e5" name="node" type="GraphNode" type-id="GraphNode">
+                    <tagged-values>
+                      <tagged-value id="tv1af6f2eaea974017b7b59e2bfedab0e2" name="set_node" type="reference" multiple="false" ref="87b05f0cef2e416aa674a3d6f9ab4041" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oe409f9e8ec414d44b4218fa87ce16bfe101" cid="OP023" name="Shape" creation-date="11/23/2021 18:22:48" type="NodeCommonAttributesConfig" type-id="Class:f21b837e75ad41109e3ccf1b892d31ec" visibility="public">
+                <parameters>
+                  <parameter id="p0c4bfed0cdb94d6ca52a132eaf4c17cd" name="shape" type="NodeShape" type-id="Class:e6db07af2f8e48f4a77b18e3a16cec13" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="87b05f0cef2e416aa674a3d6f9ab4041" cid="PROP007" type="property" name="Node" style-class="" owner="f21b837e75ad41109e3ccf1b892d31ec" creator="" creation-date="11/23/2021 18:22:07" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="87b05f0cef2e416aa674a3d6f9ab4041_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="GraphNode" type-id="GraphNode" />
+            <property />
+          </item>
+          <item id="5bf2fdae00ce49ef8000fad87b6c6130" cid="GNR005" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:23:39" from="dc0af86148424cc1812dc313431ab18c" to="b8d19e6130d54c7ab800ca180d5cfb57" visibility="package" />
+          <item id="0931be7df7854f0eb78cb0a202f8b7b1" cid="GNR006" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:23:58" from="f21b837e75ad41109e3ccf1b892d31ec" to="b8d19e6130d54c7ab800ca180d5cfb57" visibility="package" />
+          <item id="f623f4bd83194239be0fe58d270f7253" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:25:55" from="f21b837e75ad41109e3ccf1b892d31ec" to="e6db07af2f8e48f4a77b18e3a16cec13" visibility="package">
+            <relation from="f21b837e75ad41109e3ccf1b892d31ec" to="e6db07af2f8e48f4a77b18e3a16cec13" derived="false">
+              <start-role id="umlar-cd68dfc1-9d18-4f81-b898-91f60c24b600" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-53cc70d3-fe52-4fd0-b21c-5c710b13ccc9" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="bb3241b2bf824275bb7d5fcdb64aafd7" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:30:32" from="784e17cb0d85424f9e43afb556f46123" to="dc0af86148424cc1812dc313431ab18c" visibility="package">
+            <relation from="784e17cb0d85424f9e43afb556f46123" to="dc0af86148424cc1812dc313431ab18c" derived="false">
+              <start-role id="umlar-7416d286-1998-4dc6-9b71-bb1afb7c51ae" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-ce8f29ee-5358-44e0-91a7-9ae1a1ca3d85" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="5a816e960af24fc88144fe04cec4ed80" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 18:31:52" from="diab44fb08ec1945aab2c800581bfae9229774" to="f21b837e75ad41109e3ccf1b892d31ec" visibility="package">
+            <relation from="diab44fb08ec1945aab2c800581bfae9229774" to="f21b837e75ad41109e3ccf1b892d31ec" derived="false">
+              <start-role id="umlar-f2ef50b2-0c74-490a-8c09-b0b6b0f25a5f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-cd130071-cf42-43fe-9318-c04b2bad4157" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ad65ce9207db451989c5495141563db4" cid="REL007" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="12/04/2021 13:07:49" from="bf4343d5e00643caafe10934a338089d" to="784e17cb0d85424f9e43afb556f46123" visibility="package">
+            <relation from="bf4343d5e00643caafe10934a338089d" to="784e17cb0d85424f9e43afb556f46123" derived="false">
+              <start-role id="umlar-4809536e-2e06-429d-9c83-70207cf33342" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d9776c97-796f-4ea8-88fe-f69404237905" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="227a8ca201e54038949f96b0637477c5" cid="REL008" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="12/04/2021 13:08:02" from="bf4343d5e00643caafe10934a338089d" to="diab44fb08ec1945aab2c800581bfae9229774" visibility="package">
+            <relation from="bf4343d5e00643caafe10934a338089d" to="diab44fb08ec1945aab2c800581bfae9229774" derived="false">
+              <start-role id="umlar-03f378ed-514d-4667-9a1b-38371d738319" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5486abdd-38c1-4e83-a2e7-b2f7b6036428" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="99081d6071764f82b175959f9a4cc5e0" name="Default" visible="true" enabled="true" locked="false">
+          <item id="e6db07af2f8e48f4a77b18e3a16cec13" iid="2785a94dfcd1413da4763e9278c1a151" creation-date="11/23/2021 17:57:08" order-index="0" type="entity">
+            <layout ax="-149" ay="465" awidth="140" aheight="96" x="-149" y="465" width="140" height="96" rotation-center="0,32" />
+            <enumeration />
+          </item>
+          <item id="22197431749c4a4f809f11b6a16a3832" iid="2c7684ce77b54a9aae6b709e50d640ff" creation-date="11/23/2021 17:57:34" order-index="1" type="entity">
+            <layout ax="134" ay="-49" awidth="465" aheight="122" x="134" y="-47" width="465" height="122" rotation-center="-162.5,19" />
+            <class />
+          </item>
+          <item id="bf4343d5e00643caafe10934a338089d" iid="c85c2af677044bf5aa95ade4e81afcf7" creation-date="11/23/2021 17:59:34" order-index="2" type="entity">
+            <layout ax="-385" ay="-45" awidth="482.5" aheight="179" x="-385" y="-45" width="482.5" height="179" rotation-center="-171.25,11.5" />
+            <class />
+          </item>
+          <item id="87e86694d5da4f5ba5e5396c494ccf2b" iid="fde3f2286bc04955b8f8c2f0cce47acc" creation-date="11/23/2021 18:03:09" order-index="3" type="relation">
+            <layout line-style="oblique" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="98" y1="12" x2="134" y2="12" start-border-pos="0.32960893958807" end-border-pos="0.875" start-local-pos="57" end-local-pos="61" name-position="0,20">
+              <points>
+                <point x="98" y="12" />
+                <point x="134" y="12" />
+              </points>
+            </layout>
+            <relation from="bf4343d5e00643caafe10934a338089d" from-iid="c85c2af677044bf5aa95ade4e81afcf7" to="22197431749c4a4f809f11b6a16a3832" to-iid="2c7684ce77b54a9aae6b709e50d640ff" />
+          </item>
+          <item id="41e08f08a4414a0ca2577ac4aab6b1aa" iid="f03b767a27d6439c97cecf916fdadbc8" creation-date="11/23/2021 18:03:35" order-index="4" type="entity">
+            <layout ax="635.5" ay="-45" awidth="482" aheight="135.5" x="635.5" y="-45" width="482" height="135.5" rotation-center="-154,17" />
+            <class />
+          </item>
+          <item id="c0ab528f089d4cd5b08638ad6564952a" iid="5b9e4a5b579444689c9a1ffc666dfb81" creation-date="11/23/2021 18:07:36" order-index="5" type="relation">
+            <layout line-style="oblique" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="636" y1="23" x2="599" y2="23" start-border-pos="0.874538742005825" end-border-pos="0.397028684616089" start-local-pos="68" end-local-pos="72" name-position="0,20">
+              <points>
+                <point x="636" y="23" />
+                <point x="599" y="23" />
+              </points>
+            </layout>
+            <relation from="41e08f08a4414a0ca2577ac4aab6b1aa" from-iid="f03b767a27d6439c97cecf916fdadbc8" to="22197431749c4a4f809f11b6a16a3832" to-iid="2c7684ce77b54a9aae6b709e50d640ff" />
+          </item>
+          <item id="784e17cb0d85424f9e43afb556f46123" iid="3f62dc0d7a1d470c84bcc7ce6808b3e8" creation-date="11/23/2021 18:08:37" order-index="6" type="entity">
+            <layout ax="499" ay="123" awidth="577" aheight="96" x="499" y="123" width="577" height="96" rotation-center="-200.5,32" />
+            <class />
+          </item>
+          <item id="diab44fb08ec1945aab2c800581bfae9229774" iid="61591ae03998460fa3509647a6e72a54" creation-date="11/23/2021 18:08:37" order-index="6" type="entity">
+            <layout ax="499" ay="230" awidth="577" aheight="96" x="499" y="230" width="577" height="96" rotation-center="-218.5,75" />
+            <class />
+          </item>
+          <item id="5cd4e860f9734d14acc384f449b3a57f" iid="f9129b27d99341b5b3f12bb087d2fd4b" creation-date="11/23/2021 18:13:35" order-index="7" type="relation">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1030" y1="123" x2="1030" y2="90" start-border-pos="0.230069324374199" end-border-pos="0.54538381844759" start-local-pos="531" end-local-pos="394.5" name-position="0,20">
+              <points>
+                <point x="1030" y="123" />
+                <point x="1030" y="90" />
+              </points>
+            </layout>
+            <relation from="784e17cb0d85424f9e43afb556f46123" from-iid="3f62dc0d7a1d470c84bcc7ce6808b3e8" to="41e08f08a4414a0ca2577ac4aab6b1aa" to-iid="f03b767a27d6439c97cecf916fdadbc8" />
+          </item>
+          <item id="5394d8ef05df485cb3b75e97c8b80710" iid="8fcecf6007734a40a2a021e3be41c92d" creation-date="11/23/2021 18:13:55" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1076" y1="278" x2="1096" y2="90" start-border-pos="0.375" end-border-pos="0.511151452548802" start-local-pos="48" end-local-pos="460.5" name-position="14,18">
+              <points>
+                <point x="1076" y="278" />
+                <point x="1097" y="278" />
+                <point x="1096" y="90" />
+              </points>
+            </layout>
+            <relation from="diab44fb08ec1945aab2c800581bfae9229774" from-iid="61591ae03998460fa3509647a6e72a54" to="41e08f08a4414a0ca2577ac4aab6b1aa" to-iid="f03b767a27d6439c97cecf916fdadbc8" />
+          </item>
+          <item id="b8d19e6130d54c7ab800ca180d5cfb57" iid="fa9e0f6370cb4fb8be5861ac7a092bbd" creation-date="11/23/2021 18:17:12" order-index="9" type="entity">
+            <layout ax="-9" ay="170" awidth="465" aheight="135" x="-8" y="170" width="465" height="135" rotation-center="-162.5,12.5" />
+            <class />
+          </item>
+          <item id="dc0af86148424cc1812dc313431ab18c" iid="9c747f04edcf41d7ace9353cb0fec1b0" creation-date="11/23/2021 18:20:40" order-index="10" type="entity">
+            <layout ax="44" ay="351" awidth="388" aheight="96" x="44" y="351" width="388" height="96" rotation-center="-114,32" />
+            <class />
+          </item>
+          <item id="f21b837e75ad41109e3ccf1b892d31ec" iid="90f2fea159504a97a73cebc4d9e70c6d" creation-date="11/23/2021 18:21:54" order-index="11" type="entity">
+            <layout ax="44" ay="465" awidth="388" aheight="96" x="44" y="465" width="388" height="96" rotation-center="-124,32" />
+            <class />
+          </item>
+          <item id="5bf2fdae00ce49ef8000fad87b6c6130" iid="1e758a3c1b4d49d9bc76023a6d50fdfa" creation-date="11/23/2021 18:23:39" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="74" y1="351" x2="74" y2="305" start-border-pos="0.0193298969072165" end-border-pos="0.705376341938972" start-local-pos="30" end-local-pos="83" name-position="27,30">
+              <points>
+                <point x="74" y="351" />
+                <point x="74" y="305" />
+              </points>
+            </layout>
+            <relation from="dc0af86148424cc1812dc313431ab18c" from-iid="9c747f04edcf41d7ace9353cb0fec1b0" to="b8d19e6130d54c7ab800ca180d5cfb57" to-iid="fa9e0f6370cb4fb8be5861ac7a092bbd" />
+          </item>
+          <item id="0931be7df7854f0eb78cb0a202f8b7b1" iid="f213c956418545dc9e50b49f100cbe39" creation-date="11/23/2021 18:23:58" order-index="13" type="relation">
+            <layout line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="44" y1="513" x2="24" y2="305" start-border-pos="0.875" end-border-pos="0.732258066534996" start-local-pos="48" end-local-pos="33" name-position="0,20">
+              <points>
+                <point x="44" y="513" />
+                <point x="25" y="513" />
+                <point x="24" y="305" />
+              </points>
+            </layout>
+            <relation from="f21b837e75ad41109e3ccf1b892d31ec" from-iid="90f2fea159504a97a73cebc4d9e70c6d" to="b8d19e6130d54c7ab800ca180d5cfb57" to-iid="fa9e0f6370cb4fb8be5861ac7a092bbd" />
+          </item>
+          <item id="f623f4bd83194239be0fe58d270f7253" iid="01d3248645bd4259a4aff2901e718031" creation-date="11/23/2021 18:25:55" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="44" y1="535" x2="-9" y2="535" start-border-pos="0.81770833581686" end-border-pos="0.43229167163372" start-local-pos="70" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="44" y="535" />
+                <point x="-9" y="535" />
+              </points>
+            </layout>
+            <relation from="f21b837e75ad41109e3ccf1b892d31ec" from-iid="90f2fea159504a97a73cebc4d9e70c6d" from-field="ob82729a59b764fe3b4a4b4d9caf83591431" to="e6db07af2f8e48f4a77b18e3a16cec13" to-iid="2785a94dfcd1413da4763e9278c1a151" />
+          </item>
+          <item id="bb3241b2bf824275bb7d5fcdb64aafd7" iid="72b9b56321a14a2a9c9fac0584df6f8d" creation-date="11/23/2021 18:30:32" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="499" y1="163" x2="432" y2="399" start-border-pos="0.89583332836628" end-border-pos="0.375" start-local-pos="68" end-local-pos="48" name-position="0,20">
+              <points>
+                <point x="499" y="163" />
+                <point x="474" y="163" />
+                <point x="476" y="399" />
+                <point x="432" y="399" />
+              </points>
+            </layout>
+            <relation from="784e17cb0d85424f9e43afb556f46123" from-iid="3f62dc0d7a1d470c84bcc7ce6808b3e8" to="dc0af86148424cc1812dc313431ab18c" to-iid="9c747f04edcf41d7ace9353cb0fec1b0" />
+          </item>
+          <item id="5a816e960af24fc88144fe04cec4ed80" iid="9b3ef4cb8536494fb2f43e007f0c76c5" creation-date="11/23/2021 18:31:52" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="535" y1="326" x2="432" y2="513" start-border-pos="0.734402075409889" end-border-pos="0.375" start-local-pos="36" end-local-pos="48" name-position="0,20">
+              <points>
+                <point x="535" y="326" />
+                <point x="534" y="512" />
+                <point x="432" y="513" />
+              </points>
+            </layout>
+            <relation from="diab44fb08ec1945aab2c800581bfae9229774" from-iid="61591ae03998460fa3509647a6e72a54" from-field="o0e2b58f9109541f5afd45cd602100c8b724" to="f21b837e75ad41109e3ccf1b892d31ec" to-iid="90f2fea159504a97a73cebc4d9e70c6d" />
+          </item>
+          <item id="ad65ce9207db451989c5495141563db4" iid="29c17d97bdb5413ca81472819e6ea0cf" creation-date="12/04/2021 13:07:49" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="98" y1="77" x2="499" y2="132" start-border-pos="0.420167784451106" end-border-pos="0.977554400761922" name-position="0,20">
+              <points>
+                <point x="98" y="77" />
+                <point x="499" y="132" />
+              </points>
+            </layout>
+            <relation from="bf4343d5e00643caafe10934a338089d" from-iid="c85c2af677044bf5aa95ade4e81afcf7" to="784e17cb0d85424f9e43afb556f46123" to-iid="3f62dc0d7a1d470c84bcc7ce6808b3e8" />
+          </item>
+          <item id="227a8ca201e54038949f96b0637477c5" iid="d961faced2e0406dba46a6ec5c6bce7e" creation-date="12/04/2021 13:08:02" order-index="18" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="-149" y1="134" x2="760" y2="326" start-border-pos="0.627474169162889" end-border-pos="0.636823869040768" name-position="0,20">
+              <points>
+                <point x="-149" y="134" />
+                <point x="-171" y="581" />
+                <point x="612" y="582" />
+                <point x="760" y="326" />
+              </points>
+            </layout>
+            <relation from="bf4343d5e00643caafe10934a338089d" from-iid="c85c2af677044bf5aa95ade4e81afcf7" to="diab44fb08ec1945aab2c800581bfae9229774" to-iid="61591ae03998460fa3509647a6e72a54" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

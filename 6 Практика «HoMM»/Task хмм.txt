@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Inheritance.MapObjects
+{
+public interface ICanBeat
+{
+Army Army { get; set; }
+}
+
+public interface IConsum
+{
+Treasure Treasure { get; set; }
+}
+
+public interface IOwner
+{
+int Owner { get; set; }
+}
+
+public class Dwelling : IOwner
+{
+public int Owner { get; set; }
+}
+
+public class Mine : ICanBeat, IConsum, IOwner
+{
+public int Owner { get; set; }
+public Army Army { get; set; }
+public Treasure Treasure { get; set; }
+}
+
+public class Creeps : ICanBeat, IConsum
+{
+public Army Army { get; set; }
+public Treasure Treasure { get; set; }
+}
+
+public class Wolves : ICanBeat
+{
+public Army Army { get; set; }
+}
+
+public class ResourcePile : IConsum
+{
+public Treasure Treasure { get; set; }
+}
+
+public static class Interaction
+{
+public static void Make(Player player, object mapObject)
+{
+if (mapObject is ICanBeat localbeat)
+{
+if (!player.CanBeat(localbeat.Army))
+{
+player.Die();
+return;
+}
+}
+
+if (mapObject is IOwner localowner) localowner.Owner = player.Id;
+
+if (mapObject is IConsum localconsum) player.Consume(localconsum.Treasure);
+}
+}
+}

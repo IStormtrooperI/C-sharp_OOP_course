@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp58608318b7934963b5631fcab5c9b32b">
+  <meta>
+    <name>9 Практика «Бинарное дерево»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>43</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>6</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-790fe58357cd40748c198a87b9e567ee" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-172ff53d9d554871b7a63b87de24967d" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="T" tid="" name="T" description="" />
+      <type id="BinaryTree&lt;T&gt;" tid="" name="BinaryTree&lt;T&gt;" description="" />
+      <type id="IEnumerator&lt;T&gt;" tid="" name="IEnumerator&lt;T&gt;" description="" />
+      <type id="IEnumerator" tid="" name="IEnumerator" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pbd189ad008c64d85ad7c3d8d2dbee529_535706799" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/14/2021 22:07:37</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="9af4b09e787e482c8ada6f189684a122" cid="PKG001" type="package" name="Generics" style-class="" creator="" creation-date="10/14/2021 22:07:42" />
+        <item id="c1660c5e4db5479192c1ecc7ea2f6532" cid="PKG002" type="package" name="BinaryTrees" style-class="" creator="" creation-date="10/14/2021 22:07:42" />
+        <item id="e649c700b7654e3aa20db0ea0c60f109" cid="CNT001" type="containment" name="" style-class="" creator="" creation-date="10/14/2021 22:07:42" from="c1660c5e4db5479192c1ecc7ea2f6532" to="9af4b09e787e482c8ada6f189684a122" />
+      </abstract-items>
+      <sub-models>
+        <model id="pd29b05c4d847411bb9a33b41c11394bb_199578397" name="Generics" namespace="Generics" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/14/2021 22:07:42</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p5ecd846a3dbc4e36bf536f9b35d4323c_530095823" name="BinaryTrees" namespace="Generics.BinaryTrees" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/14/2021 22:07:42</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="8b4bbc327afd42c58d583c7e74928f4e" cid="C001" type="class" name="BinaryTree" style-class="" creator="" creation-date="10/14/2021 22:07:42" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv15bfa464f2714ac0be027aa3aedabaf6" name="namespace" type="text" multiple="false" value="Generics.BinaryTrees" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="567d209aa1c141939d46c22f6106d2eb" />
+                    <owned-item ref="90dfbf5fe19b438ba63c40a42348fb70" />
+                    <owned-item ref="7b401bcbb424466fa55f69c2a283e6a2" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="afaf12aa7819b4640bb071dfcd27171e1515" cid="PROP001" name="Value" creation-date="10/14/2021 22:07:42" property-ref="567d209aa1c141939d46c22f6106d2eb" />
+                    <attribute id="a787d44ba7112411ca1d9d0633803deb4521" cid="PROP002" name="Left" creation-date="10/14/2021 22:07:42" property-ref="90dfbf5fe19b438ba63c40a42348fb70" />
+                    <attribute id="adc0f1479d36740ab861b04f2c083340f523" cid="PROP003" name="Right" creation-date="10/14/2021 22:07:42" property-ref="7b401bcbb424466fa55f69c2a283e6a2" />
+                  </attributes>
+                  <operations>
+                    <operation id="o662bb26b0cc648bd8a7d5c575fcba3ca528" cid="OP001" name="Add" creation-date="10/14/2021 22:07:42" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="p730c2a08d63c488b8692f1de71452a2c" name="element" type="T" type-id="T" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (Value.ToString() == "0")
+                Value = element;
+            else if (element.CompareTo(Value) &gt; 0)
+            {
+                if (Right == null)
+                    Right = new BinaryTree&lt;T&gt; { Value = element };
+                else
+                    Right.Add(element);
+            }
+            else
+            {
+                if(Left == null)
+                    Left = new BinaryTree&lt;T&gt; { Value = element };
+                else
+                    Left.Add(element);
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o79a9f2b5afc74805a4944f245d129c32542" cid="OP002" name="GetEnumerator" creation-date="10/14/2021 22:07:42" type="IEnumerator&lt;T&gt;" type-id="IEnumerator&lt;T&gt;" visibility="public">
+                      <source-codes>
+                        <source-code language="CSharp">
+            if(Value.ToString() == "0")
+                return Enumerable.Empty&lt;T&gt;().GetEnumerator();
+            return GetElementsToEnumerator();
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="ob18d8f6e9be44b479444a99d5ad2cd51545" cid="OP003" name="GetElementsToEnumerator" creation-date="10/14/2021 22:07:42" type="IEnumerator&lt;T&gt;" type-id="IEnumerator&lt;T&gt;" visibility="private">
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (Left != null)
+            {
+                if (Left.Value != null &amp;&amp; Left.Left == null &amp;&amp; Left.Right == null)
+                    yield return Left.Value;
+                else
+                {
+                    foreach (T element in Left)
+                        yield return element;
+                }
+            }
+            if (Value.ToString() != "0")
+                yield return Value;
+            if (Right != null)
+            {
+                if (Right.Value != null &amp;&amp; Right.Left == null &amp;&amp; Right.Right == null)
+                    yield return Right.Value;
+                else
+                {
+                    foreach (T element in Right)
+                        yield return element;
+                }
+            }
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="o3bd1600f1df44266acbb82ee20e4ae33545" cid="OP004" name="IEnumerable.GetEnumerator" creation-date="10/14/2021 22:07:42" type="IEnumerator" type-id="IEnumerator" visibility="undefined">
+                      <source-codes>
+                        <source-code language="CSharp">
+            return GetEnumerator();
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                  <template-parameters>
+                    <template-parameter id="t9eebc53996af4ab4ad262515f68691c1509" name="T" kind="IComparable" default-value="" />
+                  </template-parameters>
+                </item>
+                <item id="567d209aa1c141939d46c22f6106d2eb" cid="PROP001" type="property" name="Value" style-class="" owner="8b4bbc327afd42c58d583c7e74928f4e" creator="" creation-date="10/14/2021 22:07:42" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="567d209aa1c141939d46c22f6106d2eb_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="T" type-id="T" />
+                  <property />
+                </item>
+                <item id="90dfbf5fe19b438ba63c40a42348fb70" cid="PROP002" type="property" name="Left" style-class="" owner="8b4bbc327afd42c58d583c7e74928f4e" creator="" creation-date="10/14/2021 22:07:42" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="90dfbf5fe19b438ba63c40a42348fb70_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="BinaryTree&lt;T&gt;" type-id="BinaryTree&lt;T&gt;" />
+                  <property />
+                </item>
+                <item id="7b401bcbb424466fa55f69c2a283e6a2" cid="PROP003" type="property" name="Right" style-class="" owner="8b4bbc327afd42c58d583c7e74928f4e" creator="" creation-date="10/14/2021 22:07:42" visibility="public">
+                  <stereotypes>
+                    <stereotype name="property" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="7b401bcbb424466fa55f69c2a283e6a2_property_c" type="property" ref="" />
+                  </stereotype-instances>
+                  <feature />
+                  <structural-feature type="BinaryTree&lt;T&gt;" type-id="BinaryTree&lt;T&gt;" />
+                  <property />
+                </item>
+                <item id="c607c029d7914a0b81f4ee2fcf11d573" cid="C002" type="class" name="BinaryTree" style-class="" creator="" creation-date="10/14/2021 22:07:42" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv2f13fb6e1d024aeaa4bf9ec49cb31b4f" name="namespace" type="text" multiple="false" value="Generics.BinaryTrees" />
+                  </tagged-values>
+                  <operations>
+                    <operation id="o122f3abe8ae44e7588d2932a36cec2c0397" cid="OP005" name="Create&lt;T&gt;" creation-date="10/14/2021 22:09:49" type="" type-id="" visibility="public">
+                      <parameters>
+                        <parameter id="pe83fab0219cd49288eb2ca96e268ebb0" name="list" type="T" type-id="T" multiplicity="*" />
+                      </parameters>
+                    </operation>
+                  </operations>
+                </item>
+              </abstract-items>
+              <sub-models />
+              <diagram type="uml-class" id="p90576503697e4596a61e68bb9f6f7397_125226910" name="BinaryTrees" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Generics.BinaryTrees" view-location="0,-100">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>10/14/2021 22:07:42</creation-date>
+                  <change-date>10/14/2021 22:17:22</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items>
+                  <item id="7bfb83383d8e4da4bf343392de411f6a" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="10/14/2021 22:17:18" from="c607c029d7914a0b81f4ee2fcf11d573" to="8b4bbc327afd42c58d583c7e74928f4e" visibility="package">
+                    <relation from="c607c029d7914a0b81f4ee2fcf11d573" to="8b4bbc327afd42c58d583c7e74928f4e" derived="false">
+                      <start-role id="umlar-d0c1afa0-59a5-4c6b-8ac3-57527e633e2b" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-fd93e8f1-defc-4d14-9e87-52d4be1a7285" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                </abstract-items>
+                <layer id="67411bad8d2a4933b87c0734d854d434" name="Default" visible="true" enabled="true" locked="false">
+                  <item id="8b4bbc327afd42c58d583c7e74928f4e" iid="60269fb7619d4e1180936104c7d4cbef" creation-date="10/14/2021 22:07:42" order-index="0" type="entity">
+                    <layout ax="111" ay="0" awidth="291" aheight="189" x="111" y="0" width="291" height="189" />
+                    <class />
+                  </item>
+                  <item id="c607c029d7914a0b81f4ee2fcf11d573" iid="ad37df316618460a9f000e08098175e7" creation-date="10/14/2021 22:07:42" order-index="1" type="entity">
+                    <layout ax="179" ay="274" awidth="155" aheight="57" x="179" y="274" width="155" height="57" rotation-center="168,-11" />
+                    <class />
+                  </item>
+                  <item id="7bfb83383d8e4da4bf343392de411f6a" iid="edc39255d7584321ba254e31fc1d5eb6" creation-date="10/14/2021 22:17:18" order-index="2" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="256" y1="274" x2="256" y2="189" start-border-pos="0.124193548387097" end-border-pos="0.625429553264605" name-position="0,20">
+                      <points>
+                        <point x="256" y="274" />
+                        <point x="256" y="189" />
+                      </points>
+                    </layout>
+                    <relation from="c607c029d7914a0b81f4ee2fcf11d573" from-iid="ad37df316618460a9f000e08098175e7" to="8b4bbc327afd42c58d583c7e74928f4e" to-iid="60269fb7619d4e1180936104c7d4cbef" />
+                  </item>
+                </layer>
+              </diagram>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="pabbf2440d9c7421fbd3265e6c0411d71_589746440" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/14/2021 22:07:42</creation-date>
+          <change-date>10/14/2021 22:07:42</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="0e3ec473373a4de980fc54e41c7b72a1" name="Default" visible="true" enabled="true" locked="false">
+          <item id="9af4b09e787e482c8ada6f189684a122" iid="b081dba3f79d4855bfde1786f33b6c6e" creation-date="10/14/2021 22:07:42" order-index="0" type="entity">
+            <layout ax="11.5" ay="0" awidth="96" aheight="56" x="11.5" y="0" width="96" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="c1660c5e4db5479192c1ecc7ea2f6532" iid="6f0c3c6423084b87b9c97a2250fbb1b8" creation-date="10/14/2021 22:07:42" order-index="1" type="entity">
+            <layout ax="0" ay="156" awidth="119" aheight="56" x="0" y="156" width="119" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="e649c700b7654e3aa20db0ea0c60f109" iid="e9edbc1747bd4f01b4f5d1554e87ba60" creation-date="10/14/2021 22:07:42" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="60" y1="156" x2="60" y2="56" start-border-pos="0.125546218487395" end-border-pos="0.623203125" name-position="0,20">
+              <points>
+                <point x="60" y="156" />
+                <point x="60" y="106" />
+                <point x="60" y="106" />
+                <point x="60" y="56" />
+              </points>
+            </layout>
+            <relation from="c1660c5e4db5479192c1ecc7ea2f6532" from-iid="6f0c3c6423084b87b9c97a2250fbb1b8" to="9af4b09e787e482c8ada6f189684a122" to-iid="b081dba3f79d4855bfde1786f33b6c6e" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

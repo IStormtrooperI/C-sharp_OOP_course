@@ -1,0 +1,9 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\bin\Debug\Incapsulation.Enterprise.dll.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\bin\Debug\Incapsulation.Enterprise.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\bin\Debug\Incapsulation.Enterprise.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\obj\Debug\Incapsulation.EnterpriseTask.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\obj\Debug\Incapsulation.EnterpriseTask.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\obj\Debug\Incapsulation.EnterpriseTask.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\obj\Debug\Incapsulation.Enterprise.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\2 Предприятие\Incapsulation.EnterpriseTask\obj\Debug\Incapsulation.Enterprise.pdb

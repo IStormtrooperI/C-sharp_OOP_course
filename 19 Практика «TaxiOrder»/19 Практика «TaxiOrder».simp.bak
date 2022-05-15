@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp407c3e54b18e456c8353a2fd3a06af7b">
+  <meta>
+    <name>19 Практика «TaxiOrder»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>228</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>28</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-0428258ab4c14a41bfae7281c47c9f34" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-d074516859094617a607e5ff63481362" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Func&lt;DateTime&gt;" tid="" name="Func&lt;DateTime&gt;" description="" />
+      <type id="Class:d021d13c2c414d0d83b0adea39805fa6" tid="" name="DriversRepository" description="" class-ref="d021d13c2c414d0d83b0adea39805fa6" />
+      <type id="TaxiOrder" tid="" name="TaxiOrder" description="" />
+      <type id="void" tid="" name="void" description="" />
+      <type id="PersonName" tid="" name="PersonName" description="" />
+      <type id="Address" tid="" name="Address" description="" />
+      <type id="Class:bb9e2d17ebaa48708e3d01f4f022a3e4" tid="" name="Driver" description="" class-ref="bb9e2d17ebaa48708e3d01f4f022a3e4" />
+      <type id="TaxiOrderStatus" tid="" name="TaxiOrderStatus" description="" />
+      <type id="Class:b6d18a2a26444423adddb8570cc3e982" tid="" name="Car" description="" class-ref="b6d18a2a26444423adddb8570cc3e982" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pce1c0c90e72647ebabb570aa08f11ed0_474438376" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2021 15:47:46</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p0a2b316b9ed243b3bf1d472a3fbdca94_507397613" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-109,-5">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/23/2021 15:47:46</creation-date>
+          <change-date>11/23/2021 16:15:12</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="d021d13c2c414d0d83b0adea39805fa6" cid="C001" type="class" name="DriversRepository" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 15:47:49" />
+          <item id="3662e331314f4472ad62c4a5c978d791" cid="C002" type="class" name="TaxiApi" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 15:48:05">
+            <owned-items>
+              <owned-item ref="38cca4dec2654292b2f33d3a4873058d" />
+              <owned-item ref="c0d8549bc6294dfe892a3f64d73b8577" />
+              <owned-item ref="cbee9f1075f641f0a5487d4e960d703f" />
+            </owned-items>
+            <attributes>
+              <attribute id="a33b4b498ee3e4d63865b9d4c42b9f48b561" cid="PROP001" name="DriversRepo" creation-date="11/23/2021 15:48:15" property-ref="38cca4dec2654292b2f33d3a4873058d" />
+              <attribute id="a552496b4f2394524b8448d92df61141c296" cid="PROP002" name="CurrentTime" creation-date="11/23/2021 15:48:50" property-ref="c0d8549bc6294dfe892a3f64d73b8577" />
+              <attribute id="a6d5705362a7a44df9ec6417a69e7ac6b344" cid="PROP003" name="IdCounter" creation-date="11/23/2021 15:49:56" property-ref="cbee9f1075f641f0a5487d4e960d703f" />
+            </attributes>
+            <operations>
+              <operation id="o7f6fbae6161747c9b45b1deca03d2d71618" cid="OP003" name="TaxiApi" creation-date="11/23/2021 15:50:21" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p82d3b55a4fce41c2969647999717bb88" name="driversRepo" type="DriversRepository" type-id="Class:d021d13c2c414d0d83b0adea39805fa6">
+                    <tagged-values>
+                      <tagged-value id="tve41dc4e8f44940e1b612c94272918486" name="set_driversRepo" type="reference" multiple="false" ref="38cca4dec2654292b2f33d3a4873058d" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p212671707f03429cb79ca00ac323718c" name="currentTime" type="Func&lt;DateTime&gt;" type-id="Func&lt;DateTime&gt;">
+                    <tagged-values>
+                      <tagged-value id="tvf93ff33d52e94822bd5fe388910d6dd9" name="set_currentTime" type="reference" multiple="false" ref="c0d8549bc6294dfe892a3f64d73b8577" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oa386483f5f574cdc806a5a18b29442a9168" cid="OP004" name="CreateOrder" creation-date="11/23/2021 15:50:43" type="TaxiOrder" type-id="TaxiOrder" visibility="public">
+                <parameters>
+                  <parameter id="p380b1c4d8da646cb8358895b7f72efe9" name="firstName" type="String" type-id="Uml.String" />
+                  <parameter id="p3a603eb59d934aa8becf2f5ced55477b" name="lastName" type="String" type-id="Uml.String" />
+                  <parameter id="pc19047e53bab48fdab95732a04d9dcf4" name="street" type="String" type-id="Uml.String" />
+                  <parameter id="p4eb453e0b965487da542e65ae3dbd882" name="building" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o56e48c819f894efd9f0d31c39f1c3701608" cid="OP005" name="UpdateDestination" creation-date="11/23/2021 15:51:40" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p1891486097094921b0a86c605579e292" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                  <parameter id="pbed58e809bcf4efd8e38459e6822338a" name="street" type="String" type-id="Uml.String" />
+                  <parameter id="pb453cf95927a4db6a15efc5ecda395de" name="building" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="odf7dcc04ce3842c3ba22eb726ce337fc824" cid="OP006" name="AssignDriver" creation-date="11/23/2021 15:52:46" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p6835fa0ae8cd4bb2922da7d4d5470a45" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                  <parameter id="p1332f3870594451a93feb111d7acf94e" name="driverId" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="oeedcece6e23d4f03b7d0fd6315ec1dea872" cid="OP007" name="UnassignDriver" creation-date="11/23/2021 15:53:19" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p2f5cbf26477a4766994dd718b752252c" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="of3440bebb2354170b82713310f1685b0640" cid="OP008" name="GetDriverFullInfo" creation-date="11/23/2021 15:53:35" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p4854aa4f7aa747a9bb6cca599ec14863" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="o3406b9c4fc8f43e3b28b367d9f44d769233" cid="OP009" name="GetShortOrderInfo" creation-date="11/23/2021 15:54:02" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pbd441f71009e4379a442f88512fe6a7d" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="o7b177b4d3fcb4a02b6ace349ac1daed2744" cid="OP010" name="GetLastProgressTime" creation-date="11/23/2021 15:54:17" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p9a3dd13b6afc44608a6af23bfd4b0802" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="od3ed7b52ab234509abc54be404e5c708296" cid="OP011" name="Cancel" creation-date="11/23/2021 15:54:29" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p6ce56f242a4149528247c0be89a26f2c" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="o2f575825b527460eb2eb65d6fa03d53196" cid="OP012" name="StartRide" creation-date="11/23/2021 15:54:37" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p43ae5adc67ad4b678e1eb2178675e20c" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+              <operation id="o716a0aba3e954961bc051d7d99e9f522144" cid="OP013" name="FinishRide" creation-date="11/23/2021 15:54:45" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p17d595edc71b4127b33b57d4b00803e3" name="order" type="TaxiOrder" type-id="TaxiOrder" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="38cca4dec2654292b2f33d3a4873058d" cid="PROP001" type="property" name="DriversRepo" style-class="" owner="3662e331314f4472ad62c4a5c978d791" creator="" creation-date="11/23/2021 15:48:15" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="38cca4dec2654292b2f33d3a4873058d_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DriversRepository" type-id="Class:d021d13c2c414d0d83b0adea39805fa6" />
+            <property />
+          </item>
+          <item id="c0d8549bc6294dfe892a3f64d73b8577" cid="PROP002" type="property" name="CurrentTime" style-class="" owner="3662e331314f4472ad62c4a5c978d791" creator="" creation-date="11/23/2021 15:48:50" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c0d8549bc6294dfe892a3f64d73b8577_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Func&lt;DateTime&gt;" type-id="Func&lt;DateTime&gt;" />
+            <property />
+          </item>
+          <item id="cbee9f1075f641f0a5487d4e960d703f" cid="PROP003" type="property" name="IdCounter" style-class="" owner="3662e331314f4472ad62c4a5c978d791" creator="" creation-date="11/23/2021 15:49:56" visibility="private">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cbee9f1075f641f0a5487d4e960d703f_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="dfc4dd93ef374d8fb9fe560715fc9fab" cid="C003" type="class" name="TaxiOrder" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 15:55:36">
+            <owned-items>
+              <owned-item ref="ef953e70c1c34283aa06543f4e0927af" />
+              <owned-item ref="c85a2a26c2624c579a723764db463117" />
+              <owned-item ref="926ee6233db3421db532dd1422517400" />
+              <owned-item ref="cde4c742eda64b6585086c4edade6857" />
+              <owned-item ref="bb9e2d17ebaa48708e3d01f4f022a3e4" />
+              <owned-item ref="c9d46790a811483cb7a7af3048916712" />
+              <owned-item ref="688195f41cd54d489863d065a74a0bc0" />
+              <owned-item ref="3aab4232b4014b9c9522bd7c03c919fb" />
+              <owned-item ref="88503ce753794edcbef5e053790dc89b" />
+              <owned-item ref="b3e0287732364554a6d077a97c2ef0ab" />
+              <owned-item ref="1c3d269873e94f4fa2080562b8b61e22" />
+            </owned-items>
+            <attributes>
+              <attribute id="af451bee2ef5d45edb50e64a905ceb31f257" cid="PROP004" name="Identificator" creation-date="11/23/2021 15:55:43" property-ref="ef953e70c1c34283aa06543f4e0927af" />
+              <attribute id="abdb393f0094f4768ba2f2026317041f0272" cid="PROP005" name="ClientName" creation-date="11/23/2021 15:56:21" property-ref="c85a2a26c2624c579a723764db463117" />
+              <attribute id="a894b5ad6978e4866ac88d3506e9ce315960" cid="PROP006" name="Start" creation-date="11/23/2021 15:56:40" property-ref="926ee6233db3421db532dd1422517400" />
+              <attribute id="a2e352c5113de46f5a0118d394efee4c6728" cid="PROP007" name="Destination" creation-date="11/23/2021 15:57:08" property-ref="cde4c742eda64b6585086c4edade6857" />
+              <attribute id="af4716c0ee4ea4b99a1f7bb95980d98f0984" cid="PROP008" name="Driver" creation-date="11/23/2021 15:57:27" property-ref="bb9e2d17ebaa48708e3d01f4f022a3e4" />
+              <attribute id="a637e344532f4424da47899b2622526bc217" cid="PROP009" name="Status" creation-date="11/23/2021 15:57:51" property-ref="c9d46790a811483cb7a7af3048916712" />
+              <attribute id="a835b7880d8de4eb3be606da5541d7d09705" cid="PROP011" name="CreationTime" creation-date="11/23/2021 15:58:35" property-ref="3aab4232b4014b9c9522bd7c03c919fb" />
+              <attribute id="ad51a94cc388b455bb92302a6ede509b6800" cid="PROP010" name="DriverAssignmentTime" creation-date="11/23/2021 15:58:04" property-ref="688195f41cd54d489863d065a74a0bc0" />
+              <attribute id="af765839f3ea44148a0f2c30cf83425ac592" cid="PROP012" name="CancelTime" creation-date="11/23/2021 15:58:57" property-ref="88503ce753794edcbef5e053790dc89b" />
+              <attribute id="abae1bc7b093d49828f86fbbc47b14e66185" cid="PROP013" name="StartRideTime" creation-date="11/23/2021 15:59:06" property-ref="b3e0287732364554a6d077a97c2ef0ab" />
+              <attribute id="ac165e10db59c4706a4f665a544dead7d65" cid="PROP014" name="FinishRideTime" creation-date="11/23/2021 15:59:19" property-ref="1c3d269873e94f4fa2080562b8b61e22" />
+            </attributes>
+            <operations>
+              <operation id="oa952b9f718d2496ea4ed69723b354851601" cid="OP014" name="TaxiOrder" creation-date="11/23/2021 15:59:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p285c321a28d847af8e1b938d3dbc8c60" name="id" type="Integer" type-id="Uml.Integer">
+                    <tagged-values>
+                      <tagged-value id="tv601908782ebb4fa99b09161f0f72d688" name="set_id" type="reference" multiple="false" ref="ef953e70c1c34283aa06543f4e0927af" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p8ebab78de6e842cab28b915fda74e375" name="clientName" type="PersonName" type-id="PersonName">
+                    <tagged-values>
+                      <tagged-value id="tv654ff2219f6c490cb8c31dbd94f0e17e" name="set_clientName" type="reference" multiple="false" ref="c85a2a26c2624c579a723764db463117" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pf69f358fa3ec4ed5bfa605c13dededce" name="start" type="Address" type-id="Address">
+                    <tagged-values>
+                      <tagged-value id="tv5389d1a6e2dd4290b9422ee16df6f344" name="set_start" type="reference" multiple="false" ref="926ee6233db3421db532dd1422517400" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p096110f0cf12446c806945f3aa79bfff" name="creationTime" type="DateTime" type-id="Uml.DateTime">
+                    <tagged-values>
+                      <tagged-value id="tv4dff7112110f4bc695a21e47c4d34c26" name="set_creationTime" type="reference" multiple="false" ref="3aab4232b4014b9c9522bd7c03c919fb" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o603a2d799c674eb8b48a8c1d27314a08328" cid="OP015" name="Cancel" creation-date="11/23/2021 16:00:03" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pa529fc1ff5f24831a67475064bf97e44" name="cancelTime" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+              </operation>
+              <operation id="oa40c5c2336494406ae32d5ab05b55d47936" cid="OP016" name="UpdateDestination" creation-date="11/23/2021 16:00:18" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="paede711d462942308fdd736ba2299522" name="destination" type="Address" type-id="Address" />
+                </parameters>
+              </operation>
+              <operation id="o21e952cec2b44be4a5dbf31dd88d083c440" cid="OP017" name="AssignDriver" creation-date="11/23/2021 16:00:35" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pd4a38bc448b042e0b45e54cb0b080a98" name="driverId" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p6dd52fcc76424375b85992ab153495f0" name="assignTime" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+              </operation>
+              <operation id="od06c42d3a4d345b891984ef854355427808" cid="OP018" name="UnassignDriver" creation-date="11/23/2021 16:01:01" type="void" type-id="void" visibility="public" />
+              <operation id="o4d3e578ffc8149deb57bba1c70b7fde9328" cid="OP019" name="StartRide" creation-date="11/23/2021 16:01:13" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p99e196402cb04188827f7350c3be636c" name="startTime" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+              </operation>
+              <operation id="o3a7c6e8358484a2c8e151045bd8eea3f512" cid="OP020" name="FinishRide" creation-date="11/23/2021 16:01:30" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p5bc7a7eb3f3a4dac8ddaa498e70d081a" name="finishTime" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+              </operation>
+              <operation id="of40bb59aba274d159400369cb98bd3a7401" cid="OP021" name="GetDriverFullInfo" creation-date="11/23/2021 16:01:52" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o96662da836df4d169f04f6e81a1bb2f6801" cid="OP022" name="FormatName" creation-date="11/23/2021 16:02:07" type="String" type-id="Uml.String" visibility="private" static="true">
+                <parameters>
+                  <parameter id="p2bdc0f63f3ad4c1cad1dca60e1ab78ea" name="firstName" type="String" type-id="Uml.String" />
+                  <parameter id="p39f3ce68f1684e389d992f50709c4ff8" name="lastName" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o8b98f88eec6f4b8794080218d55382d6496" cid="OP023" name="FormatAddress" creation-date="11/23/2021 16:02:44" type="String" type-id="Uml.String" visibility="private" static="true">
+                <parameters>
+                  <parameter id="pf3eb404ff9314495a1b806a6122293b7" name="street" type="String" type-id="Uml.String" />
+                  <parameter id="p3945a5caa38d4fa6bfec8562f829fedd" name="building" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="oaf91a93ceb15426d884c1d7f0adfd362216" cid="OP024" name="GetShortOrderInfo" creation-date="11/23/2021 16:03:25" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="od3b9f446edf74a66873e54e57752409d40" cid="OP025" name="GetLastProgressTime" creation-date="11/23/2021 16:03:50" type="DateTime" type-id="Uml.DateTime" visibility="public" />
+            </operations>
+          </item>
+          <item id="ef953e70c1c34283aa06543f4e0927af" cid="PROP004" type="property" name="Identificator" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:55:43" visibility="private">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="ef953e70c1c34283aa06543f4e0927af_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="c85a2a26c2624c579a723764db463117" cid="PROP005" type="property" name="ClientName" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:56:21" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c85a2a26c2624c579a723764db463117_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="PersonName" type-id="PersonName" />
+            <property />
+          </item>
+          <item id="926ee6233db3421db532dd1422517400" cid="PROP006" type="property" name="Start" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:56:40" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="926ee6233db3421db532dd1422517400_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Address" type-id="Address" />
+            <property />
+          </item>
+          <item id="cde4c742eda64b6585086c4edade6857" cid="PROP007" type="property" name="Destination" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:57:08" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cde4c742eda64b6585086c4edade6857_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Address" type-id="Address" />
+            <property />
+          </item>
+          <item id="bb9e2d17ebaa48708e3d01f4f022a3e4" cid="PROP008" type="property" name="Driver" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:57:27" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="bb9e2d17ebaa48708e3d01f4f022a3e4_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Driver" type-id="Class:bb9e2d17ebaa48708e3d01f4f022a3e4" />
+            <property />
+          </item>
+          <item id="c9d46790a811483cb7a7af3048916712" cid="PROP009" type="property" name="Status" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:57:51" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c9d46790a811483cb7a7af3048916712_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="TaxiOrderStatus" type-id="TaxiOrderStatus" />
+            <property />
+          </item>
+          <item id="688195f41cd54d489863d065a74a0bc0" cid="PROP010" type="property" name="DriverAssignmentTime" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:58:04" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="688195f41cd54d489863d065a74a0bc0_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="3aab4232b4014b9c9522bd7c03c919fb" cid="PROP011" type="property" name="CreationTime" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:58:35" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="3aab4232b4014b9c9522bd7c03c919fb_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="88503ce753794edcbef5e053790dc89b" cid="PROP012" type="property" name="CancelTime" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:58:57" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="88503ce753794edcbef5e053790dc89b_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="b3e0287732364554a6d077a97c2ef0ab" cid="PROP013" type="property" name="StartRideTime" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:59:06" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="b3e0287732364554a6d077a97c2ef0ab_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="1c3d269873e94f4fa2080562b8b61e22" cid="PROP014" type="property" name="FinishRideTime" style-class="" owner="dfc4dd93ef374d8fb9fe560715fc9fab" creator="" creation-date="11/23/2021 15:59:19" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="1c3d269873e94f4fa2080562b8b61e22_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="cb1ed433d27d48cda8afc8d9b4bb77fa" cid="C004" type="class" name="Driver" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:04:19">
+            <owned-items>
+              <owned-item ref="4c934ac398aa4f06988cee926c45b418" />
+              <owned-item ref="c39efbf64af94a398e3a5f47e8733808" />
+              <owned-item ref="b6d18a2a26444423adddb8570cc3e982" />
+            </owned-items>
+            <attributes>
+              <attribute id="ae1ec666f527f4cb199f6946ae8e20f92401" cid="PROP015" name="Identificator" creation-date="11/23/2021 16:04:27" property-ref="4c934ac398aa4f06988cee926c45b418" />
+              <attribute id="ab77286738370401d9662c12a69c0834725" cid="PROP016" name="Name" creation-date="11/23/2021 16:06:42" property-ref="c39efbf64af94a398e3a5f47e8733808" />
+              <attribute id="afaa8843f272946d69f9f29e2bef9789d712" cid="PROP017" name="Car" creation-date="11/23/2021 16:07:01" property-ref="b6d18a2a26444423adddb8570cc3e982" />
+            </attributes>
+            <operations>
+              <operation id="of0c4594bb8fa4d1eb0d2799072816113899" cid="OP026" name="Driver" creation-date="11/23/2021 16:07:41" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p11de7a04274945ddbed75f3d1408edaa" name="id" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pe901048c041a4ba8924423c577696757" name="name" type="PersonName" type-id="PersonName" />
+                  <parameter id="pfb12b070b1454a5ea951b87a8304912c" name="carModel" type="String" type-id="Uml.String" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="4c934ac398aa4f06988cee926c45b418" cid="PROP015" type="property" name="Identificator" style-class="" owner="cb1ed433d27d48cda8afc8d9b4bb77fa" creator="" creation-date="11/23/2021 16:04:27" visibility="public">
+            <stereotypes>
+              <stereotype name="getOnly" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4c934ac398aa4f06988cee926c45b418_getOnly_c" type="getOnly" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="c39efbf64af94a398e3a5f47e8733808" cid="PROP016" type="property" name="Name" style-class="" owner="cb1ed433d27d48cda8afc8d9b4bb77fa" creator="" creation-date="11/23/2021 16:06:42" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c39efbf64af94a398e3a5f47e8733808_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="PersonName" type-id="PersonName" />
+            <property />
+          </item>
+          <item id="b6d18a2a26444423adddb8570cc3e982" cid="PROP017" type="property" name="Car" style-class="" owner="cb1ed433d27d48cda8afc8d9b4bb77fa" creator="" creation-date="11/23/2021 16:07:01" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="b6d18a2a26444423adddb8570cc3e982_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="Car" type-id="Class:b6d18a2a26444423adddb8570cc3e982" />
+            <property />
+          </item>
+          <item id="4de32cf2b89243cdb0df02a79ba545e4" cid="C005" type="class" name="Car" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:08:58">
+            <owned-items>
+              <owned-item ref="178c62c2d5d5439d992758c37e25a2e6" />
+              <owned-item ref="14ddc5c536004bacb48ba56189e6becf" />
+              <owned-item ref="4479a72accaf46ddbe4693bae6541c25" />
+            </owned-items>
+            <attributes>
+              <attribute id="aad65cf73c8e34f35b7cd37b72e855dfe153" cid="PROP019" name="Model" creation-date="11/23/2021 16:09:03" property-ref="178c62c2d5d5439d992758c37e25a2e6" />
+              <attribute id="af3dc972229624beaa156ab4f10f9c0cf321" cid="PROP020" name="Color" creation-date="11/23/2021 16:09:23" property-ref="14ddc5c536004bacb48ba56189e6becf" />
+              <attribute id="aeb61852c1b414df98351a878f728cb8832" cid="PROP021" name="PlateNumber" creation-date="11/23/2021 16:09:34" property-ref="4479a72accaf46ddbe4693bae6541c25" />
+            </attributes>
+            <operations>
+              <operation id="o63522bdec0a0415ab6d9c08f01fe6866424" cid="OP027" name="Car" creation-date="11/23/2021 16:09:50" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p45af975ac8df4e12a2ebd5d49795909f" name="model" type="String" type-id="Uml.String">
+                    <tagged-values>
+                      <tagged-value id="tvf1fc5cea4b64411b959bccb47b3a0925" name="set_model" type="reference" multiple="false" ref="178c62c2d5d5439d992758c37e25a2e6" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p6b6567d98a96420ea17ba78ea36bc7af" name="color" type="String" type-id="Uml.String">
+                    <tagged-values>
+                      <tagged-value id="tvabfa3df051674b8d95010acbadfd366a" name="set_color" type="reference" multiple="false" ref="14ddc5c536004bacb48ba56189e6becf" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pb58110b777b74feb8ba16240b87f18e0" name="plateNumber" type="String" type-id="Uml.String">
+                    <tagged-values>
+                      <tagged-value id="tv026aa35e7e5045c7aa50fdfee76ee5aa" name="set_plateNumber" type="reference" multiple="false" ref="4479a72accaf46ddbe4693bae6541c25" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="178c62c2d5d5439d992758c37e25a2e6" cid="PROP019" type="property" name="Model" style-class="" owner="4de32cf2b89243cdb0df02a79ba545e4" creator="" creation-date="11/23/2021 16:09:03" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="178c62c2d5d5439d992758c37e25a2e6_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="14ddc5c536004bacb48ba56189e6becf" cid="PROP020" type="property" name="Color" style-class="" owner="4de32cf2b89243cdb0df02a79ba545e4" creator="" creation-date="11/23/2021 16:09:23" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="14ddc5c536004bacb48ba56189e6becf_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="4479a72accaf46ddbe4693bae6541c25" cid="PROP021" type="property" name="PlateNumber" style-class="" owner="4de32cf2b89243cdb0df02a79ba545e4" creator="" creation-date="11/23/2021 16:09:34" visibility="public">
+            <stereotypes>
+              <stereotype name="property" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4479a72accaf46ddbe4693bae6541c25_property_c" type="property" ref="" />
+            </stereotype-instances>
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="72758250f5294174beeb98536c984f2b" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:10:49" from="4de32cf2b89243cdb0df02a79ba545e4" to="cb1ed433d27d48cda8afc8d9b4bb77fa" visibility="package">
+            <relation from="4de32cf2b89243cdb0df02a79ba545e4" to="cb1ed433d27d48cda8afc8d9b4bb77fa" derived="false">
+              <start-role id="umlar-4c8e0af5-a89d-4cc6-abb8-082011ad8b05" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-38696e0a-b610-4ad2-938d-74ee110da210" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="1267ee8fb02e44d58ce58b00d947f3f7" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:12:15" from="3662e331314f4472ad62c4a5c978d791" to="d021d13c2c414d0d83b0adea39805fa6" visibility="package">
+            <relation from="3662e331314f4472ad62c4a5c978d791" to="d021d13c2c414d0d83b0adea39805fa6" derived="false">
+              <start-role id="umlar-26dd5eb4-9624-42e1-b844-9d4dd95f4d8d" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-89282599-4952-4020-871a-d890576edd82" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="4e06f73ae8bd4eb2a5c28016c3cb42cc" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:13:41" from="3662e331314f4472ad62c4a5c978d791" to="dfc4dd93ef374d8fb9fe560715fc9fab" visibility="package">
+            <relation from="3662e331314f4472ad62c4a5c978d791" to="dfc4dd93ef374d8fb9fe560715fc9fab" derived="false">
+              <start-role id="umlar-5a8b5f9e-0806-4ca8-bbb3-6d86c6ad87c2" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-925b5f09-b02a-4554-92a4-47fc84a786fa" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="017de81a72764990835fbda10d5e1dd0" cid="REL007" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:14:01" from="dfc4dd93ef374d8fb9fe560715fc9fab" to="cb1ed433d27d48cda8afc8d9b4bb77fa" visibility="package">
+            <relation from="dfc4dd93ef374d8fb9fe560715fc9fab" to="cb1ed433d27d48cda8afc8d9b4bb77fa" derived="false">
+              <start-role id="umlar-d55b5ee7-bfee-41e6-afef-61c8ab48c83c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-fbfe34f1-ae0e-4fe7-9237-4dde192cea9f" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="e812c917da874b93a74abb711de728bd" cid="REL008" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 16:15:10" from="3662e331314f4472ad62c4a5c978d791" to="cb1ed433d27d48cda8afc8d9b4bb77fa" visibility="package">
+            <relation from="3662e331314f4472ad62c4a5c978d791" to="cb1ed433d27d48cda8afc8d9b4bb77fa" derived="false">
+              <start-role id="umlar-f38e4d07-0fb1-4a92-a183-1962e8cd41d6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-89161c36-28a8-403f-9c38-b08e4616db67" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="9fcd620089bf4c5b9189d6ac4f7e72b7" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d021d13c2c414d0d83b0adea39805fa6" iid="634b7b5f8b404541a870325d0d0fbf8c" creation-date="11/23/2021 15:47:49" order-index="0" type="entity">
+            <layout ax="-57" ay="383" awidth="146" aheight="39" x="-57" y="383" width="146" height="39" rotation-center="23,52" />
+            <class />
+          </item>
+          <item id="3662e331314f4472ad62c4a5c978d791" iid="5215810aa2404ae189d08026a528c557" creation-date="11/23/2021 15:48:05" order-index="1" type="entity">
+            <layout ax="-45" ay="29" awidth="565" aheight="310" x="-45" y="29" width="565" height="310" rotation-center="-212.5,-75" />
+            <class />
+          </item>
+          <item id="dfc4dd93ef374d8fb9fe560715fc9fab" iid="ebbd0853d50b4f599168b01efe431f38" creation-date="11/23/2021 15:55:36" order-index="2" type="entity">
+            <layout ax="574" ay="34" awidth="611" aheight="477" x="574" y="34" width="611" height="477" rotation-center="-235.5,-54.5" />
+            <class />
+          </item>
+          <item id="cb1ed433d27d48cda8afc8d9b4bb77fa" iid="06575a6053324e75ac9de3d5d1194509" creation-date="11/23/2021 16:04:19" order-index="3" type="entity">
+            <layout ax="101" ay="383" awidth="419" aheight="120.8856" x="101" y="383" width="419" height="120.8856" rotation-center="-139.5,20" />
+            <class />
+          </item>
+          <item id="4de32cf2b89243cdb0df02a79ba545e4" iid="ee57f716db8d432e883f09274b36cafd" creation-date="11/23/2021 16:08:58" order-index="4" type="entity">
+            <layout ax="101" ay="535.1144" awidth="419" aheight="120.8856" x="101" y="535.1144" width="419" height="120.8856" rotation-center="-139.5,20" />
+            <class />
+          </item>
+          <item id="72758250f5294174beeb98536c984f2b" iid="ce2a13c23700417a94c73c43981bf1b4" creation-date="11/23/2021 16:10:49" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="310" y1="535" x2="310" y2="504" start-border-pos="0.124701670644391" end-border-pos="0.625298329355609" name-position="0,20">
+              <points>
+                <point x="310" y="535" />
+                <point x="310" y="504" />
+              </points>
+            </layout>
+            <relation from="4de32cf2b89243cdb0df02a79ba545e4" from-iid="ee57f716db8d432e883f09274b36cafd" to="cb1ed433d27d48cda8afc8d9b4bb77fa" to-iid="06575a6053324e75ac9de3d5d1194509" />
+          </item>
+          <item id="1267ee8fb02e44d58ce58b00d947f3f7" iid="86b3404c0fb3420ca93ad1341bd28a97" creation-date="11/23/2021 16:12:15" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="16" y1="339" x2="16" y2="383" start-border-pos="0.72300885617733" end-border-pos="0.125" start-local-pos="61" name-position="0,20">
+              <points>
+                <point x="16" y="339" />
+                <point x="16" y="383" />
+              </points>
+            </layout>
+            <relation from="3662e331314f4472ad62c4a5c978d791" from-iid="5215810aa2404ae189d08026a528c557" to="d021d13c2c414d0d83b0adea39805fa6" to-iid="634b7b5f8b404541a870325d0d0fbf8c" />
+          </item>
+          <item id="4e06f73ae8bd4eb2a5c28016c3cb42cc" iid="a4cb2dc068ef4016bc7a7e4b511daa83" creation-date="11/23/2021 16:13:41" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="520" y1="184" x2="574" y2="184" start-border-pos="0.375" end-border-pos="0.921383649110794" start-local-pos="155" end-local-pos="150" name-position="0,20">
+              <points>
+                <point x="520" y="184" />
+                <point x="574" y="184" />
+              </points>
+            </layout>
+            <relation from="3662e331314f4472ad62c4a5c978d791" from-iid="5215810aa2404ae189d08026a528c557" to="dfc4dd93ef374d8fb9fe560715fc9fab" to-iid="ebbd0853d50b4f599168b01efe431f38" to-field="a835b7880d8de4eb3be606da5541d7d09705" />
+          </item>
+          <item id="017de81a72764990835fbda10d5e1dd0" iid="1ffc026f1c864d0c954bc8c78e85b3f7" creation-date="11/23/2021 16:14:01" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="574" y1="443" x2="520" y2="443" start-border-pos="0.785407330840826" end-border-pos="0.375" start-local-pos="409" end-local-pos="60" name-position="0,20">
+              <points>
+                <point x="574" y="443" />
+                <point x="520" y="443" />
+              </points>
+            </layout>
+            <relation from="dfc4dd93ef374d8fb9fe560715fc9fab" from-iid="ebbd0853d50b4f599168b01efe431f38" from-field="o96662da836df4d169f04f6e81a1bb2f6801" to="cb1ed433d27d48cda8afc8d9b4bb77fa" to-iid="06575a6053324e75ac9de3d5d1194509" />
+          </item>
+          <item id="e812c917da874b93a74abb711de728bd" iid="8f2b51c8dd9b40d4920124a0cb135f54" creation-date="11/23/2021 16:15:10" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="24.47377,-13.07048" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="310" y1="339" x2="310" y2="383" start-border-pos="0.592699117958546" end-border-pos="0.124701670644391" start-local-pos="355" name-position="0,20">
+              <points>
+                <point x="310" y="339" />
+                <point x="310" y="383" />
+              </points>
+            </layout>
+            <relation from="3662e331314f4472ad62c4a5c978d791" from-iid="5215810aa2404ae189d08026a528c557" to="cb1ed433d27d48cda8afc8d9b4bb77fa" to-iid="06575a6053324e75ac9de3d5d1194509" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

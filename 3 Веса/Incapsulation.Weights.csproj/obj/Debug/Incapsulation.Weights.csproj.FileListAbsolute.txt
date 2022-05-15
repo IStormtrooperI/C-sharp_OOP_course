@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\obj\Debug\Incapsulation.Weights.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\obj\Debug\Incapsulation.Weights.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\bin\Debug\Incapsulation.Weights.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\bin\Debug\Incapsulation.Weights.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\bin\Debug\Incapsulation.Weights.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\obj\Debug\Incapsulation.Weights.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\obj\Debug\Incapsulation.Weights.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\3 Веса\Incapsulation.Weights.csproj\obj\Debug\Incapsulation.Weights.pdb

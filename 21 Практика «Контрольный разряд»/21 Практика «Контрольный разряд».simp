@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp047ac3629a0b46028f8b99de6b4c6459">
+  <meta>
+    <name>21 Практика «Контрольный разряд»</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>46</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>8</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-4d835e9a34094e23bd13b5a8be5d038b" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-19a5730ad2ce4c9fa56c01d24144f79c" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p961d3e72ce67427cbcc3fa32a795ac04_728862572" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2021 19:56:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pf1f17b40da7241c99179edfafe0302b1_152479618" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-526,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/23/2021 19:56:29</creation-date>
+          <change-date>11/23/2021 20:00:24</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="9f2ad9ee8ed14fc49d16bdf46ba225f7" cid="C001" type="class" name="ControlDigitAlgo&lt;static&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 19:56:35">
+            <operations>
+              <operation id="o9938a85d48424a108e916d85ada95087486" cid="OP001" name="Upc" creation-date="11/23/2021 19:56:43" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p4acb67b8b4f54d5480f547115e773c8e" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o66be07d6d8dd4ead97547e7a6eb19c91599" cid="OP002" name="Isbn10" creation-date="11/23/2021 19:57:07" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pbe90d24a36cf4ccabc0804bb4487a1fd" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o46c8c190de53459f963be3fc79561482895" cid="OP003" name="Luhn" creation-date="11/23/2021 19:57:22" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p15b8d042d0194cfaa19c87602e6cb326" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="ba7d9adaf47b4a2083227aebb879abe9" cid="C002" type="class" name="Extensions&lt;static&gt;" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 19:58:14">
+            <operations>
+              <operation id="odef6cf8252e742bc822ebff5e19fd31c231" cid="OP004" name="SumOfOddPositions" creation-date="11/23/2021 19:58:21" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p8bc9f4c610b84d5d8cd7b69cfd6d304e" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o1646c821249a479999746252e61055e7551" cid="OP005" name="SumOfEvenPositions" creation-date="11/23/2021 19:58:44" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pcb79c65ef5044651816f677822086e17" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o597c1e9f30a74e9899d55c0afbf889ae287" cid="OP006" name="SumOfDigitByDescPositionMultiplications" creation-date="11/23/2021 19:59:00" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="pa21cfbad34f047749019fc2e0a1ea44d" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o36b7a1c1742b482e9e4012c0d2cd9b0a351" cid="OP007" name="SumOfEvenDigitsWithThemMultimlicationsOnTwo" creation-date="11/23/2021 19:59:25" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p7dbeb26b4a984fe5bc09935863286534" name="number" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="23157f74f98445aea8c4393dc8a4e7e2" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/23/2021 20:00:23" from="9f2ad9ee8ed14fc49d16bdf46ba225f7" to="ba7d9adaf47b4a2083227aebb879abe9" visibility="package">
+            <relation from="9f2ad9ee8ed14fc49d16bdf46ba225f7" to="ba7d9adaf47b4a2083227aebb879abe9" derived="false">
+              <start-role id="umlar-1d41187d-7440-4266-95fb-d47dcd34caa1" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d18fd4e7-7d82-4242-86cf-1def31c09f35" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="5850e7d38ca04b06b2f1853d1f0ff38d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="9f2ad9ee8ed14fc49d16bdf46ba225f7" iid="e4db5577b72b475f942f6b054d8e8676" creation-date="11/23/2021 19:56:35" order-index="0" type="entity">
+            <layout ax="70" ay="-51" awidth="226" aheight="96" x="70" y="-51" width="226" height="96" rotation-center="-43,32" />
+            <class />
+          </item>
+          <item id="ba7d9adaf47b4a2083227aebb879abe9" iid="e9a551b1eac44e46b465aa80dfba769e" creation-date="11/23/2021 19:58:14" order-index="1" type="entity">
+            <layout ax="-46" ay="80" awidth="483" aheight="118" x="-46" y="80" width="483" height="118" rotation-center="-171.5,21" />
+            <class />
+          </item>
+          <item id="23157f74f98445aea8c4393dc8a4e7e2" iid="324b45891dfc4d47ac61c239b1d8ade4" creation-date="11/23/2021 20:00:23" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="187" y1="45" x2="191" y2="80" start-border-pos="0.62013897853615" end-border-pos="0.122463036768185" name-position="0,20">
+              <points>
+                <point x="187" y="45" />
+                <point x="191" y="80" />
+              </points>
+            </layout>
+            <relation from="9f2ad9ee8ed14fc49d16bdf46ba225f7" from-iid="e4db5577b72b475f942f6b054d8e8676" to="ba7d9adaf47b4a2083227aebb879abe9" to-iid="e9a551b1eac44e46b465aa80dfba769e" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

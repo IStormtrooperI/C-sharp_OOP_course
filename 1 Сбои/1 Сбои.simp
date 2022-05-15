@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp06371b55917c4439998f5b832127bb24">
+  <meta>
+    <name>1 Сбои</name>
+    <authors>Gregory Nesterov</authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="Enumeration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="Containment" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>117</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="abstraction" type="Abstraction" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>7</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>4</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-336df4f4077b4a0ab5e487b7c7a9e0ad" name="" task-id-sequence="0">
+    <working-schedule uid="ws-e3c9f01ebd414218a2189d9a17ec8200" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-328766fb9e11407a93a06a17edd94dde" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Gregory</first-name>
+        <last-name>Nesterov</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2781f5d362ee4cafad3ce963d8c715ca" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="int[]" tid="" name="int[]" description="" />
+      <type id="List&lt;Dictionary&lt;string, object&gt;&gt;" tid="" name="List&lt;Dictionary&lt;string, object&gt;&gt;" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="object[]" tid="" name="object[]" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p35abfd367abd42dd875bb3e4a55f4c44_828751622" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/08/2021 20:16:59</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="e34c50a013d240ab9c507f98806fa1bf" cid="PKG001" type="package" name="Incapsulation" style-class="" creator="" creation-date="10/08/2021 20:17:07" visibility="undefined" />
+        <item id="7ebba84a86884a28ba15de5971391338" cid="PKG002" type="package" name="Failures" style-class="" creator="" creation-date="10/08/2021 20:17:07" visibility="undefined" />
+        <item id="c9ad7ecf637147b5b02309052a1fd808" cid="CNT004" type="containment" name="" style-class="" creator="" creation-date="10/08/2021 20:17:07" from="7ebba84a86884a28ba15de5971391338" to="e34c50a013d240ab9c507f98806fa1bf" />
+      </abstract-items>
+      <sub-models>
+        <model id="p26acc00fcf5143c59ca835ee0df1db53_296059719" name="Incapsulation" namespace="Incapsulation" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>10/08/2021 20:17:07</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <abstract-items />
+          <sub-models>
+            <model id="p91a9c7d941514f0bae544ae1c287dc13_671499898" name="Failures" namespace="Incapsulation.Failures" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>10/08/2021 20:17:07</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <abstract-items>
+                <item id="50dd8a0d043e4101b4363e6151a1e135" cid="C001" type="class" name="ReportMaker" style-class="" creator="" creation-date="10/08/2021 20:17:06" visibility="package">
+                  <tagged-values>
+                    <tagged-value id="tv538cd08e826340d0acc4e67f5b5820d5" name="namespace" type="text" multiple="false" value="Incapsulation.Failures" />
+                  </tagged-values>
+                  <operations>
+                    <operation id="o158984779e8e4f05be1d276d56f2d19f3" cid="OP002" name="IsFailureSerious" creation-date="10/08/2021 20:17:07" type="int" type-id="int" visibility="private" static="true">
+                      <parameters>
+                        <parameter id="p3525b514845d4430ac66d91eac37b6ff" name="failureType" type="int" type-id="int" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            if (Enum.IsDefined(typeof(FailureType), failureType)) return 1;
+            return 0;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                    <operation id="oba8cb47a92ee430b9866c68f22dd333a3" cid="OP003" name="IsEarlier" creation-date="10/08/2021 20:17:07" type="int" type-id="int" visibility="private" static="true">
+                      <parameters>
+                        <parameter id="pb9351eba628d4b2297d00dea2247b732" name="v" type="object[]" type-id="object[]" />
+                        <parameter id="pfe8bf3b3cee549c19e221bc6440ee19d" name="day" type="int" type-id="int" />
+                        <parameter id="pc2997152956240cdaf7127070ab5b765" name="month" type="int" type-id="int" />
+                        <parameter id="p19310b53afd74e9687c104497aedb402" name="year" type="int" type-id="int" />
+                      </parameters>
+                      <source-codes>
+                        <source-code language="CSharp">
+            var vYear = (int)v[2];
+            var vMonth = (int)v[1];
+            var vDay = (int)v[0];
+            if (vYear &lt; year) return 1;
+            if (vYear &gt; year) return 0;
+            if (vMonth &lt; month) return 1;
+            if (vMonth &gt; month) return 0;
+            if (vDay &lt; day) return 1;
+            return 0;
+        </source-code>
+                      </source-codes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="c29bda2f41994599b9f1a0f0a127f694" cid="E001" type="enumeration" name="FailureType" style-class="" creator="" creation-date="10/08/2021 20:17:06" visibility="undefined">
+                  <stereotypes>
+                    <stereotype name=": int" />
+                  </stereotypes>
+                  <stereotype-instances>
+                    <stereotype id="2ae27c7dc78f4a5e85f37e72e2a1d40b" type=": int" ref="" />
+                  </stereotype-instances>
+                  <enumeration-items>
+                    <enumeration-item id="a068cdd1ca453405eade49422058f93a4214" cid="ENI003" name="unexpectedShutdown" creation-date="10/29/2021 12:37:16" />
+                    <enumeration-item id="aa30d9b6bcceb4b628cba86ce5827e14f300" cid="ENI004" name="shortNonResponding" creation-date="10/29/2021 12:37:44" />
+                    <enumeration-item id="acb41b971f37445adbacd9eb3e16eb7ef187" cid="ENI005" name="hardwareFailures" creation-date="10/29/2021 12:38:03" />
+                    <enumeration-item id="ac0a221e6ebad40ab97db7f4921f3eda1995" cid="ENI006" name="connectionProblems" creation-date="10/29/2021 12:38:09" />
+                  </enumeration-items>
+                </item>
+                <item id="720ea11fe4334ed7b448b653d1159c83" cid="C002" type="class" name="Device" style-class="" creator="" creation-date="10/08/2021 20:17:06" visibility="private">
+                  <tagged-values>
+                    <tagged-value id="tva7dd705ef0d9493a948cc67b5cf1de63" name="namespace" type="text" multiple="false" value="Incapsulation.Failures" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="6e3a588d44524145b9a02cd4e4220911" />
+                    <owned-item ref="cdf9205b3cb04204a9e1d6dee50c6ae4" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="a48d45d02998243708917b1b1a3fd84f1990" cid="PROP001" name="deviceId" creation-date="10/08/2021 20:17:06" property-ref="6e3a588d44524145b9a02cd4e4220911" />
+                    <attribute id="a27e26410f639407e86eefbbd1cc02bee991" cid="PROP002" name="devices" creation-date="10/08/2021 20:17:06" property-ref="cdf9205b3cb04204a9e1d6dee50c6ae4" />
+                  </attributes>
+                </item>
+                <item id="6e3a588d44524145b9a02cd4e4220911" cid="PROP001" type="property" name="deviceId" style-class="" owner="720ea11fe4334ed7b448b653d1159c83" creator="" creation-date="10/08/2021 20:17:06" visibility="package">
+                  <feature />
+                  <structural-feature type="int[]" type-id="int[]" />
+                  <property />
+                </item>
+                <item id="cdf9205b3cb04204a9e1d6dee50c6ae4" cid="PROP002" type="property" name="devices" style-class="" owner="720ea11fe4334ed7b448b653d1159c83" creator="" creation-date="10/08/2021 20:17:06" visibility="package">
+                  <feature />
+                  <structural-feature type="List&lt;Dictionary&lt;string, object&gt;&gt;" type-id="List&lt;Dictionary&lt;string, object&gt;&gt;" />
+                  <property />
+                </item>
+                <item id="f5d8f0ed2f6f49db816bed75b3f3d018" cid="C003" type="class" name="Failure" style-class="" creator="" creation-date="10/08/2021 20:17:06" visibility="private">
+                  <tagged-values>
+                    <tagged-value id="tv78ed131050c24544bb00a7ea88e38072" name="namespace" type="text" multiple="false" value="Incapsulation.Failures" />
+                  </tagged-values>
+                  <owned-items>
+                    <owned-item ref="5c5f1c541f6b48c89ed0e5539f0df592" />
+                  </owned-items>
+                  <attributes>
+                    <attribute id="aff3f96b01ef240e3b0b7df4c21d8fb7f991" cid="PROP003" name="failureTypes" creation-date="10/08/2021 20:17:06" property-ref="5c5f1c541f6b48c89ed0e5539f0df592" />
+                  </attributes>
+                  <operations>
+                    <operation id="ode107d79aaa048fb8707333f94ac0906995" cid="OP001" name="Failure" creation-date="10/08/2021 20:17:06" type="" type-id="" visibility="package">
+                      <parameters>
+                        <parameter id="p0edf31355b71458c86a23aa5868dc74b" name="failureTypes" type="int[]" type-id="int[]" />
+                      </parameters>
+                      <stereotypes>
+                        <stereotype>create</stereotype>
+                      </stereotypes>
+                    </operation>
+                  </operations>
+                </item>
+                <item id="5c5f1c541f6b48c89ed0e5539f0df592" cid="PROP003" type="property" name="failureTypes" style-class="" owner="f5d8f0ed2f6f49db816bed75b3f3d018" creator="" creation-date="10/08/2021 20:17:06" visibility="package">
+                  <feature />
+                  <structural-feature type="int[]" type-id="int[]" />
+                  <property />
+                </item>
+              </abstract-items>
+              <sub-models />
+              <diagram type="uml-class" id="p5e194c139cdb4970a03c72f17e76dd89_178121479" name="Failures" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="Incapsulation.Failures" view-location="-101,-50">
+                <style>
+                  <background-color index="1" color="#FFFFFFFF" />
+                  <background-color index="2" color="#FFFFFFFF" />
+                  <background-type type="vertical-linear" />
+                </style>
+                <meta>
+                  <authors>
+                    <author> </author>
+                  </authors>
+                  <description />
+                  <creation-date>10/08/2021 20:17:07</creation-date>
+                  <change-date>10/29/2021 12:36:52</change-date>
+                  <revision-count>0</revision-count>
+                  <version />
+                </meta>
+                <abstract-items>
+                  <item id="2f830246158d4a2bae3d06491a6904af" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="10/29/2021 12:36:24" from="50dd8a0d043e4101b4363e6151a1e135" to="c29bda2f41994599b9f1a0f0a127f694" visibility="package">
+                    <relation from="50dd8a0d043e4101b4363e6151a1e135" to="c29bda2f41994599b9f1a0f0a127f694" derived="false">
+                      <start-role id="umlar-28ed2348-3bc2-4f18-9410-efeb4aa8f6d7" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-09a2e599-01ea-43e2-a52e-4a930b1f7663" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="0397da46f13248708d8b0fae5c6fe31b" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="10/29/2021 12:36:35" from="50dd8a0d043e4101b4363e6151a1e135" to="720ea11fe4334ed7b448b653d1159c83" visibility="package">
+                    <relation from="50dd8a0d043e4101b4363e6151a1e135" to="720ea11fe4334ed7b448b653d1159c83" derived="false">
+                      <start-role id="umlar-d9a616f0-7046-4294-99ad-b90e020fc3ef" name="" navigability="" association-type="association" visibility="private" />
+                      <end-role id="umlar-8423b8cd-4674-4e9a-a014-8853377fff81" name="" navigability="yes" association-type="association" visibility="private" />
+                    </relation>
+                  </item>
+                  <item id="e380982290574a40b1a4ae7fba842aa9" cid="DEP001" type="dependency" name="" style-class="" change-tracking-state="added" creator="" creation-date="10/29/2021 12:36:51" from="50dd8a0d043e4101b4363e6151a1e135" to="f5d8f0ed2f6f49db816bed75b3f3d018" visibility="package" />
+                </abstract-items>
+                <layer id="668a724a4bd348299bf6b99f0c144535" name="Default" visible="true" enabled="true" locked="false">
+                  <item id="50dd8a0d043e4101b4363e6151a1e135" iid="a89871e2a74a451fb9eb78cc90862031" creation-date="10/08/2021 20:17:07" order-index="0" type="entity">
+                    <layout ax="169.5" ay="57.5" awidth="340" aheight="75" x="169.5" y="57.5" width="340" height="75" />
+                    <class />
+                  </item>
+                  <item id="c29bda2f41994599b9f1a0f0a127f694" iid="2a2b5fe72a6948c19c447f886cc2df5d" creation-date="10/08/2021 20:17:07" order-index="1" type="entity">
+                    <layout ax="-49" ay="132.5" awidth="169" aheight="146" x="-49" y="132.5" width="169" height="124" rotation-center="22,0" />
+                    <enumeration />
+                  </item>
+                  <item id="720ea11fe4334ed7b448b653d1159c83" iid="98de4463b6244681a031631a4750aaf6" creation-date="10/08/2021 20:17:07" order-index="2" type="entity">
+                    <layout ax="207" ay="202" awidth="265" aheight="82" x="207" y="202" width="265" height="82" />
+                    <class />
+                  </item>
+                  <item id="f5d8f0ed2f6f49db816bed75b3f3d018" iid="ea4e17a0b49f4aebb59f1d60b16bae14" creation-date="10/08/2021 20:17:07" order-index="3" type="entity">
+                    <layout ax="542" ay="152.5" awidth="229" aheight="84" x="542" y="152.5" width="229" height="84" />
+                    <class />
+                  </item>
+                  <item id="2f830246158d4a2bae3d06491a6904af" iid="510ae182d440495e8ca5a58de1a36914" creation-date="10/29/2021 12:36:24" order-index="4" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="170" y1="95" x2="120" y2="136" start-border-pos="0.875" end-border-pos="0.256708746087061" start-local-pos="37.5" name-position="0,20">
+                      <points>
+                        <point x="170" y="95" />
+                        <point x="120" y="136" />
+                      </points>
+                    </layout>
+                    <relation from="50dd8a0d043e4101b4363e6151a1e135" from-iid="a89871e2a74a451fb9eb78cc90862031" from-field="o158984779e8e4f05be1d276d56f2d19f3" to="c29bda2f41994599b9f1a0f0a127f694" to-iid="2a2b5fe72a6948c19c447f886cc2df5d" />
+                  </item>
+                  <item id="0397da46f13248708d8b0fae5c6fe31b" iid="ee39bfaf9fb946f3a30ffcafa0624adc" creation-date="10/29/2021 12:36:35" order-index="5" type="relation">
+                    <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="340" y1="132" x2="340" y2="202" start-border-pos="0.624632352941176" end-border-pos="0.125471698113208" name-position="0,20">
+                      <points>
+                        <point x="340" y="132" />
+                        <point x="340" y="202" />
+                      </points>
+                    </layout>
+                    <relation from="50dd8a0d043e4101b4363e6151a1e135" from-iid="a89871e2a74a451fb9eb78cc90862031" to="720ea11fe4334ed7b448b653d1159c83" to-iid="98de4463b6244681a031631a4750aaf6" />
+                  </item>
+                  <item id="e380982290574a40b1a4ae7fba842aa9" iid="b1caceee93734230993e3665754da116" creation-date="10/29/2021 12:36:51" order-index="6" type="relation">
+                    <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="510" y1="95" x2="594" y2="152" start-border-pos="0.375" end-border-pos="0.056834724792747" start-local-pos="37.5" name-position="0,20">
+                      <points>
+                        <point x="510" y="95" />
+                        <point x="594" y="152" />
+                      </points>
+                    </layout>
+                    <relation from="50dd8a0d043e4101b4363e6151a1e135" from-iid="a89871e2a74a451fb9eb78cc90862031" to="f5d8f0ed2f6f49db816bed75b3f3d018" to-iid="ea4e17a0b49f4aebb59f1d60b16bae14" />
+                  </item>
+                </layer>
+              </diagram>
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p29514d5c943b4c498a45b461f1a6102b_239806822" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/08/2021 20:17:07</creation-date>
+          <change-date>10/08/2021 20:17:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="6d74da29b179423d8449ed6f2e03590d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="e34c50a013d240ab9c507f98806fa1bf" iid="b57f1e9b325b4c508942cc073a555b6b" creation-date="10/08/2021 20:17:07" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="132" aheight="56" x="0" y="0" width="132" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="7ebba84a86884a28ba15de5971391338" iid="55cfaaf5e3724e5c93b79052c7f5e45c" creation-date="10/08/2021 20:17:07" order-index="1" type="entity">
+            <layout ax="21" ay="156" awidth="90" aheight="56" x="21" y="156" width="90" height="56" />
+            <package name-in-body="false" />
+          </item>
+          <item id="c9ad7ecf637147b5b02309052a1fd808" iid="3be4ff1d1ad34f4d8c295b361f04eeef" creation-date="10/08/2021 20:17:07" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="66" y1="156" x2="66" y2="56" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+              <points>
+                <point x="66" y="156" />
+                <point x="66" y="106" />
+                <point x="66" y="106" />
+                <point x="66" y="56" />
+              </points>
+            </layout>
+            <relation from="7ebba84a86884a28ba15de5971391338" from-iid="55cfaaf5e3724e5c93b79052c7f5e45c" to="e34c50a013d240ab9c507f98806fa1bf" to-iid="b57f1e9b325b4c508942cc073a555b6b" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

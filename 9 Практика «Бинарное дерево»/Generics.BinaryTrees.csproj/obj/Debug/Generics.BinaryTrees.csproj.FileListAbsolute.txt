@@ -1,0 +1,10 @@
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\obj\Debug\Generics.BinaryTrees.csproj.AssemblyReference.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\obj\Debug\Generics.BinaryTrees.csproj.CoreCompileInputs.cache
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\bin\Debug\Generics.BinaryTree.exe.config
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\bin\Debug\Generics.BinaryTree.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\bin\Debug\Generics.BinaryTree.pdb
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\bin\Debug\nunit.framework.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\bin\Debug\nunitlite.dll
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\obj\Debug\Generics.BinaryTrees.csproj.CopyComplete
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\obj\Debug\Generics.BinaryTree.exe
+D:\1Рабочий стол\что-то\документы\Институт\3курс\РТиППО\практики\9 Практика «Бинарное дерево»\Generics.BinaryTrees.csproj\obj\Debug\Generics.BinaryTree.pdb

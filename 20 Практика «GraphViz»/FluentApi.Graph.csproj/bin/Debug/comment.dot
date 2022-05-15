@@ -1,0 +1,8 @@
+digraph CommentParser {
+    START [color=green; shape=ellipse];
+    comment [shape=box];
+    START -> slash [label="'/'"];
+    slash -> comment [label="'/'"];
+    comment -> comment [label="other chars"];
+    comment -> START [label="'\\n'"]
+}
